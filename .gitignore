@@ -1,0 +1,26 @@
+.htaccess
+*.DS_Store
+*.log
+*.zip
+*.wpress
+*.tar.gz
+*.rar
+*.tar
+*.conf
+*.po
+*.mo
+*.bk
+*.sql
+apc.php
+info.php
+wp-config.php
+robots.txt
+sitemap.xml
+sitemap.xml.gz
+local-xdebuginfo.php
+wp-content/*
+
+# Except for these folders
+!wp-content/mu-plugins/
+!wp-content/plugins/
+!wp-content/themes/

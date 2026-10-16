@@ -7,3 +7,29 @@ URI: https://www.themeisle.com/
 Template: hestia    
 Version: 0.1
 */
+
+
+/* Global */
+
+a:focus {
+    outline: unset;
+}
+
+
+/* Navbar */
+
+.navbar {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.navbar #menu-primary-menu > li.active > a {
+    color: var(--hestia-primary-color, #9c27b0);;
+}
+
+.navbar #menu-primary-menu a {
+    font-size: 13px;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

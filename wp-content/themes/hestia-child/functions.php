@@ -61,3 +61,8 @@ function custom_login_branding() {
     });
 }
 add_action( 'login_enqueue_scripts', 'custom_login_branding' );
+
+/**
+ * Load Unlocked Pro Features for Hestia Child Theme
+ */
+require_once get_stylesheet_directory() . '/inc/class-hestia-child-pro-unlocked.php';

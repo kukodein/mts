@@ -28,13 +28,13 @@ Penyempurnaan dari Versi 1 dengan perbaikan tata letak komponen, penambahan blok
 ---
 
 ## 📂 Struktur Berkas
-1. [`index.html`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v2/index.html) — Beranda dengan penambahan stats, alasan memilih kami, sambutan, dan warta.
-2. [`profil.html`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v2/profil.html) — Profil madrasah, sejarah singkat, visi-misi, fasilitas sekolah.
-3. [`akademik.html`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v2/akademik.html) — Informasi kurikulum merdeka + muatan agama, jenjang, dan ekskul.
-4. [`berita.html`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v2/berita.html) — Berita kegiatan, prestasi santri, dan pengumuman.
-5. [`pendaftaran.html`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v2/pendaftaran.html) — Persyaratan, jadwal, rincian alur, dan formulir PPDB.
-6. [`kontak.html`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v2/kontak.html) — Alamat, peta lokasi, kontak panitia, dan jam kerja TU.
-7. [`style.css`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v2/style.css) — Lembar gaya CSS dengan perbaikan kelas kartu dan tabel.
+1. [`index.html`](index.html) — Beranda dengan penambahan stats, alasan memilih kami, sambutan, dan warta.
+2. [`profil.html`](profil.html) — Profil madrasah, sejarah singkat, visi-misi, fasilitas sekolah.
+3. [`akademik.html`](akademik.html) — Informasi kurikulum merdeka + muatan agama, jenjang, dan ekskul.
+4. [`berita.html`](berita.html) — Berita kegiatan, prestasi santri, dan pengumuman.
+5. [`pendaftaran.html`](pendaftaran.html) — Persyaratan, jadwal, rincian alur, dan formulir PPDB.
+6. [`kontak.html`](kontak.html) — Alamat, peta lokasi, kontak panitia, dan jam kerja TU.
+7. [`style.css`](style.css) — Lembar gaya CSS dengan perbaikan kelas kartu dan tabel.
 
 ---
 

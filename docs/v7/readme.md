@@ -33,13 +33,13 @@ Dibuat bersamaan dengan Versi 6 sebagai alternatif eksplorasi warna dari gambar 
 ---
 
 ## 📂 Struktur Berkas
-1. [`index.html`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v7/index.html) — Beranda berestetika Steel Slate Blue & Azure.
-2. [`profil.html`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v7/profil.html) — Profil madrasah, sejarah singkat, visi-misi, dan sarana fasilitas.
-3. [`akademik.html`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v7/akademik.html) — Jenjang pendidikan, kurikulum, peminatan, ekskul, dan jadwal harian.
-4. [`berita.html`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v7/berita.html) — Artikel kegiatan madrasah, prestasi lomba, dan kalender kegiatan.
-5. [`pendaftaran.html`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v7/pendaftaran.html) — Informasi PPDB online, syarat berkas, rincian biaya, form, dan FAQ.
-6. [`kontak.html`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v7/kontak.html) — Alamat kantor, jam kerja TU, peta kampus, dan formulir pengaduan/pesan.
-7. [`style.css`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v7/style.css) — Lembar gaya CSS dengan palet Steel Slate Blue & Azure.
+1. [`index.html`](index.html) — Beranda berestetika Steel Slate Blue & Azure.
+2. [`profil.html`](profil.html) — Profil madrasah, sejarah singkat, visi-misi, dan sarana fasilitas.
+3. [`akademik.html`](akademik.html) — Jenjang pendidikan, kurikulum, peminatan, ekskul, dan jadwal harian.
+4. [`berita.html`](berita.html) — Artikel kegiatan madrasah, prestasi lomba, dan kalender kegiatan.
+5. [`pendaftaran.html`](pendaftaran.html) — Informasi PPDB online, syarat berkas, rincian biaya, form, dan FAQ.
+6. [`kontak.html`](kontak.html) — Alamat kantor, jam kerja TU, peta kampus, dan formulir pengaduan/pesan.
+7. [`style.css`](style.css) — Lembar gaya CSS dengan palet Steel Slate Blue & Azure.
 
 ---
 

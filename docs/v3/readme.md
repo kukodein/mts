@@ -25,13 +25,13 @@ Eksplorasi konsep "Madrasah Digital Terpadu" yang mengadopsi elemen hero bergamb
 ---
 
 ## 📂 Struktur Berkas
-1. [`index.html`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v3/index.html) — Beranda dengan hero sinematik, video profil, tiles nilai, dan ulasan santri.
-2. [`profil.html`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v3/profil.html) — Sejarah, visi misi, fasilitas madrasah, dan struktur pengurus.
-3. [`akademik.html`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v3/akademik.html) — Kurikulum, peminatan tahfidz & sains, serta ekstrakurikuler.
-4. [`berita.html`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v3/berita.html) — Warta madrasah dan dokumentasi aktivitas santri.
-5. [`pendaftaran.html`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v3/pendaftaran.html) — Panduan PPDB online, biaya pendidikan, dan formulir pendaftaran.
-6. [`kontak.html`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v3/kontak.html) — Kontak sekretariat, peta madrasah, dan form pesan.
-7. [`style.css`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v3/style.css) — CSS styling untuk hero sinematik dan tata letak tile gelap.
+1. [`index.html`](index.html) — Beranda dengan hero sinematik, video profil, tiles nilai, dan ulasan santri.
+2. [`profil.html`](profil.html) — Sejarah, visi misi, fasilitas madrasah, dan struktur pengurus.
+3. [`akademik.html`](akademik.html) — Kurikulum, peminatan tahfidz & sains, serta ekstrakurikuler.
+4. [`berita.html`](berita.html) — Warta madrasah dan dokumentasi aktivitas santri.
+5. [`pendaftaran.html`](pendaftaran.html) — Panduan PPDB online, biaya pendidikan, dan formulir pendaftaran.
+6. [`kontak.html`](kontak.html) — Kontak sekretariat, peta madrasah, dan form pesan.
+7. [`style.css`](style.css) — CSS styling untuk hero sinematik dan tata letak tile gelap.
 
 ---
 

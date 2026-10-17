@@ -39,13 +39,13 @@
 ---
 
 ## 📂 Struktur Berkas
-1. [`index.html`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v4/index.html) — Beranda lengkap: hero, stats bar, sambutan, program peminatan, warta, testimoni, dan CTA.
-2. [`profil.html`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v4/profil.html) — Profil madrasah, visi misi, timeline sejarah, fasilitas terpadu, dan pimpinan.
-3. [`akademik.html`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v4/akademik.html) — Jenjang VII–IX, kurikulum merdeka + Kemenag, peminatan, ekskul, dan jadwal harian santri.
-4. [`berita.html`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v4/berita.html) — Berita utama, filter kategori, grid warta dengan paginasi, kalender agenda, dan unduhan dokumen PDF.
-5. [`pendaftaran.html`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v4/pendaftaran.html) — Kuota, alur 5 langkah, berkas persyaratan, tabel biaya transparan, form pendaftaran, dan FAQ.
-6. [`kontak.html`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v4/kontak.html) — 4 kanal kontak, form pesan, jam buka TU, direktori divisi, peta lokasi, dan panduan rute.
-7. [`style.css`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v4/style.css) — Lembar gaya modular dengan variabel CSS bertema Modern Emerald.
+1. [`index.html`](index.html) — Beranda lengkap: hero, stats bar, sambutan, program peminatan, warta, testimoni, dan CTA.
+2. [`profil.html`](profil.html) — Profil madrasah, visi misi, timeline sejarah, fasilitas terpadu, dan pimpinan.
+3. [`akademik.html`](akademik.html) — Jenjang VII–IX, kurikulum merdeka + Kemenag, peminatan, ekskul, dan jadwal harian santri.
+4. [`berita.html`](berita.html) — Berita utama, filter kategori, grid warta dengan paginasi, kalender agenda, dan unduhan dokumen PDF.
+5. [`pendaftaran.html`](pendaftaran.html) — Kuota, alur 5 langkah, berkas persyaratan, tabel biaya transparan, form pendaftaran, dan FAQ.
+6. [`kontak.html`](kontak.html) — 4 kanal kontak, form pesan, jam buka TU, direktori divisi, peta lokasi, dan panduan rute.
+7. [`style.css`](style.css) — Lembar gaya modular dengan variabel CSS bertema Modern Emerald.
 
 ---
 

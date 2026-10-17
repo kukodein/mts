@@ -51,13 +51,13 @@ Versi termutakhir yang dibuat berdasarkan instruksi khusus pengguna dengan bantu
 ---
 
 ## 📂 Struktur Berkas
-1. [`index.html`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v8/index.html) — Beranda fresh dengan hero bertenaga, bento tiles, sambutan kepala, warta terkini, dan testimoni.
-2. [`profil.html`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v8/profil.html) — Profil madrasah, visi Ulil Albab, 5 nilai 5C santri, timeline sejarah 1974–2026, fasilitas modern, dan dewan pimpinan.
-3. [`akademik.html`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v8/akademik.html) — Penjelasan Fase D (VII, VIII, IX), tabel kurikulum terpadu Merdeka-Kemenag, 4 jalur peminatan, 20+ ekskul, dan jadwal harian santri.
-4. [`berita.html`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v8/berita.html) — Berita utama emas ISIF, arsip warta dengan filter tab, agenda terdekat bertanggal, dan 4 berkas PDF unduhan resmi.
-5. [`pendaftaran.html`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v8/pendaftaran.html) — Kuota rombel, jadwal gelombang, 5 step alur, syarat berkas, rincian biaya transparan, form daring, dan FAQ.
-6. [`kontak.html`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v8/kontak.html) — 4 kanal kontak, form kirim pesan, jam operasional TU, direktori ekstensi divisi, peta lokasi, dan panduan rute.
-7. [`style.css`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v8/style.css) — Lembar gaya CSS komprehensif (900+ baris) dengan styling bento, glassmorphism, pill elements, dan responsivitas mobile optimal.
+1. [`index.html`](index.html) — Beranda fresh dengan hero bertenaga, bento tiles, sambutan kepala, warta terkini, dan testimoni.
+2. [`profil.html`](profil.html) — Profil madrasah, visi Ulil Albab, 5 nilai 5C santri, timeline sejarah 1974–2026, fasilitas modern, dan dewan pimpinan.
+3. [`akademik.html`](akademik.html) — Penjelasan Fase D (VII, VIII, IX), tabel kurikulum terpadu Merdeka-Kemenag, 4 jalur peminatan, 20+ ekskul, dan jadwal harian santri.
+4. [`berita.html`](berita.html) — Berita utama emas ISIF, arsip warta dengan filter tab, agenda terdekat bertanggal, dan 4 berkas PDF unduhan resmi.
+5. [`pendaftaran.html`](pendaftaran.html) — Kuota rombel, jadwal gelombang, 5 step alur, syarat berkas, rincian biaya transparan, form daring, dan FAQ.
+6. [`kontak.html`](kontak.html) — 4 kanal kontak, form kirim pesan, jam operasional TU, direktori ekstensi divisi, peta lokasi, dan panduan rute.
+7. [`style.css`](style.css) — Lembar gaya CSS komprehensif (900+ baris) dengan styling bento, glassmorphism, pill elements, dan responsivitas mobile optimal.
 
 ---
 

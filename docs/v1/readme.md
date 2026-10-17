@@ -20,13 +20,13 @@ Versi rintisan awal website madrasah yang dibuat untuk memenuhi brief 6 halaman 
 ---
 
 ## 📂 Struktur Berkas
-1. [`index.html`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v1/index.html) — Beranda awal madrasah dengan hero banner, sambutan ringkas, dan daftar program.
-2. [`profil.html`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v1/profil.html) — Profil madrasah, sejarah singkat, visi-misi, dan sarana fasilitas.
-3. [`akademik.html`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v1/akademik.html) — Informasi jenjang kelas VII–IX, kurikulum, dan kegiatan ekstrakurikuler.
-4. [`berita.html`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v1/berita.html) — Kabar kegiatan madrasah, prestasi, dan pengumuman.
-5. [`pendaftaran.html`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v1/pendaftaran.html) — Informasi PPDB, jadwal, persyaratan, alur, dan formulir pendaftaran.
-6. [`kontak.html`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v1/kontak.html) — Alamat kampus, jam operasional tata usaha, nomor telepon, dan formulir pesan.
-7. [`style.css`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v1/style.css) — Lembar gaya CSS dasar.
+1. [`index.html`](index.html) — Beranda awal madrasah dengan hero banner, sambutan ringkas, dan daftar program.
+2. [`profil.html`](profil.html) — Profil madrasah, sejarah singkat, visi-misi, dan sarana fasilitas.
+3. [`akademik.html`](akademik.html) — Informasi jenjang kelas VII–IX, kurikulum, dan kegiatan ekstrakurikuler.
+4. [`berita.html`](berita.html) — Kabar kegiatan madrasah, prestasi, dan pengumuman.
+5. [`pendaftaran.html`](pendaftaran.html) — Informasi PPDB, jadwal, persyaratan, alur, dan formulir pendaftaran.
+6. [`kontak.html`](kontak.html) — Alamat kampus, jam operasional tata usaha, nomor telepon, dan formulir pesan.
+7. [`style.css`](style.css) — Lembar gaya CSS dasar.
 
 ---
 

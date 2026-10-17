@@ -30,13 +30,13 @@ Eksplorasi estetika formal, berwibawa, dan prestisius yang dirancang untuk madra
 ---
 
 ## 📂 Struktur Berkas
-1. [`index.html`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v5/index.html) — Beranda prestisius bernuansa Royal Navy & Gold.
-2. [`profil.html`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v5/profil.html) — Profil madrasah, dewan pimpinan, sejarah, visi misi, dan fasilitas.
-3. [`akademik.html`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v5/akademik.html) — Kurikulum terpadu keislaman dan sains, jenjang pendidikan, serta ekskul.
-4. [`berita.html`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v5/berita.html) — Berita resmi madrasah, artikel keislaman, dan kalender agenda.
-5. [`pendaftaran.html`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v5/pendaftaran.html) — Syarat PPDB, tabel biaya, dan form pendaftaran santri baru.
-6. [`kontak.html`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v5/kontak.html) — Kontak sekretariat madrasah, jam operasional, peta, dan form hubungi kami.
-7. [`style.css`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v5/style.css) — Lembar gaya CSS dengan implementasi font Cinzel, Inter, dan aksen emas.
+1. [`index.html`](index.html) — Beranda prestisius bernuansa Royal Navy & Gold.
+2. [`profil.html`](profil.html) — Profil madrasah, dewan pimpinan, sejarah, visi misi, dan fasilitas.
+3. [`akademik.html`](akademik.html) — Kurikulum terpadu keislaman dan sains, jenjang pendidikan, serta ekskul.
+4. [`berita.html`](berita.html) — Berita resmi madrasah, artikel keislaman, dan kalender agenda.
+5. [`pendaftaran.html`](pendaftaran.html) — Syarat PPDB, tabel biaya, dan form pendaftaran santri baru.
+6. [`kontak.html`](kontak.html) — Kontak sekretariat madrasah, jam operasional, peta, dan form hubungi kami.
+7. [`style.css`](style.css) — Lembar gaya CSS dengan implementasi font Cinzel, Inter, dan aksen emas.
 
 ---
 

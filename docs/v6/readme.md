@@ -35,13 +35,13 @@ Dibuat berdasarkan permintaan pengguna dengan **referensi layout dari Versi 4 (v
 ---
 
 ## 📂 Struktur Berkas
-1. [`index.html`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v6/index.html) — Beranda dengan glowing title banner, 6 bento tiles, dan statistik lengkap.
-2. [`profil.html`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v6/profil.html) — Profil madrasah, sejarah singkat, visi-misi, fasilitas riset & teknologi, dan pimpinan.
-3. [`akademik.html`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v6/akademik.html) — Jenjang VII–IX, kurikulum merdeka terpadu, peminatan riset & tahfidz, serta ekstrakurikuler.
-4. [`berita.html`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v6/berita.html) — Sorotan berita utama, filter warta, agenda kegiatan bertanggal, dan unduhan PDF.
-5. [`pendaftaran.html`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v6/pendaftaran.html) — Kuota PPDB, alur pendaftaran 5 langkah, tabel biaya transparan, dan form online.
-6. [`kontak.html`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v6/kontak.html) — Kanal kontak, form pertanyaan, peta responsif kampus, dan direktori sekretariat.
-7. [`style.css`](file:///home/tonjoo_muzakki/HTDOCS/wp/mts/docs/v6/style.css) — Lembar gaya CSS dengan implementasi skema warna Oceanic Navy & Electric Cyan.
+1. [`index.html`](index.html) — Beranda dengan glowing title banner, 6 bento tiles, dan statistik lengkap.
+2. [`profil.html`](profil.html) — Profil madrasah, sejarah singkat, visi-misi, fasilitas riset & teknologi, dan pimpinan.
+3. [`akademik.html`](akademik.html) — Jenjang VII–IX, kurikulum merdeka terpadu, peminatan riset & tahfidz, serta ekstrakurikuler.
+4. [`berita.html`](berita.html) — Sorotan berita utama, filter warta, agenda kegiatan bertanggal, dan unduhan PDF.
+5. [`pendaftaran.html`](pendaftaran.html) — Kuota PPDB, alur pendaftaran 5 langkah, tabel biaya transparan, dan form online.
+6. [`kontak.html`](kontak.html) — Kanal kontak, form pertanyaan, peta responsif kampus, dan direktori sekretariat.
+7. [`style.css`](style.css) — Lembar gaya CSS dengan implementasi skema warna Oceanic Navy & Electric Cyan.
 
 ---
 

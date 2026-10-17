@@ -27,42 +27,13 @@ function hestia_child_get_lite_options() {
 }
 add_action( 'after_switch_theme', 'hestia_child_get_lite_options' );
 
-/**
- * AMz Custom
- *
+/*
+ * List of Additional Features for Hestia Child Theme
+ * @since 1.0.0
  */
 
-// Update Image WP Login
+# Change the default WordPress login logo to favicon
+require_once get_stylesheet_directory() . '/inc/kkd-change-login-logo.php';
 
-function custom_login_branding() {
-    // Ambil ID dan URL site icon
-    $site_icon_id = get_option( 'site_icon' );
-    $icon_url = $site_icon_id ? wp_get_attachment_image_url( $site_icon_id, 'full' ) : '';
-
-    // Tambahkan CSS jika URL tersedia
-    if ( $icon_url ) {
-        echo '<style>
-            #login h1 a {
-                background-image: url(' . esc_url( $icon_url ) . ') !important;
-                background-size: contain !important;
-                width: 100% !important;
-                height: 100px !important;
-            }
-        </style>';
-    }
-
-    // Ganti URL dan title dengan filter
-    add_filter( 'login_headerurl', function() {
-        return home_url();
-    });
-
-    add_filter( 'login_headertext', function() {
-        return get_bloginfo( 'name' );
-    });
-}
-add_action( 'login_enqueue_scripts', 'custom_login_branding' );
-
-/**
- * Load Unlocked Pro Features for Hestia Child Theme
- */
-require_once get_stylesheet_directory() . '/inc/class-hestia-child-pro-unlocked.php';
+# Load Unlocked Pro Features for Hestia Child Theme
+require_once get_stylesheet_directory() . '/inc/hestia-pro-unlocked.php';

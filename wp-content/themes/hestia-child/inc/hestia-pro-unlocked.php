@@ -28,11 +28,11 @@ class Hestia_Child_Pro_Unlocked {
 		// 3. Frontend Footer replacement
 		add_action( 'wp_loaded', array( $this, 'setup_footer_override' ) );
 
-		// 4. Frontend Pricing Section
-		add_action( 'hestia_sections', array( $this, 'render_pricing_section' ), 60 );
+		// 4. Frontend Pricing Section Hook
+		add_action( 'wp_loaded', array( $this, 'setup_pricing_section_hook' ) );
 
-		// 5. Frontend Dynamic Section Reordering
-		add_action( 'wp_head', array( $this, 'reorder_frontpage_sections' ), 1 );
+		// 5. Frontend Dynamic Section Priority Filter (Hestia native filter)
+		add_filter( 'hestia_section_priority', array( $this, 'filter_section_priority' ), 10, 2 );
 
 		// 6. Frontend Dynamic Colors and Styles
 		add_action( 'wp_enqueue_scripts', array( $this, 'enqueue_unlocked_styles' ), 99 );
@@ -377,7 +377,7 @@ class Hestia_Child_Pro_Unlocked {
 			)
 		);
 
-		// CRITICAL: Update the tabs control for Top Bar so it shows the new unlocked controls!
+		// Update the tabs control for Top Bar so it shows the new unlocked controls
 		$top_bar_tabs = $wp_customize->get_control( 'hestia_very_top_bar_tabs' );
 		if ( $top_bar_tabs ) {
 			$top_bar_tabs->controls = array(
@@ -463,12 +463,90 @@ class Hestia_Child_Pro_Unlocked {
 		}
 
 		// -------------------------------------------------------------
-		// I. UNLOCK BLOG LAYOUT (Remove redirect on 3rd layout)
+		// I. UNLOCK BLOG LAYOUT (Option 3 Grid / Masonry Unlock)
 		// -------------------------------------------------------------
-		$blog_layout = $wp_customize->get_control( 'hestia_alternative_blog_layout' );
-		if ( $blog_layout && isset( $blog_layout->choices['blog_alternative_layout2']['redirect'] ) ) {
-			unset( $blog_layout->choices['blog_alternative_layout2']['redirect'] );
+		// Clean SVG icon for the 3-column Grid layout (replaces the locked PNG with the PRO watermark)
+		$grid_icon_svg = 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="70" viewBox="0 0 100 70"><rect width="100" height="70" fill="%23ffffff" stroke="%23e2e8f0" stroke-width="2" rx="4"/><rect x="8" y="10" width="24" height="18" rx="2" fill="%2300b0ff"/><rect x="8" y="32" width="24" height="28" rx="2" fill="%23cbd5e1"/><rect x="38" y="10" width="24" height="26" rx="2" fill="%2300b0ff"/><rect x="38" y="40" width="24" height="20" rx="2" fill="%23cbd5e1"/><rect x="68" y="10" width="24" height="20" rx="2" fill="%2300b0ff"/><rect x="68" y="34" width="24" height="26" rx="2" fill="%23cbd5e1"/></svg>';
+
+		if ( class_exists( 'Hestia_Customize_Control_Radio_Image' ) ) {
+			$wp_customize->remove_control( 'hestia_alternative_blog_layout' );
+			$wp_customize->add_control(
+				new Hestia_Customize_Control_Radio_Image(
+					$wp_customize,
+					'hestia_alternative_blog_layout',
+					array(
+						'label'       => esc_html__( 'Blog Layout', 'hestia-child' ),
+						'section'     => 'hestia_blog_layout',
+						'priority'    => 25,
+						'choices'     => array(
+							'blog_alternative_layout'  => array(
+								'url'   => 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAABqAgMAAAAjP0ATAAAACVBMVEX///8+yP/V1dXG9YqxAAAAS0lEQVRYw2NgGAXDE4RCQMDAKONahQ5WUKBs1AujXqDEC6NgiANRSDyH0EwZRvJZ1UCBslEvjHqBZl4YBYMUjNb1o14Y9cIoGH4AALJWvPSk+QsLAAAAAElFTkSuQmCC',
+								'label' => esc_html__( 'Alternative Layout', 'hestia-child' ),
+							),
+							'blog_normal_layout'       => array(
+								'url'   => 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAABqAgMAAAAjP0ATAAAACVBMVEX///8+yP/V1dXG9YqxAAAAPklEQVR42mNgGAXDE4RCQMDAKONahQ5WUKBs1AujXqDEC6NgtOAazTKjXhgtuEbBaME1mutHvTBacI0C4gEAenW95O4Ccg4AAAAASUVORK5CYII=',
+								'label' => esc_html__( 'Normal Layout', 'hestia-child' ),
+							),
+							'blog_alternative_layout2' => array(
+								'url'   => $grid_icon_svg,
+								'label' => esc_html__( 'Grid Layout (Unlocked)', 'hestia-child' ),
+							),
+						),
+						'subcontrols' => array(
+							'blog_alternative_layout'  => array(),
+							'blog_normal_layout'       => array(),
+							'blog_alternative_layout2' => array(
+								'hestia_grid_layout',
+								'hestia_enable_masonry',
+							),
+						),
+					)
+				)
+			);
 		}
+
+		// Grid columns control for Layout 3
+		$wp_customize->add_setting(
+			'hestia_grid_layout',
+			array(
+				'default'           => 3,
+				'sanitize_callback' => 'absint',
+				'transport'         => 'refresh',
+			)
+		);
+		$wp_customize->add_control(
+			'hestia_grid_layout',
+			array(
+				'label'    => esc_html__( 'Grid Columns', 'hestia-child' ),
+				'section'  => 'hestia_blog_layout',
+				'priority' => 26,
+				'type'     => 'select',
+				'choices'  => array(
+					2 => esc_html__( '2 Columns', 'hestia-child' ),
+					3 => esc_html__( '3 Columns', 'hestia-child' ),
+					4 => esc_html__( '4 Columns', 'hestia-child' ),
+				),
+			)
+		);
+
+		// Enable Masonry for Layout 3
+		$wp_customize->add_setting(
+			'hestia_enable_masonry',
+			array(
+				'default'           => true,
+				'sanitize_callback' => 'hestia_sanitize_checkbox',
+				'transport'         => 'refresh',
+			)
+		);
+		$wp_customize->add_control(
+			'hestia_enable_masonry',
+			array(
+				'label'    => esc_html__( 'Enable Masonry Grid', 'hestia-child' ),
+				'section'  => 'hestia_blog_layout',
+				'priority' => 27,
+				'type'     => 'checkbox',
+			)
+		);
 
 		// -------------------------------------------------------------
 		// J. SECTION REORDERING (Front Page Sections)
@@ -483,16 +561,12 @@ class Hestia_Child_Pro_Unlocked {
 		);
 
 		$sections_to_order = array(
-			'features'     => array( 'label' => esc_html__( 'Features Section Order', 'hestia-child' ), 'default' => 1 ),
-			'about'        => array( 'label' => esc_html__( 'About Section Order', 'hestia-child' ), 'default' => 2 ),
-			'shop'         => array( 'label' => esc_html__( 'Shop Section Order', 'hestia-child' ), 'default' => 3 ),
-			'portfolio'    => array( 'label' => esc_html__( 'Portfolio Section Order', 'hestia-child' ), 'default' => 4 ),
-			'team'         => array( 'label' => esc_html__( 'Team Section Order', 'hestia-child' ), 'default' => 5 ),
-			'pricing'      => array( 'label' => esc_html__( 'Pricing Section Order', 'hestia-child' ), 'default' => 6 ),
-			'testimonials' => array( 'label' => esc_html__( 'Testimonials Section Order', 'hestia-child' ), 'default' => 7 ),
-			'subscribe'    => array( 'label' => esc_html__( 'Subscribe Section Order', 'hestia-child' ), 'default' => 8 ),
-			'blog'         => array( 'label' => esc_html__( 'Blog Section Order', 'hestia-child' ), 'default' => 9 ),
-			'contact'      => array( 'label' => esc_html__( 'Contact Section Order', 'hestia-child' ), 'default' => 10 ),
+			'about'     => array( 'label' => esc_html__( 'About Section Order', 'hestia-child' ), 'default' => 1 ),
+			'shop'      => array( 'label' => esc_html__( 'Shop Section Order', 'hestia-child' ), 'default' => 2 ),
+			'pricing'   => array( 'label' => esc_html__( 'Pricing Section Order', 'hestia-child' ), 'default' => 3 ),
+			'subscribe' => array( 'label' => esc_html__( 'Subscribe Section Order', 'hestia-child' ), 'default' => 4 ),
+			'blog'      => array( 'label' => esc_html__( 'Blog Section Order', 'hestia-child' ), 'default' => 5 ),
+			'contact'   => array( 'label' => esc_html__( 'Contact Section Order', 'hestia-child' ), 'default' => 6 ),
 		);
 
 		$p_counter = 10;
@@ -538,6 +612,14 @@ class Hestia_Child_Pro_Unlocked {
 				pointer-events: auto !important;
 			}
 
+			/* Remove pro-feature styling and opacity reduction */
+			.pro-feature {
+				position: static !important;
+			}
+			.pro-feature img {
+				opacity: 1 !important;
+			}
+
 			/* Hide all lock icons and upsell notices */
 			ul:where([id*=hestia_footer_content], [id*=hestia_buttons_style], [id*=hestia_top_bar]) [id*=upsell] .customize-control-title::after,
 			.hestia-locked-icon span.dashicons-lock,
@@ -578,9 +660,10 @@ class Hestia_Child_Pro_Unlocked {
 		<script id="hestia-child-unlock-customizer-js">
 			(function($) {
 				wp.customize.bind('ready', function() {
-					// 1. Remove locked classes from any remaining controls
+					// 1. Remove locked classes and pro-feature classes
 					$('.hestia-locked-icon').removeClass('hestia-locked-icon');
 					$('.customize-locked-control').removeClass('customize-locked-control');
+					$('.pro-feature').removeClass('pro-feature');
 
 					// 2. Remove readonly attribute from alpha color controls
 					$('input.alpha-color-control').removeAttr('readonly');
@@ -656,6 +739,14 @@ class Hestia_Child_Pro_Unlocked {
 	public function render_footer_credits_partial() {
 		$credits = get_theme_mod( 'hestia_general_credits' );
 		echo wp_kses_post( $credits );
+	}
+
+	/**
+	 * Hook Pricing Section with dynamic priority.
+	 */
+	public function setup_pricing_section_hook() {
+		$pricing_order = get_theme_mod( 'hestia_child_order_pricing', 3 );
+		add_action( 'hestia_sections', array( $this, 'render_pricing_section' ), absint( $pricing_order ) * 10 );
 	}
 
 	/**
@@ -758,40 +849,22 @@ class Hestia_Child_Pro_Unlocked {
 	}
 
 	/**
-	 * Dynamic Section Reordering via hook priority.
+	 * Dynamic Section Priority Filter using Hestia's native 'hestia_section_priority' filter.
+	 *
+	 * @param int    $priority Default priority.
+	 * @param string $section_id Section identifier.
+	 * @return int
 	 */
-	public function reorder_frontpage_sections() {
-		if ( ! is_front_page() ) {
-			return;
+	public function filter_section_priority( $priority, $section_id ) {
+		$section_key = str_replace( array( 'hestia_', 'sidebar-widgets-' ), '', $section_id );
+		if ( 'subscribe-widgets' === $section_key ) {
+			$section_key = 'subscribe';
 		}
-
-		$section_hooks = array(
-			'features'     => 'hestia_features_section',
-			'about'        => 'hestia_about_section',
-			'shop'         => 'hestia_shop_section',
-			'portfolio'    => 'hestia_portfolio_section',
-			'team'         => 'hestia_team_section',
-			'testimonials' => 'hestia_testimonials_section',
-			'subscribe'    => 'hestia_subscribe_section',
-			'blog'         => 'hestia_blog_section',
-			'contact'      => 'hestia_contact_section',
-		);
-
-		foreach ( $section_hooks as $s_key => $func_name ) {
-			$saved_order = get_theme_mod( 'hestia_child_order_' . $s_key );
-			if ( false !== $saved_order && '' !== $saved_order ) {
-				$priority = absint( $saved_order ) * 10;
-				remove_action( 'hestia_sections', $func_name );
-				add_action( 'hestia_sections', $func_name, $priority );
-			}
+		$saved_order = get_theme_mod( 'hestia_child_order_' . $section_key );
+		if ( false !== $saved_order && '' !== $saved_order && is_numeric( $saved_order ) ) {
+			return absint( $saved_order ) * 10;
 		}
-
-		// Pricing section priority
-		$pricing_order = get_theme_mod( 'hestia_child_order_pricing' );
-		if ( false !== $pricing_order && '' !== $pricing_order ) {
-			remove_action( 'hestia_sections', array( $this, 'render_pricing_section' ), 60 );
-			add_action( 'hestia_sections', array( $this, 'render_pricing_section' ), absint( $pricing_order ) * 10 );
-		}
+		return $priority;
 	}
 
 	/**

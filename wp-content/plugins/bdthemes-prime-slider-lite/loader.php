@@ -1,0 +1,583 @@
+<?php
+
+namespace PrimeSlider;
+
+use Elementor\Plugin;
+use PrimeSlider\Includes\PrimeSlider_WPML;
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
+
+/**
+ * Main class for element pack
+ */
+class Prime_Slider_Loader {
+
+	/**
+	 * @var Prime_Slider_Loader
+	 */
+	private static $_instance;
+
+	/**
+	 * @var Manager
+	 */
+	private $_modules_manager;
+
+	/**
+	 * Tracks whether base site assets were already enqueued this request.
+	 *
+	 * @var bool
+	 */
+	private $site_assets_enqueued = false;
+
+	private $classes_aliases = [ 
+		'PrimeSlider\Modules\PanelPostsControl\Module'                       => 'PrimeSlider\Modules\QueryControl\Module',
+		'PrimeSlider\Modules\PanelPostsControl\Controls\Group_Control_Posts' => 'PrimeSlider\Modules\QueryControl\Controls\Group_Control_Posts',
+		'PrimeSlider\Modules\PanelPostsControl\Controls\Query'               => 'PrimeSlider\Modules\QueryControl\Controls\Query',
+	];
+
+	public $elements_data = [ 
+		'sections' => [],
+		'columns'  => [],
+		'widgets'  => [],
+	];
+
+	/**
+	 * @deprecated
+	 *
+	 * @return string
+	 */
+	public function get_version() {
+		return BDTPS_CORE_VER;
+	}
+
+	/**
+	 * Throw error on object clone
+	 *
+	 * The whole idea of the singleton design pattern is that there is a single
+	 * object therefore, we don't want the object to be cloned.
+	 *
+	 * @since 1.0.0
+	 * @return void
+	 */
+	public function __clone() {
+		// Cloning instances of the class is forbidden
+		_doing_it_wrong( __FUNCTION__, esc_html__( 'Cheatin&#8217; huh?', 'bdthemes-prime-slider-lite' ), '1.6.0' );
+	}
+
+	/**
+	 * Disable unserializing of the class
+	 *
+	 * @since 1.0.0
+	 * @return void
+	 */
+	public function __wakeup() {
+		// Unserializing instances of the class is forbidden
+		_doing_it_wrong( __FUNCTION__, esc_html__( 'Cheatin&#8217; huh?', 'bdthemes-prime-slider-lite' ), '1.6.0' );
+	}
+
+	/**
+	 * @return Plugin
+	 */
+
+	public static function elementor() {
+		return Plugin::$instance;
+	}
+
+	/**
+	 * @return Prime_Slider_Loader
+	 */
+	public static function instance() {
+		if ( is_null( self::$_instance ) ) {
+			self::$_instance = new self();
+		}
+
+		do_action( 'bdthemes_prime_slider_lite/init' );
+
+		return self::$_instance;
+	}
+
+	/**
+	 * we loaded module manager + admin php from here
+	 * @return [type] [description]
+	 */
+	private function _includes() {
+		$duplicator = prime_slider_option( 'duplicator', 'prime_slider_other_settings', 'off' );
+		$live_copy  = prime_slider_option( 'live-copy', 'prime_slider_other_settings', 'off' );
+
+		// Admin settings controller
+		require_once BDTPS_CORE_ADMIN_PATH . 'module-settings.php';
+		//Assets Manager
+		// require_once 'admin/optimizer/asset-minifier-manager.php';
+
+		// Dynamic Select control
+		require BDTPS_CORE_PATH . 'traits/query-controls/select-input/dynamic-select-input-module.php';
+		require BDTPS_CORE_PATH . 'traits/query-controls/select-input/dynamic-select.php';
+		// Global Controls
+		require_once BDTPS_CORE_PATH . 'traits/global-widget-controls.php';
+		//require_once BDTPS_CORE_PATH . 'traits/global-swiper-controls.php';
+		//require_once BDTPS_CORE_PATH . 'traits/global-mask-controls.php';
+
+		// wpml compatibility class for wpml support
+		require_once BDTPS_CORE_PATH . 'includes/class-elements-wpml-compatibility.php';
+
+		require BDTPS_CORE_PATH . 'includes/modules-manager.php';
+
+		// Asset Optimization: per-page combined module CSS/JS files
+		require_once BDTPS_CORE_PATH . 'includes/class-asset-combiner.php';
+		Includes\Asset_Combiner::init();
+
+		// Keeps UIkit component attributes out of content saved by users without unfiltered_html
+		require_once BDTPS_CORE_PATH . 'includes/class-content-guard.php';
+		Includes\Content_Guard::init();
+
+		if ( ! class_exists( 'BdThemes_Duplicator' ) ) {
+			if ( $duplicator == 'on' ) {
+				require BDTPS_CORE_PATH . 'includes/class-duplicator.php';
+			}
+		}
+
+		if ( ! class_exists( 'BdThemes_Live_Copy' ) ) {
+			if ( ( $live_copy == 'on' ) && ( ! is_plugin_active( 'live-copy-paste/live-copy-paste.php' ) ) ) {
+				require_once BDTPS_CORE_PATH . 'includes/live-copy/class-live-copy.php';
+			}
+		}
+	}
+
+	// Load WPML compatibility instance
+    public function wpml_compatiblity() {
+        return PrimeSlider_WPML::get_instance();
+    }
+
+	/**
+	 * Autoloader function for all classes files
+	 * @param  [type] $class [description]
+	 * @return [type]        [description]
+	 */
+	public function autoload( $class ) {
+		if ( 0 !== strpos( $class, __NAMESPACE__ ) ) {
+			return;
+		}
+
+		$has_class_alias = isset( $this->classes_aliases[ $class ] );
+
+		// Backward Compatibility: Save old class name for set an alias after the new class is loaded
+		if ( $has_class_alias ) {
+			$class_alias_name = $this->classes_aliases[ $class ];
+			$class_to_load    = $class_alias_name;
+		} else {
+			$class_to_load = $class;
+		}
+
+		if ( ! class_exists( $class_to_load ) ) {
+			$filename = strtolower(
+				preg_replace(
+					[ '/^' . __NAMESPACE__ . '\\\/', '/([a-z])([A-Z])/', '/_/', '/\\\/' ],
+					[ '', '$1-$2', '-', DIRECTORY_SEPARATOR ],
+					$class_to_load
+				)
+			);
+			$filename = BDTPS_CORE_PATH . $filename . '.php';
+
+			if ( is_readable( $filename ) ) {
+				include( $filename );
+			}
+		}
+
+		if ( $has_class_alias ) {
+			class_alias( $class_alias_name, $class );
+		}
+	}
+
+	/**
+	 * Register all script that need for any specific widget on call basis.
+	 * @return [type] [description]
+	 */
+	public function register_site_scripts() {
+
+		$suffix = defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? '.min' : '.min';
+
+		if ( ! wp_script_is( 'bdt-uikit', 'registered' ) ) {
+			wp_register_script( 'bdt-uikit', BDTPS_CORE_ASSETS_URL . 'js/bdt-uikit.min.js', [ 'jquery' ], '3.25.21', true );
+		}
+
+		if ( ! wp_script_is( 'prime-slider-site', 'registered' ) ) {
+			wp_register_script( 'prime-slider-site', BDTPS_CORE_ASSETS_URL . 'js/prime-slider-site' . $suffix . '.js', [ 'jquery' ], BDTPS_CORE_VER, true );
+		}
+
+		if ( ! wp_script_is( 'prime-slider-a11y', 'registered' ) ) {
+			wp_register_script( 'prime-slider-a11y', BDTPS_CORE_ASSETS_URL . 'js/prime-slider-a11y' . $suffix . '.js', [ 'bdt-uikit' ], BDTPS_CORE_VER, true );
+		}
+		$this->localize_a11y_script();
+
+		//TODO more attractive animation
+		//Thirdparty widgets
+		if ( prime_slider_is_widget_enabled( 'multiscroll' ) ) {
+			wp_register_script( 'bdtps-multiscroll-lib', BDTPS_CORE_ASSETS_URL . 'vendor/js/jquery.multiscroll.min.js', [ 'jquery' ], BDTPS_CORE_VER, true );
+			wp_register_script( 'bdtps-easings', BDTPS_CORE_ASSETS_URL . 'vendor/js/jquery.easings.min.js', [ 'jquery' ], BDTPS_CORE_VER, true );
+		}
+		if ( prime_slider_is_widget_enabled( 'pagepiling' ) ) {
+			wp_register_script( 'bdtps-pagepiling-lib', BDTPS_CORE_ASSETS_URL . 'vendor/js/jquery.pagepiling.min.js', [ 'jquery' ], BDTPS_CORE_VER, true );
+		}
+		if ( prime_slider_is_widget_enabled( 'knily' ) or prime_slider_is_third_party_enabled( 'woolamp' ) ) {
+			wp_register_script( 'bdt-goodshare', BDTPS_CORE_ASSETS_URL . 'vendor/js/goodshare.min.js', [ 'jquery' ], BDTPS_CORE_VER, true );
+		}
+
+		if ( prime_slider_is_third_party_enabled( 'woocircle' ) ) {
+			wp_register_script( 'bdtps-classie', BDTPS_CORE_ASSETS_URL . 'vendor/js/classie.min.js', [ 'jquery' ], BDTPS_CORE_VER, true );
+			wp_register_script( 'bdtps-dynamics', BDTPS_CORE_ASSETS_URL . 'vendor/js/dynamics.min.js', [ 'jquery' ], BDTPS_CORE_VER, true );
+		}
+		if ( prime_slider_is_widget_enabled( 'pieces' ) ) {
+			wp_register_script( 'bdtps-pieces', BDTPS_CORE_ASSETS_URL . 'vendor/js/pieces.min.js', [ 'jquery' ], BDTPS_CORE_VER, true );
+		}
+		if ( prime_slider_is_widget_enabled( 'fluent' ) or prime_slider_is_widget_enabled( 'flogia' ) ) {
+			wp_register_script( 'bdtps-mthumbnail-scroller', BDTPS_CORE_ASSETS_URL . 'vendor/js/jquery.mThumbnailScroller.min.js', [ 'jquery' ], BDTPS_CORE_VER, true );
+		}
+
+		wp_register_script( 'bdt-parallax', BDTPS_CORE_ASSETS_URL . 'vendor/js/parallax.min.js', [ 'jquery' ], BDTPS_CORE_VER, true );
+
+
+	}
+
+
+	public function register_site_styles() {
+		$direction_suffix = is_rtl() ? '.rtl' : '';
+
+		wp_register_style( 'prime-slider-font', BDTPS_CORE_ASSETS_URL . 'css/prime-slider-font' . $direction_suffix . '.css', [], BDTPS_CORE_VER );
+
+		if ( ! wp_style_is( 'bdt-uikit', 'registered' ) ) {
+			wp_register_style( 'bdt-uikit', BDTPS_CORE_ASSETS_URL . 'css/bdt-uikit' . $direction_suffix . '.css', [], '3.25.21' );
+		}
+
+		if ( ! wp_style_is( 'prime-slider-site', 'registered' ) ) {
+			wp_register_style( 'prime-slider-site', BDTPS_CORE_ASSETS_URL . 'css/prime-slider-site' . $direction_suffix . '.css', [], BDTPS_CORE_VER );
+		}
+
+		wp_register_style( 'bdtps-splitting', BDTPS_CORE_ASSETS_URL . 'vendor/css/splitting' . $direction_suffix . '.css', [], BDTPS_CORE_VER );
+
+	}
+
+	/**
+	 * Load the shared frontend styles (UIkit, the site helper) where Elementor
+	 * content cannot ask for them itself.
+	 *
+	 * A page built with Elementor needs nothing from here: every widget declares its
+	 * `bdtps-<module>` stylesheet, which depends on UIkit and the site helper, and
+	 * Elementor enqueues a page's widget handles before the head prints. This scan
+	 * covers the rest: Theme Builder templates and documents rendered inside the
+	 * page, whose handles Elementor enqueues only while the body renders. It is
+	 * skipped on pages without a Prime Slider widget, which then load none of the
+	 * shared files.
+	 *
+	 * @return void
+	 */
+	public function enqueue_site_styles() {
+		if ( ! prime_slider_page_has_widget() ) {
+			return;
+		}
+
+		$this->enqueue_base_site_assets();
+	}
+
+
+	/**
+	 * Load the shared frontend scripts the same way as enqueue_site_styles().
+	 *
+	 * @return void
+	 */
+	public function enqueue_site_scripts() {
+		if ( ! prime_slider_page_has_widget() ) {
+			return;
+		}
+
+		$this->enqueue_base_site_assets();
+	}
+
+	/**
+	 * Enqueue shared Prime Slider frontend assets once per request.
+	 *
+	 * @return void
+	 */
+	private function enqueue_base_site_assets() {
+		if ( $this->site_assets_enqueued ) {
+			return;
+		}
+
+		$this->site_assets_enqueued = true;
+
+		$direction_suffix = is_rtl() ? '.rtl' : '';
+		$suffix           = defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? '.min' : '.min';
+
+		if ( ! wp_style_is( 'bdt-uikit', 'registered' ) ) {
+			wp_register_style( 'bdt-uikit', BDTPS_CORE_ASSETS_URL . 'css/bdt-uikit' . $direction_suffix . '.css', [], '3.25.21' );
+		}
+
+		if ( ! wp_style_is( 'prime-slider-site', 'registered' ) ) {
+			wp_register_style( 'prime-slider-site', BDTPS_CORE_ASSETS_URL . 'css/prime-slider-site' . $direction_suffix . '.css', [], BDTPS_CORE_VER );
+		}
+
+		if ( ! wp_script_is( 'bdt-uikit', 'registered' ) ) {
+			wp_register_script( 'bdt-uikit', BDTPS_CORE_ASSETS_URL . 'js/bdt-uikit.min.js', [ 'jquery' ], '3.25.21', true );
+		}
+
+		if ( ! wp_script_is( 'prime-slider-site', 'registered' ) ) {
+			wp_register_script( 'prime-slider-site', BDTPS_CORE_ASSETS_URL . 'js/prime-slider-site' . $suffix . '.js', [ 'jquery' ], BDTPS_CORE_VER, true );
+		}
+
+		if ( ! wp_script_is( 'prime-slider-a11y', 'registered' ) ) {
+			wp_register_script( 'prime-slider-a11y', BDTPS_CORE_ASSETS_URL . 'js/prime-slider-a11y' . $suffix . '.js', [ 'bdt-uikit' ], BDTPS_CORE_VER, true );
+		}
+		$this->localize_a11y_script();
+
+		if ( ! wp_style_is( 'bdt-uikit', 'enqueued' ) ) {
+			wp_enqueue_style( 'bdt-uikit' );
+		}
+
+		wp_enqueue_style( 'prime-slider-site' );
+
+		if ( ! wp_script_is( 'bdt-uikit', 'enqueued' ) ) {
+			wp_enqueue_script( 'bdt-uikit' );
+		}
+
+		wp_enqueue_script( 'prime-slider-site' );
+		wp_enqueue_script( 'prime-slider-a11y' );
+
+		/**
+		 * Fires when the shared Prime Slider frontend assets are enqueued up front,
+		 * for a page the module dependencies cannot cover (Theme Builder templates,
+		 * a widget rendered after the head). Add-ons enqueue their own shared files
+		 * here; see prime_slider_module_asset_depends() for the dependency route.
+		 */
+		do_action( 'prime_slider/frontend/enqueue_base_assets' );
+	}
+
+	/**
+	 * Fallback enqueue when a Prime Slider widget renders after the scan missed it.
+	 *
+	 * @param \Elementor\Element_Base $element Elementor element instance.
+	 * @return void
+	 */
+	public function maybe_enqueue_on_widget_render( $element ) {
+		if ( ! $element instanceof \Elementor\Widget_Base ) {
+			return;
+		}
+
+		if ( 0 !== strpos( $element->get_name(), 'prime-slider' ) ) {
+			return;
+		}
+
+		$this->enqueue_base_site_assets();
+	}
+
+	public function enqueue_editor_scripts() {
+
+		wp_register_script( 'bdtps-editor', BDTPS_CORE_ASSETS_URL . 'js/prime-slider-editor.min.js', [ 
+			'backbone-marionette',
+			'elementor-common-modules',
+			'elementor-editor-modules',
+		], BDTPS_CORE_VER, true );
+
+		wp_enqueue_script( 'bdtps-editor' );
+
+		// Whether the separate Prime Slider Pro plugin is installed and active.
+		// The widgets it provides are advertised in the editor panel when it is
+		// not; no licence state is consulted here.
+		$pro_plugin_active = bdtps_is_pro_activated();
+
+		$localize_data = [ 
+			'pro_installed'       => $pro_plugin_active,
+			'promotional_widgets' => [],
+		];
+
+		if ( ! $pro_plugin_active ) {
+			$pro_widget_map                       = new \PrimeSlider\Includes\Pro_Widget_Map();
+			$localize_data['promotional_widgets'] = $pro_widget_map->get_pro_widget_map();
+		}
+
+		wp_localize_script( 'bdtps-editor', 'PrimeSliderConfigEditor', $localize_data );
+	}
+
+	/**
+	 * Load editor editor related style from here
+	 * @return [type] [description]
+	 */
+	public function enqueue_preview_styles() {
+		$direction_suffix = is_rtl() ? '.rtl' : '';
+
+		wp_register_style( 'prime-slider-preview', BDTPS_CORE_ASSETS_URL . 'css/prime-slider-preview' . $direction_suffix . '.css', array(), BDTPS_CORE_VER );
+
+		wp_enqueue_style( 'prime-slider-preview' );
+	}
+
+
+	public function enqueue_editor_styles() {
+		$direction_suffix = is_rtl() ? '-rtl' : '';
+
+		wp_register_style( 'prime-slider-editor', BDTPS_CORE_ASSETS_URL . 'css/prime-slider-editor' . $direction_suffix . '.css', array(), BDTPS_CORE_VER );
+		wp_register_style( 'prime-slider-font', BDTPS_CORE_ASSETS_URL . 'css/prime-slider-font' . $direction_suffix . '.css', [], BDTPS_CORE_VER );
+
+		wp_enqueue_style( 'prime-slider-editor' );
+		wp_enqueue_style( 'prime-slider-font' );
+	}
+
+	/**
+	 * initialize the category
+	 * @return [type] [description]
+	 */
+	public function prime_slider_init() {
+		$this->_modules_manager = new Manager();
+		do_action( 'bdthemes_prime_slider/init' );
+	}
+
+	/**
+	 * initialize the category
+	 */
+	public function category_register() {
+		$elementor = Plugin::$instance;
+
+		// Add element category in panel
+		$elementor->elements_manager->add_category( BDTPS_CORE_SLUG, [ 'title' => BDTPS_CORE_TITLE, 'icon' => 'font' ] );
+	}
+
+	private function setup_hooks() {
+		add_action( 'elementor/elements/categories_registered', [ $this, 'category_register' ] );
+		add_action( 'elementor/init', [ $this, 'prime_slider_init' ] );
+		add_action( 'elementor/editor/after_enqueue_styles', [ $this, 'enqueue_editor_styles' ] );
+
+		add_action( 'wp_enqueue_scripts', [ $this, 'register_site_styles' ], 99999 );
+		add_action( 'wp_enqueue_scripts', [ $this, 'register_site_scripts' ], 99999 );
+		add_action( 'wp_enqueue_scripts', [ $this, 'enqueue_site_styles' ], 99999 );
+		add_action( 'wp_enqueue_scripts', [ $this, 'enqueue_site_scripts' ], 99999 );
+		add_action( 'elementor/frontend/widget/before_render', [ $this, 'maybe_enqueue_on_widget_render' ], 10 );
+
+		add_action( 'elementor/preview/enqueue_styles', [ $this, 'enqueue_preview_styles' ] );
+		add_action( 'elementor/editor/after_enqueue_scripts', [ $this, 'enqueue_editor_scripts' ] );
+
+		add_action( 'init', [ $this, 'maybe_flush_elementor_asset_caches' ], 20 );
+		foreach ( [ 'prime_slider_active_modules', 'prime_slider_elementor_extend', 'prime_slider_third_party_widget' ] as $modules_option ) {
+			add_action( "add_option_{$modules_option}", [ __CLASS__, 'forget_elementor_asset_caches' ] );
+			add_action( "update_option_{$modules_option}", [ __CLASS__, 'forget_elementor_asset_caches' ] );
+		}
+	}
+
+	/**
+	 * Translated labels for the accessibility script (prime-slider-a11y).
+	 *
+	 * The script names icon-only slider controls for screen readers; these are
+	 * the names it uses. Printed once, however many times the handle is
+	 * registered on a request.
+	 *
+	 * @return void
+	 */
+	private function localize_a11y_script() {
+		static $done = false;
+
+		if ( $done || ! wp_script_is( 'prime-slider-a11y', 'registered' ) ) {
+			return;
+		}
+
+		$done = true;
+
+		wp_localize_script(
+			'prime-slider-a11y',
+			'PrimeSliderA11y',
+			[
+				/* translators: %d: slide number. */
+				'goToSlide'          => __( 'Go to slide %d', 'bdthemes-prime-slider-lite' ),
+				/* translators: 1: count, 2: total */
+				'slideOf'            => __( '%1$d of %2$d', 'bdthemes-prime-slider-lite' ),
+				'chooseSlide'        => __( 'Choose slide to display', 'bdthemes-prime-slider-lite' ),
+				'previousSlide'      => __( 'Previous slide', 'bdthemes-prime-slider-lite' ),
+				'nextSlide'          => __( 'Next slide', 'bdthemes-prime-slider-lite' ),
+				'playVideo'          => __( 'Play video', 'bdthemes-prime-slider-lite' ),
+				'showProductDetails' => __( 'Show product details', 'bdthemes-prime-slider-lite' ),
+				'scrollDown'         => __( 'Scroll down', 'bdthemes-prime-slider-lite' ),
+				'close'              => __( 'Close', 'bdthemes-prime-slider-lite' ),
+				/* translators: %s: social network name, e.g. Facebook. */
+				'shareOn'            => __( 'Share on %s', 'bdthemes-prime-slider-lite' ),
+			]
+		);
+	}
+
+	/**
+	 * Drop the asset lists Elementor cached per page when Prime Slider's code changes.
+	 *
+	 * Elementor stores the style/script handles a document's elements declare in
+	 * `_elementor_page_assets` once, and its element cache replays the handles that
+	 * were enqueued while the markup rendered. Neither is rebuilt when an update
+	 * changes what the widgets declare, so a page cached before the update keeps
+	 * loading the old list (since 4.7.0 UIkit and the helper load only through the
+	 * widgets' own dependencies). Both are caches Elementor rebuilds on the next
+	 * view of each page, as after its own "Regenerate CSS & Data". Keyed on the
+	 * same inputs as the combined files: this plugin's version and Pro's.
+	 *
+	 * @return void
+	 */
+	public function maybe_flush_elementor_asset_caches() {
+		if ( ! class_exists( '\PrimeSlider\Includes\Asset_Combiner' ) ) {
+			return;
+		}
+
+		$fingerprint = Includes\Asset_Combiner::fingerprint();
+
+		if ( get_option( 'prime_slider_elementor_assets_fingerprint' ) === $fingerprint ) {
+			return;
+		}
+
+		delete_post_meta_by_key( '_elementor_page_assets' );
+		delete_post_meta_by_key( '_elementor_element_cache' );
+
+		update_option( 'prime_slider_elementor_assets_fingerprint', $fingerprint, true );
+	}
+
+	/**
+	 * Have the next request drop Elementor's cached asset lists.
+	 *
+	 * Hooked to changes of the enabled-module settings: a list Elementor built while
+	 * a widget was switched off lacks that widget's handles once it is back on.
+	 *
+	 * @return void
+	 */
+	public static function forget_elementor_asset_caches() {
+		delete_option( 'prime_slider_elementor_assets_fingerprint' );
+	}
+
+	/**
+	 * Load files on init
+	 */
+	public function init() {
+		if ( is_admin() && bdtps_is_dashboard_enabled() ) {
+			require_once BDTPS_CORE_ADMIN_PATH . 'admin-biggopti.php';
+			require_once BDTPS_CORE_ADMIN_PATH . 'admin.php';
+			new Admin();
+		}
+	}
+
+	/**
+	 * Prime_Slider_Loader constructor.
+	 * @throws \Exception
+	 */
+	private function __construct() {
+		// Register class automatically
+		spl_autoload_register( [ $this, 'autoload' ] );
+		// Include some backend files
+		$this->_includes();
+		// Finally hooked up all things here
+		$this->setup_hooks();
+
+		$this->wpml_compatiblity()->init();
+
+		add_action( 'init', [ $this, 'init' ] );
+	}
+}
+
+if ( ! defined( 'BDTPS_CORE_TESTS' ) ) {
+	// In tests we run the instance manually.
+	Prime_Slider_Loader::instance();
+}
+
+// handy function for push data
+function prime_slider_config() {
+	return Prime_Slider_Loader::instance();
+}

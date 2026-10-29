@@ -39,6 +39,13 @@ class Hestia_Child_Pro_Unlocked {
 
 		// 7. Header Slider render support
 		add_action( 'hestia_first_front_page_section_content', array( $this, 'render_slider_content' ), 5 );
+
+		// 8. Custom Google Fonts integration (Plus Jakarta Sans, Google Sans, etc.)
+		add_filter( 'hestia_google_fonts_array', array( $this, 'add_custom_google_fonts' ) );
+		add_filter( 'style_loader_src', array( $this, 'filter_custom_font_loader_src' ), 10, 2 );
+		add_action( 'wp_enqueue_scripts', array( $this, 'enqueue_custom_font_assets' ), 20 );
+		add_action( 'enqueue_block_editor_assets', array( $this, 'enqueue_custom_font_assets' ), 20 );
+		add_action( 'customize_controls_enqueue_scripts', array( $this, 'enqueue_customizer_font_assets' ) );
 	}
 
 	/**
@@ -927,6 +934,31 @@ class Hestia_Child_Pro_Unlocked {
 			$css .= '.btn:hover, .btn:focus { box-shadow: none !important; opacity: 0.9; }';
 		}
 
+		// 10. Headings & Body Font Family overrides with clean quotes & fallbacks
+		$headings_font = get_theme_mod( 'hestia_headings_font' );
+		if ( ! empty( $headings_font ) ) {
+			if ( 'Google Sans' === $headings_font ) {
+				$h_family = '"Google Sans", "Product Sans", sans-serif';
+			} elseif ( 'Plus Jakarta Sans' === $headings_font ) {
+				$h_family = '"Plus Jakarta Sans", sans-serif';
+			} else {
+				$h_family = '"' . esc_attr( $headings_font ) . '", sans-serif';
+			}
+			$css .= 'h1, h2, h3, h4, h5, h6, .hestia-title, .title, .card-title, .info-title, .page-header .hestia-title, .carousel h1.hestia-title, .carousel h2.title, .carousel span.sub-title { font-family: ' . $h_family . ' !important; }';
+		}
+
+		$body_font = get_theme_mod( 'hestia_body_font' );
+		if ( ! empty( $body_font ) ) {
+			if ( 'Google Sans' === $body_font ) {
+				$b_family = '"Google Sans", "Product Sans", sans-serif';
+			} elseif ( 'Plus Jakarta Sans' === $body_font ) {
+				$b_family = '"Plus Jakarta Sans", sans-serif';
+			} else {
+				$b_family = '"' . esc_attr( $body_font ) . '", sans-serif';
+			}
+			$css .= 'body, p, ul, ol, input, textarea, select, button, .navbar, .btn, .card-description { font-family: ' . $b_family . ' !important; }';
+		}
+
 		if ( ! empty( $css ) ) {
 			wp_add_inline_style( 'hestia_style', $css );
 		}
@@ -988,6 +1020,79 @@ class Hestia_Child_Pro_Unlocked {
 			</div>
 			<?php
 		}
+	}
+
+	/**
+	 * Append modern & requested fonts into Google Fonts list.
+	 *
+	 * @param array $fonts Array of Google fonts.
+	 * @return array
+	 */
+	public function add_custom_google_fonts( $fonts ) {
+		if ( ! is_array( $fonts ) ) {
+			$fonts = array();
+		}
+
+		$modern_fonts = array(
+			'Google Sans',
+			'Plus Jakarta Sans',
+			'Inter',
+			'Outfit',
+			'Manrope',
+			'Urbanist',
+		);
+
+		foreach ( $modern_fonts as $font ) {
+			if ( ! in_array( $font, $fonts, true ) ) {
+				$fonts[] = $font;
+			}
+		}
+
+		sort( $fonts );
+		return $fonts;
+	}
+
+	/**
+	 * Filter style loader src for custom font handles to ensure proper URLs.
+	 *
+	 * @param string $src Stylesheet URL.
+	 * @param string $handle Stylesheet handle.
+	 * @return string
+	 */
+	public function filter_custom_font_loader_src( $src, $handle ) {
+		if ( 'hestia-google-font-google-sans' === $handle ) {
+			return 'https://fonts.cdnfonts.com/css/google-sans';
+		}
+		if ( 'hestia-google-font-plus-jakarta-sans' === $handle ) {
+			return 'https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,700&display=swap';
+		}
+		return $src;
+	}
+
+	/**
+	 * Enqueue Google Sans and Plus Jakarta Sans font stylesheets when selected or in preview.
+	 */
+	public function enqueue_custom_font_assets() {
+		$headings_font = get_theme_mod( 'hestia_headings_font' );
+		$body_font     = get_theme_mod( 'hestia_body_font' );
+
+		if ( 'Google Sans' === $headings_font || 'Google Sans' === $body_font || is_customize_preview() ) {
+			wp_dequeue_style( 'hestia-google-font-google-sans' );
+			wp_enqueue_style( 'hestia-child-font-google-sans', 'https://fonts.cdnfonts.com/css/google-sans', array(), null );
+		}
+
+		if ( 'Plus Jakarta Sans' === $headings_font || 'Plus Jakarta Sans' === $body_font || is_customize_preview() ) {
+			wp_dequeue_style( 'hestia-google-font-plus-jakarta-sans' );
+			wp_enqueue_style( 'hestia-child-font-plus-jakarta-sans', 'https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,700&display=swap', array(), null );
+		}
+	}
+
+	/**
+	 * Enqueue fonts in Customizer controls to ensure preview and option styling.
+	 */
+	public function enqueue_customizer_font_assets() {
+		wp_enqueue_style( 'hestia-child-customizer-google-sans', 'https://fonts.cdnfonts.com/css/google-sans', array(), null );
+		wp_enqueue_style( 'hestia-child-customizer-pjs', 'https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap', array(), null );
 	}
 }
 

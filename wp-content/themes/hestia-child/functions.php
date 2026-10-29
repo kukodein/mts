@@ -13,6 +13,20 @@ endif;
 add_action( 'wp_enqueue_scripts', 'hestia_child_parent_css', 10 );
 
 /**
+ * Enqueue Bootstrap 5 Utilities (d-none, py-*, my-*, d-flex, gap-*, etc.)
+ */
+function hestia_child_enqueue_bootstrap_utilities() {
+	wp_enqueue_style(
+		'bootstrap-5-utilities',
+		get_stylesheet_directory_uri() . '/assets/css/bootstrap-utilities.min.css',
+		array( 'bootstrap' ),
+		'5.3.3'
+	);
+}
+add_action( 'wp_enqueue_scripts', 'hestia_child_enqueue_bootstrap_utilities', 15 );
+add_action( 'enqueue_block_editor_assets', 'hestia_child_enqueue_bootstrap_utilities' );
+
+/**
  * Import options from Hestia
  *
  * @since 1.0.0
@@ -37,3 +51,9 @@ require_once get_stylesheet_directory() . '/inc/kkd-change-login-logo.php';
 
 # Load Unlocked Pro Features for Hestia Child Theme
 require_once get_stylesheet_directory() . '/inc/hestia-pro-unlocked.php';
+
+# Clean Elementor Editor: Hide Pro Placeholders & Upgrade Banners
+require_once get_stylesheet_directory() . '/inc/elementor-clean-editor.php';
+
+# Hide Hestia Child Menu & Show Hooks via CSS
+require_once get_stylesheet_directory() . '/inc/admin-clean.php';

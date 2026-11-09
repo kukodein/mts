@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- generator="WordPress/6.4" created="2026-11-09 02:40" -->
+<rss version="2.0"
+	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:wp="http://wordpress.org/export/1.2/"
+>
+
+<channel>
+	<title>MTs Negeri Semarang</title>
+	<link>http://localhost/mts</link>
+	<description>Madrasah Tsanawiyah Negeri Semarang - Berkarakter, Berprestasi, dan Berakhlak Mulia</description>
+	<pubDate>Mon, 09 Nov 2026 02:40:00 +0000</pubDate>
+	<language>id</language>
+	<wp:wxr_version>1.2</wp:wxr_version>
+	<wp:base_site_url>http://localhost/mts</wp:base_site_url>
+	<wp:base_blog_url>http://localhost/mts</wp:base_blog_url>
+
+	<wp:author>
+		<wp:author_id>1</wp:author_id>
+		<wp:author_login><![CDATA[admin]]></wp:author_login>
+		<wp:author_email><![CDATA[mtsnegerisusukan@gmail.com]]></wp:author_email>
+		<wp:author_display_name><![CDATA[Humas MTsN Semarang]]></wp:author_display_name>
+		<wp:author_first_name><![CDATA[Humas]]></wp:author_first_name>
+		<wp:author_last_name><![CDATA[MTsN Semarang]]></wp:author_last_name>
+	</wp:author>
+
+	<wp:category>
+		<wp:term_id>1</wp:term_id>
+		<wp:category_nicename><![CDATA[berita-madrasah]]></wp:category_nicename>
+		<wp:category_parent><![CDATA[]]></wp:category_parent>
+		<wp:cat_name><![CDATA[Berita Madrasah]]></wp:cat_name>
+	</wp:category>
+	<wp:category>
+		<wp:term_id>2</wp:term_id>
+		<wp:category_nicename><![CDATA[fasilitas-sarpras]]></wp:category_nicename>
+		<wp:category_parent><![CDATA[]]></wp:category_parent>
+		<wp:cat_name><![CDATA[Fasilitas & Sarpras]]></wp:cat_name>
+	</wp:category>
+	<wp:category>
+		<wp:term_id>3</wp:term_id>
+		<wp:category_nicename><![CDATA[keagamaan-karakter]]></wp:category_nicename>
+		<wp:category_parent><![CDATA[]]></wp:category_parent>
+		<wp:cat_name><![CDATA[Keagamaan & Karakter]]></wp:cat_name>
+	</wp:category>
+	<wp:category>
+		<wp:term_id>4</wp:term_id>
+		<wp:category_nicename><![CDATA[kegiatan]]></wp:category_nicename>
+		<wp:category_parent><![CDATA[]]></wp:category_parent>
+		<wp:cat_name><![CDATA[Kegiatan]]></wp:cat_name>
+	</wp:category>
+	<wp:category>
+		<wp:term_id>5</wp:term_id>
+		<wp:category_nicename><![CDATA[kepramukaan]]></wp:category_nicename>
+		<wp:category_parent><![CDATA[]]></wp:category_parent>
+		<wp:cat_name><![CDATA[Kepramukaan]]></wp:cat_name>
+	</wp:category>
+	<wp:category>
+		<wp:term_id>6</wp:term_id>
+		<wp:category_nicename><![CDATA[kesiswaan]]></wp:category_nicename>
+		<wp:category_parent><![CDATA[]]></wp:category_parent>
+		<wp:cat_name><![CDATA[Kesiswaan]]></wp:cat_name>
+	</wp:category>
+	<wp:category>
+		<wp:term_id>7</wp:term_id>
+		<wp:category_nicename><![CDATA[prestasi]]></wp:category_nicename>
+		<wp:category_parent><![CDATA[]]></wp:category_parent>
+		<wp:cat_name><![CDATA[Prestasi]]></wp:cat_name>
+	</wp:category>
+
+	<wp:tag>
+		<wp:term_id>101</wp:term_id>
+		<wp:tag_slug><![CDATA[anbk]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[ANBK]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>102</wp:term_id>
+		<wp:tag_slug><![CDATA[digitalisasi]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Digitalisasi Madrasah]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>103</wp:term_id>
+		<wp:tag_slug><![CDATA[hari-pramuka]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Hari Pramuka]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>104</wp:term_id>
+		<wp:tag_slug><![CDATA[hut-ri-81]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[HUT RI ke-81]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>105</wp:term_id>
+		<wp:tag_slug><![CDATA[jambore-penggalang]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Jambore Penggalang]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>106</wp:term_id>
+		<wp:tag_slug><![CDATA[kaligrafi]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Kaligrafi]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>107</wp:term_id>
+		<wp:tag_slug><![CDATA[karakter]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Pendidikan Karakter]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>108</wp:term_id>
+		<wp:tag_slug><![CDATA[kejuaraan-nasional]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Kejuaraan Nasional]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>109</wp:term_id>
+		<wp:tag_slug><![CDATA[kemenag-kab-semarang]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Kemenag Kab. Semarang]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>110</wp:term_id>
+		<wp:tag_slug><![CDATA[kepemimpinan]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Kepemimpinan]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>111</wp:term_id>
+		<wp:tag_slug><![CDATA[kko]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Kelas Khusus Olahraga]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>112</wp:term_id>
+		<wp:tag_slug><![CDATA[ksm-sains]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[KSM Sains]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>113</wp:term_id>
+		<wp:tag_slug><![CDATA[lab-komputer]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Laboratorium Komputer]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>114</wp:term_id>
+		<wp:tag_slug><![CDATA[ldk]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[LDK]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>115</wp:term_id>
+		<wp:tag_slug><![CDATA[matamuda]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[MATAMUDA]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>116</wp:term_id>
+		<wp:tag_slug><![CDATA[maulid-nabi]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Maulid Nabi Muhammad SAW]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>117</wp:term_id>
+		<wp:tag_slug><![CDATA[murid-baru]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Murid Baru]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>118</wp:term_id>
+		<wp:tag_slug><![CDATA[nasionalisme]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Nasionalisme]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>119</wp:term_id>
+		<wp:tag_slug><![CDATA[osis]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[OSIS]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>120</wp:term_id>
+		<wp:tag_slug><![CDATA[pramuka]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Pramuka]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>121</wp:term_id>
+		<wp:tag_slug><![CDATA[prestasi]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Semangat Prestasi]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>122</wp:term_id>
+		<wp:tag_slug><![CDATA[prestasi-siswa]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Prestasi Siswa]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>123</wp:term_id>
+		<wp:tag_slug><![CDATA[sarpras]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Sarana Prasarana]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>124</wp:term_id>
+		<wp:tag_slug><![CDATA[yonif-411]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Batalyon 411 Salatiga]]></wp:tag_name>
+	</wp:tag>
+
+	<item>
+		<title><![CDATA[MTsN Semarang Gelar MATAMUDA Tahun Ajaran 2026/2027, Bentuk Karakter dan Semangat Prestasi Murid Baru]]></title>
+		<link>http://localhost/mts/?p=101</link>
+		<pubDate>Mon, 06 Jul 2026 01:30:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/mts/?p=101</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Semarang, MTsN Semarang — Mengawali Tahun Ajaran 2026/2027 pada hari Senin, 6 Juli 2027, MTsN Semarang sukses menyelenggarakan kegiatan Masa Ta’aruf Murid Baru (MATAMUDA). Kegiatan ini menjadi sarana penyambutan peserta didik baru sekaligus upaya membangun karakter, kedisiplinan, wawasan kebangsaan, serta semangat belajar sejak hari pertama memasuki lingkungan madrasah.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Rangkaian kegiatan MATAMUDA diawali dengan upacara bendera yang berlangsung khidmat di halaman utama MTsN Semarang. Upacara diikuti oleh seluruh warga madrasah, mulai dari peserta didik kelas VII, VIII, dan IX, dewan guru, hingga tenaga kependidikan. Suasana nasionalisme, kebersamaan, dan semangat menyambut tahun ajaran baru tampak mewarnai pelaksanaan kegiatan tersebut.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Pembukaan MATAMUDA diawali dengan laporan Ketua Panitia, Noor Farida Yuliani, M.Pd., kemudian secara resmi dibuka oleh Kepala MTsN Semarang, Muh. Muslimin, S.Ag., M.Pd.I. Sebagai simbol harapan dan cita-cita yang tinggi, pembukaan ditandai dengan pelepasan balon udara yang disambut antusias oleh seluruh peserta.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Momen tersebut menjadi simbol semangat baru bagi peserta didik untuk terus berprestasi, membangun karakter positif, dan menggapai masa depan yang gemilang bersama MTsN Semarang.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h3 class="wp-block-heading">Bekali Murid dengan Pendidikan Karakter dan Wawasan Kebangsaan</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Selama pelaksanaan MATAMUDA mulai tanggal 6 s/d 8 Juli 2026, 335 peserta didik baru mendapatkan berbagai materi edukatif yang dirancang untuk membentuk karakter, meningkatkan kedisiplinan, memperluas wawasan, serta menanamkan budaya positif di lingkungan madrasah.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Materi pertama disampaikan oleh Kepala MTsN Semarang, Muh. Muslimin, S.Ag., M.Pd.I mengenai tujuh kebiasaan hebat anak Indonesia. Dalam penyampaiannya, beliau mengajak seluruh peserta didik untuk membiasakan perilaku disiplin, bertanggung jawab, berakhlak mulia, rajin belajar, dan memiliki semangat berprestasi sebagai generasi penerus bangsa.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Selanjutnya, materi tentang tata tertib berlalu lintas dan pencegahan perundungan (bullying) disampaikan oleh Ipda Ari Jadmiko dari Polsek Susukan. Melalui materi tersebut, peserta didik mendapatkan edukasi mengenai pentingnya keselamatan berlalu lintas, etika berkendara, serta upaya menciptakan lingkungan madrasah yang aman, nyaman, dan bebas dari perundungan.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Pengenalan visi dan misi MTsN Semarang disampaikan oleh Agus Santoso, M.Pd. Materi ini memperkenalkan arah pengembangan madrasah, budaya belajar, tata kehidupan di lingkungan madrasah, serta berbagai program unggulan yang menjadi identitas MTsN Semarang.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Untuk menumbuhkan kedisiplinan dan rasa cinta tanah air, personel Koramil Susukan, Serka Muslih dan Serda Bayu, memberikan pelatihan Peraturan Baris-Berbaris (PBB) serta pembinaan karakter kebangsaan. Kegiatan berlangsung dengan penuh semangat dan mendapatkan antusiasme tinggi dari para peserta.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h3 class="wp-block-heading">Tanamkan Pola Hidup Sehat dan Budaya Disiplin</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Selain pendidikan karakter dan wawasan kebangsaan, peserta MATAMUDA juga memperoleh materi tentang kesehatan. Tim Puskesmas Susukan menyampaikan edukasi mengenai pola makan bergizi, pentingnya menjaga kebersihan diri, aktivitas fisik, serta penerapan Perilaku Hidup Bersih dan Sehat (PHBS), baik di lingkungan madrasah maupun di rumah.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Materi mengenai hak dan kewajiban peserta didik disampaikan oleh pengawas madrasah, H. Muta’in, S.Ag., M.Pd.I. Dalam sesi ini, peserta didik diberikan pemahaman tentang pentingnya menaati tata tertib, membangun budaya disiplin, menjaga etika dalam berperilaku, serta mempertahankan nama baik madrasah.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Sementara itu, Lies Farida, S.Pd., selaku guru bimbingan dan konseling, menyampaikan materi tentang profil belajar siswa. Materi tersebut bertujuan memotivasi peserta didik agar mampu mengenali potensi diri, mengembangkan kemampuan, serta menumbuhkan karakter sebagai pembelajar sepanjang hayat.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Peserta didik juga mendapatkan pembekalan mengenai rencana, tujuan, dan materi pembelajaran yang disampaikan oleh Ahmad Hasan Mafatih, S.H.I., selaku unsur bidang kurikulum MTsN Semarang. Materi ini memberikan gambaran tentang proses pembelajaran yang memadukan pendidikan umum dengan nilai-nilai keislaman dan penguatan karakter.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h3 class="wp-block-heading">Tutup MATAMUDA dengan Semangat Baru</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Setelah seluruh rangkaian kegiatan dan penyampaian materi selesai dilaksanakan dalam 3 hari, MATAMUDA Tahun Ajaran 2026/2027 pada hari Rabu , 8 Juli 2026 secara resmi ditutup oleh Kepala MTsN Semarang, Muh. Muslimin, S.Ag., M.Pd.I.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Melalui kegiatan ini, MTsN Semarang menegaskan komitmennya untuk membentuk peserta didik yang religius, disiplin, berkarakter, cinta tanah air, sehat jasmani dan rohani, serta siap meraih prestasi di berbagai bidang.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Penyelenggaraan MATAMUDA diharapkan menjadi langkah awal bagi murid baru untuk beradaptasi dengan lingkungan madrasah, membangun kebersamaan, dan menumbuhkan semangat belajar yang positif.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Selamat datang kepada seluruh keluarga baru MTsN Semarang. Mari bersama-sama mewujudkan madrasah yang religius, berprestasi, dan berwawasan global.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Semarang, MTsN Semarang — Mengawali Tahun Ajaran 2026/2027 pada hari Senin, 6 Juli 2027, MTsN Semarang sukses menyelenggarakan kegiatan Masa Ta’aruf Murid Baru (MATAMUDA). Kegiatan ini menjadi sarana penyambutan peserta didik baru sekaligus upaya membangun karakter, kedisiplinan, wawasan kebangsaan, serta semangat belajar sejak hari pertama memasuki lingkungan madrasah.]]></excerpt:encoded>
+		<wp:post_id>101</wp:post_id>
+		<wp:post_date><![CDATA[2026-07-06 08:30:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-07-06 01:30:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-07-06 08:30:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-07-06 01:30:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[mtsn-semarang-gelar-matamuda-tahun-ajaran-2026-2027]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="berita-madrasah"><![CDATA[Berita Madrasah]]></category>
+		<category domain="category" nicename="kesiswaan"><![CDATA[Kesiswaan]]></category>
+		<category domain="post_tag" nicename="matamuda"><![CDATA[MATAMUDA]]></category>
+		<category domain="post_tag" nicename="karakter"><![CDATA[Pendidikan Karakter]]></category>
+		<category domain="post_tag" nicename="murid-baru"><![CDATA[Murid Baru]]></category>
+		<category domain="post_tag" nicename="prestasi"><![CDATA[Semangat Prestasi]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title><![CDATA[Jambore Pramuka Penggalang Tingkat Kabupaten Semarang Tahun 2026 Digelar di MTsN Semarang]]></title>
+		<link>http://localhost/mts/?p=102</link>
+		<pubDate>Fri, 05 Jun 2026 03:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/mts/?p=102</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Kabupaten Semarang – Kegiatan Jambore Pramuka Penggalang tingkat MTs Kabupaten Semarang Tahun 2026 berlangsung meriah di MTsN Semarang. Kegiatan yang dilaksanakan selama tiga hari, pada 3–5 Juni 2026, ini diikuti oleh 445 peserta yang berasal dari 23 madrasah tsanawiyah (MTs) se-Kabupaten Semarang.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Jambore yang diselenggarakan pada masa jeda kegiatan pembelajaran bagi siswa kelas VII dan VIII ini menjadi ajang untuk mengembangkan keterampilan kepramukaan, kreativitas, kedisiplinan, kemandirian, serta semangat persaudaraan di kalangan Pramuka Penggalang.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Sebanyak 445 peserta mengikuti kegiatan dengan penuh antusias. Mereka terdiri atas 14 regu putra dan 23 regu putri, yang berkompetisi sekaligus belajar melalui berbagai kegiatan dan perlombaan kepramukaan.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h3 class="wp-block-heading">Mengembangkan Keterampilan dan Semangat Kebersamaan</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Selama tiga hari pelaksanaan, para peserta mengikuti berbagai perlombaan yang menguji kemampuan, ketelitian, kreativitas, kekompakan, dan kerja sama tim. Sejumlah cabang kegiatan yang dipertandingkan meliputi pionering, keterampilan tali-temali, pentas seni, serta berbagai lomba kepramukaan lainnya.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Setiap regu berusaha menunjukkan kemampuan terbaiknya dengan menjunjung tinggi nilai sportivitas dan semangat kebersamaan. Melalui kegiatan ini, peserta diharapkan tidak hanya memperoleh pengalaman berkompetisi, tetapi juga mampu mengembangkan karakter positif yang menjadi landasan dalam kehidupan sehari-hari.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Pelaksanaan kegiatan didukung oleh kerja sama panitia, pembina Pramuka, serta dewan juri yang telah mempersiapkan seluruh rangkaian acara agar berjalan tertib, lancar, dan sesuai dengan tujuan yang diharapkan.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h3 class="wp-block-heading">Pesan Motivasi bagi Pramuka Penggalang</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Kegiatan dibuka langsung oleh Kepala Kantor Kementerian Agama Kab. Semarang H. Ta’yinul Biri Bagus Nugroho, S.Sos, M.Pd.I. Dalam sambutannya, perwakilan pimpinan kegiatan menyampaikan pesan motivasi kepada seluruh peserta agar terus berusaha menjadi anggota Pramuka yang unggul, berkarakter, dan memiliki semangat untuk meraih prestasi.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Dalam amanatnya H. Ta’yinul Biri Bagus Nugroho, S.Sos, M.Pd.I berpesan, “Adik-adik anggota Pramuka harus unggul dalam berbagai hal keterampilan, karena kalian adalah tunas bangsa dan calon pemimpin masa depan,” Pesan tersebut menegaskan bahwa Gerakan Pramuka memiliki peran penting dalam membentuk generasi muda yang disiplin, bertanggung jawab, mandiri, serta memiliki kepedulian terhadap sesama dan lingkungan.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Dalam kesempatan yang sama, kegiatan Jambore Pramuka Penggalang tingkat MTs Kabupaten Semarang Tahun 2026 secara resmi dibuka oleh pimpinan kegiatan melalui prosesi lencana simbolis yang diikuti oleh seluruh peserta dan undangan.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h3 class="wp-block-heading">Menjadi Momentum Pembentukan Karakter</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Panitia kegiatan Jambore Pramuka Muh. Muslimin S.Ag, M.Pd.I menyadari bahwa penyelenggaraan kegiatan berskala kabupaten memerlukan persiapan dan koordinasi yang matang. Oleh karena itu, dukungan, pengertian, serta kerja sama dari seluruh peserta dan pembina menjadi bagian penting dalam menyukseskan kegiatan ini.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Melalui Jambore Pramuka Penggalang tingkat MTs Kabupaten Semarang Tahun 2026, diharapkan lahir generasi Pramuka yang beriman dan bertakwa kepada Tuhan Yang Maha Esa, berkarakter, ramah, mandiri, peduli, serta siap menjadi penerus perjuangan bangsa yang berintegritas.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Kegiatan ini juga diharapkan menjadi pengalaman berharga bagi seluruh peserta untuk mempererat persaudaraan antarmadrasah, meningkatkan keterampilan kepramukaan, dan menumbuhkan semangat berprestasi.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Dengan semangat “Satyaku Kudarmakan, Darmaku Kubaktikan”, Jambore Pramuka Penggalang diharapkan mampu memperkuat peran madrasah dalam membina generasi muda yang tangguh, berakhlak mulia, dan siap menghadapi tantangan masa depan.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Kabupaten Semarang – Kegiatan Jambore Pramuka Penggalang tingkat MTs Kabupaten Semarang Tahun 2026 berlangsung meriah di MTsN Semarang. Kegiatan yang dilaksanakan selama tiga hari, pada 3–5 Juni 2026, ini diikuti oleh 445 peserta yang berasal dari 23 madrasah tsanawiyah (MTs) se-Kabupaten Semarang.]]></excerpt:encoded>
+		<wp:post_id>102</wp:post_id>
+		<wp:post_date><![CDATA[2026-06-05 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-06-05 03:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-06-05 10:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-06-05 03:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[jambore-pramuka-penggalang-tingkat-kabupaten-semarang-2026-mtsn-semarang]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="berita-madrasah"><![CDATA[Berita Madrasah]]></category>
+		<category domain="category" nicename="kepramukaan"><![CDATA[Kepramukaan]]></category>
+		<category domain="category" nicename="kegiatan"><![CDATA[Kegiatan]]></category>
+		<category domain="post_tag" nicename="pramuka"><![CDATA[Pramuka]]></category>
+		<category domain="post_tag" nicename="jambore-penggalang"><![CDATA[Jambore Penggalang]]></category>
+		<category domain="post_tag" nicename="kemenag-kab-semarang"><![CDATA[Kemenag Kab. Semarang]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title><![CDATA[Bentuk Karakter Pemimpin yang Disiplin dan Tangguh, MTsN Semarang Gelar LDK di Batalyon 411 Salatiga]]></title>
+		<link>http://localhost/mts/?p=103</link>
+		<pubDate>Wed, 16 Sep 2026 07:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/mts/?p=103</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Salatiga – MTsN Semarang menyelenggarakan kegiatan Latihan Dasar Kepemimpinan (LDK) pada Selasa–Rabu, 15–16 September 2026, bertempat di Batalyon 411 Salatiga. Kegiatan ini diikuti oleh 235 peserta didik kelas VII dan VIII yang merupakan peserta pilihan dari berbagai kegiatan ekstrakurikuler di MTsN Semarang. Kegiatan dibuka langsung oleh kepala MTsN Semarang, Muh Muslimin, S.Ag, M.Pd.I di Lapanga latihan TNI Batalyon 411 Salatiga.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Kegiatan LDK ini bertujuan untuk membentuk karakter peserta didik yang disiplin, mandiri, bertanggung jawab, memiliki jiwa kepemimpinan, serta mampu bekerja sama dalam sebuah tim. Melalui kegiatan pelatihan yang terstruktur, para peserta mendapatkan pengalaman belajar secara langsung dalam membangun mental, meningkatkan kedisiplinan, dan mengembangkan kemampuan berorganisasi.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Selama dua hari pelaksanaan, kegiatan dipandu oleh para pelatih dari TNI Batalyon 411 Salatiga. Berbagai materi dan aktivitas diberikan untuk melatih ketahanan mental, kedisiplinan, konsentrasi, serta kekompakan antarpeserta.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Rangkaian kegiatan meliputi latihan Peraturan Baris-Berbaris (PBB), rappelling atau latihan turun menggunakan tali dengan prosedur keselamatan yang sesuai, serta berbagai permainan kelompok untuk memperkuat kerja sama dan komunikasi. Peserta juga mengikuti permainan egrang dan aktivitas merangkak yang dirancang untuk melatih keseimbangan, ketangkasan, keberanian, dan semangat pantang menyerah.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Suasana kebersamaan semakin terasa pada malam hari melalui kegiatan api unggun dan pentas seni. Dalam kegiatan tersebut, peserta memperoleh kesempatan untuk mengekspresikan kreativitas, menumbuhkan rasa percaya diri, serta mempererat persahabatan antarsesama peserta. Momen ini juga menjadi sarana pembelajaran bahwa kepemimpinan tidak hanya berkaitan dengan kemampuan memberikan arahan, tetapi juga kesediaan untuk menghargai orang lain dan membangun kebersamaan.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Melalui pendampingan para pelatih TNI Batalyon 411 Salatiga, peserta diharapkan mampu memahami pentingnya disiplin, kepatuhan terhadap aturan, tanggung jawab, dan semangat gotong royong. Nilai-nilai tersebut menjadi bekal penting bagi peserta didik untuk menjalankan peran sebagai pemimpin, baik dalam kegiatan ekstrakurikuler, organisasi siswa, maupun kehidupan sehari-hari di lingkungan madrasah.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Pelaksanaan LDK ini merupakan salah satu upaya MTsN Semarang dalam mendukung pembentukan karakter peserta didik yang berintegritas, berjiwa nasionalis, mandiri, dan mampu beradaptasi dengan berbagai tantangan. Pendidikan kepemimpinan melalui pengalaman langsung diharapkan dapat menumbuhkan generasi muda yang tidak hanya unggul dalam bidang akademik, tetapi juga memiliki karakter kuat dan kepedulian sosial.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Dengan terselenggaranya kegiatan ini, MTsN Semarang berharap para peserta dapat menerapkan pengalaman dan nilai-nilai yang diperoleh selama pelatihan dalam kehidupan sehari-hari. Semangat disiplin, kerja sama, tanggung jawab, dan pantang menyerah diharapkan terus tumbuh sehingga peserta didik mampu menjadi teladan bagi teman-temannya serta berkontribusi positif bagi kemajuan madrasah.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>MTsN Semarang — Membentuk Generasi Berkarakter, Disiplin, dan Berjiwa Pemimpin.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Salatiga – MTsN Semarang menyelenggarakan kegiatan Latihan Dasar Kepemimpinan (LDK) pada Selasa–Rabu, 15–16 September 2026, bertempat di Batalyon 411 Salatiga. Kegiatan ini diikuti oleh 235 peserta didik kelas VII dan VIII yang merupakan peserta pilihan dari berbagai kegiatan ekstrakurikuler di MTsN Semarang. Kegiatan dibuka langsung oleh kepala MTsN Semarang, Muh Muslimin, S.Ag, M.Pd.I di Lapanga latihan TNI Batalyon 411 Salatiga.]]></excerpt:encoded>
+		<wp:post_id>103</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-16 14:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-16 07:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-16 14:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-16 07:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[bentuk-karakter-pemimpin-disiplin-tangguh-ldk-batalyon-411-salatiga]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="berita-madrasah"><![CDATA[Berita Madrasah]]></category>
+		<category domain="category" nicename="kesiswaan"><![CDATA[Kesiswaan]]></category>
+		<category domain="category" nicename="kegiatan"><![CDATA[Kegiatan]]></category>
+		<category domain="post_tag" nicename="ldk"><![CDATA[LDK]]></category>
+		<category domain="post_tag" nicename="kepemimpinan"><![CDATA[Kepemimpinan]]></category>
+		<category domain="post_tag" nicename="osis"><![CDATA[OSIS]]></category>
+		<category domain="post_tag" nicename="yonif-411"><![CDATA[Batalyon 411 Salatiga]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title><![CDATA[MTsN Semarang Semarakkan Bulan Agustus 2026 dengan Semangat Kepramukaan, Nasionalisme, dan Keteladanan Rasulullah SAW]]></title>
+		<link>http://localhost/mts/?p=104</link>
+		<pubDate>Tue, 25 Aug 2026 02:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/mts/?p=104</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Kabupaten Semarang — Semangat kepramukaan, nasionalisme, kreativitas, dan nilai-nilai keteladanan Rasulullah SAW mewarnai rangkaian kegiatan MTsN Semarang selama bulan Agustus 2026. Berbagai kegiatan diselenggarakan sebagai upaya memperkuat karakter peserta didik, menumbuhkan rasa cinta tanah air, serta meningkatkan penghayatan terhadap nilai-nilai keislaman.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Tiga momentum penting menjadi bagian dari rangkaian kegiatan tersebut, yakni peringatan Hari Pramuka ke-65, Hari Ulang Tahun (HUT) ke-81 Kemerdekaan Republik Indonesia, serta peringatan Maulid Nabi Muhammad SAW yang dalam naskah kegiatan ini disebut sebagai peringatan ke-2448 Hijriah.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Peringatan Hari Pramuka ke-65: Membentuk Generasi yang Disiplin dan Mandiri</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Pada Jumat, 14 Agustus 2026, MTsN Semarang menggelar upacara peringatan Hari Pramuka ke-65. Kegiatan tersebut diikuti oleh seluruh peserta didik, guru, dan karyawan MTsN Semarang, serta dihadiri oleh Ranting Pramuka Kecamatan Susukan, Kabupaten Semarang. Sebagai Pembina upacara hari pramuka adalah Camat Susukan Kab. Semarang, Rinta Bramundita.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Upacara berlangsung sebagai momentum untuk meneguhkan kembali semangat kepramukaan di lingkungan madrasah. Melalui kegiatan ini, peserta didik diajak untuk mengembangkan kedisiplinan, kemandirian, gotong royong, kepedulian sosial, serta sikap tanggung jawab dalam kehidupan sehari-hari.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Nilai-nilai yang terkandung dalam Dasa Darma Pramuka diharapkan tidak hanya menjadi pedoman dalam kegiatan kepramukaan, tetapi juga diterapkan dalam kehidupan di madrasah, keluarga, dan masyarakat.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Peringatan ini sekaligus menjadi pengingat bahwa generasi muda perlu dipersiapkan menjadi pribadi yang tangguh, berkarakter, mampu bekerja sama, serta siap berkontribusi positif bagi bangsa dan negara.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h3 class="wp-block-heading">Menyambut HUT ke-81 Kemerdekaan RI dengan Semangat Berkarya</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Semangat nasionalisme juga menjadi bagian penting dalam rangkaian peringatan HUT ke-81 Kemerdekaan Republik Indonesia. Momentum kemerdekaan dimanfaatkan untuk menanamkan kesadaran kepada peserta didik bahwa kemerdekaan bukan sekadar peristiwa sejarah, melainkan amanah yang harus dijaga dan diisi dengan tindakan nyata.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Selaku Pembina upacara dalam pesannya, Agus Santoso, M.Pd., menekankan pentingnya mewujudkan Indonesia yang berdaulat, adil, dan makmur. Generasi muda diharapkan mampu melanjutkan perjuangan para pahlawan melalui pendidikan, penguatan karakter, serta kontribusi nyata bagi kemajuan bangsa.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Peserta didik juga diajak untuk belajar dengan sungguh-sungguh, membiasakan sikap disiplin dan bertanggung jawab, menghargai keberagaman, serta mengamalkan nilai-nilai Pancasila dalam kehidupan sehari-hari.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Di tengah perkembangan zaman dan kemajuan teknologi, para siswa diharapkan mampu memanfaatkan ilmu pengetahuan dan teknologi secara bijak, kreatif, dan produktif. Dengan demikian, semangat kemerdekaan dapat diwujudkan melalui prestasi, inovasi, serta berbagai perbuatan yang bermanfaat bagi masyarakat.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h3 class="wp-block-heading">Semarak Lomba Antarkelas: Menumbuhkan Kreativitas dan Kebersamaan</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Rangkaian peringatan kemerdekaan di MTsN Semarang tidak hanya diisi dengan kegiatan upacara. Sebelumnya, madrasah juga menyelenggarakan berbagai perlombaan antarkelas yang melibatkan peserta didik kelas VII, VIII, dan IX.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Di antara kegiatan yang diselenggarakan adalah lomba pentas seni dan lomba kebersihan kelas. Kedua kegiatan tersebut menjadi sarana bagi peserta didik untuk mengembangkan potensi, menyalurkan kreativitas, serta membangun semangat kebersamaan.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Melalui lomba pentas seni, siswa memperoleh kesempatan untuk menampilkan bakat dan kemampuan mereka dalam suasana yang positif dan menyenangkan. Sementara itu, lomba kebersihan kelas mendorong tumbuhnya kesadaran tentang pentingnya menjaga kebersihan, kerapian, kesehatan, dan kenyamanan lingkungan belajar.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Kegiatan antarkelas ini juga mengajarkan nilai sportivitas, kerja sama, tanggung jawab, serta sikap saling menghargai. Semangat kompetisi diharapkan dapat menjadi motivasi bagi peserta didik untuk terus berkembang tanpa mengesampingkan persaudaraan dan kebersamaan.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h3 class="wp-block-heading">Peringatan Maulid Nabi Muhammad SAW: Meneladani Akhlak Mulia Rasulullah</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Selain menumbuhkan semangat nasionalisme, MTsN Semarang juga menempatkan nilai-nilai keislaman sebagai bagian penting dalam pembentukan karakter peserta didik. Hal tersebut tercermin dalam agenda peringatan Maulid Nabi Muhammad SAW yang menjadi salah satu momentum keagamaan dalam rangkaian kegiatan madrasah.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Dalam Sambutanya, Muh Muslimin, S.Ag, M.Pd.I  menegaskan bahwa Peringatan Maulid Nabi menjadi kesempatan untuk mengenang kelahiran Rasulullah SAW sekaligus memperdalam kecintaan kepada beliau melalui upaya meneladani akhlak dan perilakunya.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Keteladanan Rasulullah SAW, seperti kejujuran, amanah, kesabaran, kasih sayang, kepedulian terhadap sesama, dan sikap menghargai orang lain, merupakan nilai-nilai penting yang relevan untuk diterapkan dalam kehidupan peserta didik.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Dalam lingkungan madrasah, nilai-nilai tersebut dapat diwujudkan melalui perilaku santun kepada guru dan orang tua, menghormati sesama teman, menjaga persaudaraan, membantu orang yang membutuhkan, serta menghindari tindakan yang merugikan orang lain.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Melalui peringatan Maulid Nabi, diharapkan peserta didik tidak hanya mengenal sejarah kehidupan Rasulullah SAW, tetapi juga mampu menjadikan akhlak beliau sebagai pedoman dalam bersikap dan bertindak.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h3 class="wp-block-heading">Menguatkan Madrasah yang Berkarakter dan Berprestasi</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Rangkaian kegiatan sepanjang Agustus 2026 menunjukkan bahwa pendidikan di MTsN Semarang tidak hanya berorientasi pada pencapaian akademik, tetapi juga pada pembentukan karakter, pengembangan kreativitas, penguatan nasionalisme, dan penanaman nilai-nilai religius.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Peringatan Hari Pramuka mengajarkan kedisiplinan dan kemandirian. Peringatan kemerdekaan menumbuhkan rasa cinta tanah air dan semangat berkarya. Sementara itu, peringatan Maulid Nabi menguatkan komitmen untuk meneladani akhlak Rasulullah SAW.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Ketiga momentum tersebut menjadi pengingat bahwa generasi muda perlu tumbuh sebagai pribadi yang berilmu, berakhlak mulia, cinta tanah air, peduli terhadap sesama, serta mampu menghadapi tantangan perkembangan zaman.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Melalui berbagai kegiatan tersebut, MTsN Semarang terus berupaya menciptakan lingkungan pendidikan yang mendukung tumbuhnya peserta didik yang berkarakter, kreatif, disiplin, religius, dan berprestasi.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Semangat kepramukaan, nasionalisme, dan keteladanan Rasulullah SAW diharapkan tidak berhenti pada kegiatan seremonial, tetapi terus hidup dalam perilaku sehari-hari seluruh warga madrasah, “MTsN Semarang — Berkarakter, Berprestasi, dan Berakhlak Mulia”.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Kabupaten Semarang — Semangat kepramukaan, nasionalisme, kreativitas, dan nilai-nilai keteladanan Rasulullah SAW mewarnai rangkaian kegiatan MTsN Semarang selama bulan Agustus 2026. Berbagai kegiatan diselenggarakan sebagai upaya memperkuat karakter peserta didik, menumbuhkan rasa cinta tanah air, serta meningkatkan penghayatan terhadap nilai-nilai keislaman.]]></excerpt:encoded>
+		<wp:post_id>104</wp:post_id>
+		<wp:post_date><![CDATA[2026-08-25 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-08-25 02:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-08-25 09:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-08-25 02:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[mtsn-semarang-semarakkan-agustus-2026-kepramukaan-nasionalisme-maulid-nabi]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="berita-madrasah"><![CDATA[Berita Madrasah]]></category>
+		<category domain="category" nicename="kegiatan"><![CDATA[Kegiatan]]></category>
+		<category domain="category" nicename="keagamaan-karakter"><![CDATA[Keagamaan & Karakter]]></category>
+		<category domain="post_tag" nicename="hari-pramuka"><![CDATA[Hari Pramuka]]></category>
+		<category domain="post_tag" nicename="hut-ri-81"><![CDATA[HUT RI ke-81]]></category>
+		<category domain="post_tag" nicename="maulid-nabi"><![CDATA[Maulid Nabi Muhammad SAW]]></category>
+		<category domain="post_tag" nicename="nasionalisme"><![CDATA[Nasionalisme]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title><![CDATA[Rekapitulasi Prestasi Gemilang Santri MTsN Semarang Tahun 2026: Catatkan 163 Gelar Kejuaraan dan 33 Prestasi Nasional]]></title>
+		<link>http://localhost/mts/?p=105</link>
+		<pubDate>Thu, 15 Oct 2026 04:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/mts/?p=105</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p><strong>Susukan, Kabupaten Semarang</strong> — Tahun 2026 menjadi tahun penuh torehan prestasi gemilang bagi keluarga besar Madrasah Tsanawiyah Negeri (MTsN) Semarang. Berdasarkan rekapitulasi data resmi kesiswaan madrasah, para santri berhasil membukukan total <strong>163 catatan kejuaraan</strong> yang dipersembahkan oleh 98 siswa berprestasi pada berbagai ajang kompetisi di tingkat kecamatan, kabupaten, karesidenan, provinsi, hingga tingkat nasional.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h3 class="wp-block-heading">Dominasi Prestasi di Berbagai Bidang Kompetisi</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Torehan 163 medali dan trofi juara tersebut mencakup spektrum bidang yang sangat luas, membuktikan keberhasilan pembinaan talenta minat dan bakat secara berimbang di MTsN Semarang:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul>
+  <li><strong>Bidang Keagamaan &amp; Seni Islami:</strong> Juara 1 Kaligrafi Putri tingkat Kabupaten di SMA IT Al Hikmah Karanggede (diraih oleh ananda Sahila Alma Alfaza, kelas 7C), Juara MTQ, Tahfidzul Qur'an tartil bersanad, serta Hadroh/Rebana Klasik.</li>
+  <li><strong>Bidang Sains &amp; Akademik Terpadu:</strong> Perolehan medali pada Kompetisi Sains Madrasah (KSM) bidang Matematika Terintegrasi, IPA Terintegrasi, serta Olimpiade Bahasa Inggris dan Arab.</li>
+  <li><strong>Bidang Olahraga &amp; Atletik (Kelas Khusus Olahraga/KKO):</strong> Juara turnamen Bola Voli Pelajar se-Kabupaten Semarang, Sepak Takraw, Pencak Silat Tapak Suci &amp; Pagar Nusa, Futsal, serta Lari Cepat/Sprint Atletik.</li>
+  <li><strong>Bidang Kepramukaan &amp; PMR:</strong> Juara Lomba Tingkat (LT) Penggalang dan Juara Umum Lomba Keterampilan Palang Merah Remaja Madya.</li>
+</ul>
+<!-- /wp:list -->
+
+<!-- wp:heading -->
+<h3 class="wp-block-heading">Apresiasi dan Komitmen Pembinaan Berkelanjutan</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Kepala MTsN Semarang, Muh. Muslimin, S.Ag., M.Pd.I., didampingi Waka Kesiswaan Noor Farida Yuliani, M.Pd., menyampaikan rasa syukur dan apresiasi setinggi-tingginya kepada para santri, guru pembimbing, pelatih ekstrakurikuler, serta wali murid yang senantiasa memberikan dukungan moral maupun spiritual.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:quote -->
+<blockquote class="wp-block-quote"><p>“Prestasi ini adalah buah dari kerja keras, keistiqomahan berlatih, dan doa bersama. Kami berkomitmen untuk terus memfasilitasi setiap potensi yang dimiliki para santri agar terus mekar dan menginspirasi,” tegas Muh. Muslimin.</p></blockquote>
+<!-- /wp:quote -->
+
+<!-- wp:paragraph -->
+<p>Dengan capaian 33 kejuaraan di level nasional ini, MTsN Semarang semakin mengukuhkan posisinya sebagai madrasah rujukan berwawasan riset, berkarakter Qur'ani, dan unggul dalam prestasi.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Sepanjang tahun 2026, santri MTsN Semarang berhasil menorehkan 163 catatan kejuaraan dari tingkat kabupaten hingga 33 gelar nasional di bidang kaligrafi, KSM sains, olahraga KKO, dan tahfidz.]]></excerpt:encoded>
+		<wp:post_id>105</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-15 11:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-15 04:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-10-15 11:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-10-15 04:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[rekapitulasi-prestasi-gemilang-santri-mtsn-semarang-tahun-2026]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="berita-madrasah"><![CDATA[Berita Madrasah]]></category>
+		<category domain="category" nicename="prestasi"><![CDATA[Prestasi]]></category>
+		<category domain="post_tag" nicename="prestasi-siswa"><![CDATA[Prestasi Siswa]]></category>
+		<category domain="post_tag" nicename="kejuaraan-nasional"><![CDATA[Kejuaraan Nasional]]></category>
+		<category domain="post_tag" nicename="kaligrafi"><![CDATA[Kaligrafi]]></category>
+		<category domain="post_tag" nicename="ksm-sains"><![CDATA[KSM Sains]]></category>
+		<category domain="post_tag" nicename="kko"><![CDATA[Kelas Khusus Olahraga]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title><![CDATA[Tingkatkan Kesiapan Asesmen Digital, MTsN Semarang Optimalkan Fasilitas Laboratorium Komputer Modern]]></title>
+		<link>http://localhost/mts/?p=106</link>
+		<pubDate>Wed, 02 Sep 2026 01:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/mts/?p=106</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p><strong>Susukan, Kabupaten Semarang</strong> — Sejalan dengan visi madrasah digital dan modern terpadu, MTsN Semarang terus melakukan optimalisasi sarana dan prasarana penunjang pembelajaran berbasis teknologi informasi. Salah satu fokus utama adalah peremajaan dan penguatan fasilitas di Laboratorium Komputer Madrasah.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h3 class="wp-block-heading">Fasilitas Modern untuk Asesmen dan Pembelajaran Digital</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Laboratorium komputer MTsN Semarang kini dilengkapi dengan puluhan unit komputer PC terkini berspesifikasi tinggi, sistem pendingin ruangan (AC) yang representatif, jaringan kabel gigabit LAN terstruktur, serta koneksi internet berkecepatan tinggi dengan cadangan daya Uninterruptible Power Supply (UPS).</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Fasilitas ini disiapkan secara optimal guna mendukung berbagai agenda akademik strategis madrasah, antara lain:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul>
+  <li>Pelaksanaan Asesmen Nasional Berbasis Komputer (ANBK) Kemendikbudristek dan Asesmen Kompetensi Madrasah Indonesia (AKMI) Kemenag RI.</li>
+  <li>Ujian Asesmen Sumatif Akhir Jenjang (ASAJ) dan penilaian harian digital berbasis Computer Based Test (CBT).</li>
+  <li>Praktik mata pelajaran Informatika, Coding Dasar, dan literasi digital santri.</li>
+  <li>Pembinaan intensif tim Olimpiade Sains Nasional (OSN) dan Kompetisi Sains Madrasah (KSM) bidang Komputer/Informatika.</li>
+</ul>
+<!-- /wp:list -->
+
+<!-- wp:heading -->
+<h3 class="wp-block-heading">Mendukung Program Unggulan dan Literasi Santri</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Waka Sarana Prasarana dan Waka Kurikulum menegaskan bahwa keberadaan laboratorium komputer yang prima merupakan fondasi krusial bagi kelas unggulan riset, boarding sains, dan pembiasaan literasi teknologi bagi seluruh santri kelas VII hingga IX.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Dengan sarana yang lengkap dan terawat, MTsN Semarang siap mengantarkan para murid menjadi generasi muslim yang adaptif terhadap transformasi digital tanpa melupakan adab dan nilai-nilai Islam.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[MTsN Semarang mengoptimalkan sarana laboratorium komputer modern dan jaringan internet gigabit untuk menjamin kesiapan sukses ANBK, CBT digital, dan pembinaan riset santri.]]></excerpt:encoded>
+		<wp:post_id>106</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-02 08:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-02 01:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-02 08:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-02 01:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[tingkatkan-kesiapan-asesmen-digital-mtsn-semarang-optimalkan-laboratorium-komputer]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="berita-madrasah"><![CDATA[Berita Madrasah]]></category>
+		<category domain="category" nicename="fasilitas-sarpras"><![CDATA[Fasilitas & Sarpras]]></category>
+		<category domain="post_tag" nicename="lab-komputer"><![CDATA[Laboratorium Komputer]]></category>
+		<category domain="post_tag" nicename="anbk"><![CDATA[ANBK]]></category>
+		<category domain="post_tag" nicename="digitalisasi"><![CDATA[Digitalisasi Madrasah]]></category>
+		<category domain="post_tag" nicename="sarpras"><![CDATA[Sarana Prasarana]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+</channel>
+</rss>

@@ -11,10 +11,15 @@ Version: 0.1
 
 /* Global */
 
-a:focus {
-    outline: unset;
-}
+a:focus {outline: unset;}
+.section {padding: 50px 0;}
+#comments {display:none;}
 
+
+/* Elementor */
+.elementor-widget-text-editor h3, 
+.elementor-icon-box-title
+{margin: 0px 0 10px;}
 
 /* Navbar */
 
@@ -22,10 +27,8 @@ a:focus {
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
     border-bottom: 1px solid #e2e8f0;
 }
-
-.navbar #menu-primary-menu > li.active > a {
-    color: var(--hestia-primary-color, #9c27b0);;
-}
+.navbar #menu-primary-menu > li.active > a { color: var(--hestia-primary-color, #9c27b0);}
+.navbar #menu-primary-menu > li.btn-primary.active > a { color: #ffffff;}
 
 .navbar #menu-primary-menu a {
     font-size: 13px;
@@ -33,3 +36,18 @@ a:focus {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+
+/* Blog */
+
+body.blog .card-blog {margin-top:0px;}
+body.blog .card .card-image,
+.section.related-posts .card-image
+{box-shadow: 0 4px 17px -12px rgba(0, 0, 0, 0.1), 0 4px 25px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);}
+
+
+/* Single Post */
+
+.section.related-posts h2 {margin-top:0px;}
+.related-posts .hestia-title {margin-bottom: 30px;}
+.section.related-posts .card.card-blog {margin-bottom:0px}

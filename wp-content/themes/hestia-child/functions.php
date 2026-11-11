@@ -63,3 +63,10 @@ require_once get_stylesheet_directory() . '/inc/rankmath-breadcrumbs.php';
 
 # Custom Archive Page Template & ACF Post Type Selector
 require_once get_stylesheet_directory() . '/inc/archive-custom-template.php';
+
+# Register Custom Post Type Prestasi & Taxonomy
+require_once get_stylesheet_directory() . '/inc/post-type-prestasi.php';
+
+# Single Post Classic Layout & Featured Image
+require_once get_stylesheet_directory() . '/inc/single-post-classic-layout.php';
+

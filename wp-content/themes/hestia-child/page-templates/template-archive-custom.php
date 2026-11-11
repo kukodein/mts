@@ -89,7 +89,7 @@ do_action( 'hestia_before_single_page_wrapper' );
 													<?php the_post_thumbnail( 'medium_large', array( 'alt' => the_title_attribute( array( 'echo' => false ) ) ) ); ?>
 												<?php else : ?>
 													<div class="custom-card-placeholder">
-														<i class="fa fa-picture-o" aria-hidden="true"></i>
+														<i class="fa <?php echo ( 'prestasi' === $selected_post_type ) ? 'fa-trophy' : 'fa-picture-o'; ?>" aria-hidden="true"></i>
 													</div>
 												<?php endif; ?>
 											</a>
@@ -160,9 +160,9 @@ do_action( 'hestia_before_single_page_wrapper' );
 
 					<?php else : ?>
 						<div class="custom-archive-empty text-center">
-							<i class="fa fa-folder-open-o" aria-hidden="true"></i>
-							<h4><?php esc_html_e( 'Belum Ada Konten', 'hestia-child' ); ?></h4>
-							<p class="text-muted"><?php esc_html_e( 'Belum ada postingan yang dipublikasikan untuk kategori/post type ini.', 'hestia-child' ); ?></p>
+							<i class="fa <?php echo ( 'prestasi' === $selected_post_type ) ? 'fa-trophy' : 'fa-folder-open-o'; ?>" aria-hidden="true"></i>
+							<h4><?php echo ( 'prestasi' === $selected_post_type ) ? esc_html__( 'Belum Ada Prestasi', 'hestia-child' ) : esc_html__( 'Belum Ada Konten', 'hestia-child' ); ?></h4>
+							<p class="text-muted"><?php echo ( 'prestasi' === $selected_post_type ) ? esc_html__( 'Belum ada data prestasi yang dipublikasikan.', 'hestia-child' ) : esc_html__( 'Belum ada postingan yang dipublikasikan untuk kategori/post type ini.', 'hestia-child' ); ?></p>
 						</div>
 					<?php endif; ?>
 				</div>

@@ -357,3 +357,6 @@ body.blog .card .card-image,
     font-weight: 600;
 }
 
+body.single.single-post .main {
+    margin-top: 0px !important;
+}

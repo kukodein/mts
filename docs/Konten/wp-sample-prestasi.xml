@@ -1,0 +1,1102 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- generator="WordPress/6.4" created="2026-11-11 15:40" -->
+<rss version="2.0"
+	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:wp="http://wordpress.org/export/1.2/"
+>
+
+<channel>
+	<title>MTs Negeri Semarang</title>
+	<link>http://localhost/mts</link>
+	<description>Madrasah Tsanawiyah Negeri Semarang - Berkarakter, Berprestasi, dan Berakhlak Mulia</description>
+	<pubDate>Wed, 11 Nov 2026 15:40:00 +0000</pubDate>
+	<language>id</language>
+	<wp:wxr_version>1.2</wp:wxr_version>
+	<wp:base_site_url>http://localhost/mts</wp:base_site_url>
+	<wp:base_blog_url>http://localhost/mts</wp:base_blog_url>
+
+	<wp:author>
+		<wp:author_id>1</wp:author_id>
+		<wp:author_login><![CDATA[admin]]></wp:author_login>
+		<wp:author_email><![CDATA[mtsnegerisusukan@gmail.com]]></wp:author_email>
+		<wp:author_display_name><![CDATA[Humas MTsN Semarang]]></wp:author_display_name>
+		<wp:author_first_name><![CDATA[Humas]]></wp:author_first_name>
+		<wp:author_last_name><![CDATA[MTsN Semarang]]></wp:author_last_name>
+	</wp:author>
+
+
+	<wp:category>
+		<wp:term_id>7</wp:term_id>
+		<wp:category_nicename><![CDATA[prestasi]]></wp:category_nicename>
+		<wp:category_parent><![CDATA[]]></wp:category_parent>
+		<wp:cat_name><![CDATA[Prestasi]]></wp:cat_name>
+	</wp:category>
+
+	<wp:term>
+		<wp:term_id>201</wp:term_id>
+		<wp:term_taxonomy><![CDATA[kategori_prestasi]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[akademik]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Akademik]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id>202</wp:term_id>
+		<wp:term_taxonomy><![CDATA[kategori_prestasi]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[sains-matematika]]></wp:term_slug>
+		<wp:term_parent><![CDATA[akademik]]></wp:term_parent>
+		<wp:term_name><![CDATA[Sains & Matematika]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id>203</wp:term_id>
+		<wp:term_taxonomy><![CDATA[kategori_prestasi]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[keagamaan]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Keagamaan & Karakter]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id>204</wp:term_id>
+		<wp:term_taxonomy><![CDATA[kategori_prestasi]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[olahraga]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Olahraga]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id>205</wp:term_id>
+		<wp:term_taxonomy><![CDATA[kategori_prestasi]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[seni-budaya]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Seni & Budaya]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id>206</wp:term_id>
+		<wp:term_taxonomy><![CDATA[kategori_prestasi]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[riset-robotik]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Riset & Robotika]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id>207</wp:term_id>
+		<wp:term_taxonomy><![CDATA[kategori_prestasi]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[kepramukaan]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Kepramukaan]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id>208</wp:term_id>
+		<wp:term_taxonomy><![CDATA[kategori_prestasi]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[bahasa-literasi]]></wp:term_slug>
+		<wp:term_parent><![CDATA[akademik]]></wp:term_parent>
+		<wp:term_name><![CDATA[Bahasa & Literasi]]></wp:term_name>
+	</wp:term>
+	<wp:tag>
+		<wp:term_id>301</wp:term_id>
+		<wp:tag_slug><![CDATA[osn]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[OSN]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>302</wp:term_id>
+		<wp:tag_slug><![CDATA[ksm]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[KSM Kemenag]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>303</wp:term_id>
+		<wp:tag_slug><![CDATA[mtq]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[MTQ]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>304</wp:term_id>
+		<wp:tag_slug><![CDATA[pencak-silat]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Pencak Silat]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>305</wp:term_id>
+		<wp:tag_slug><![CDATA[kaligrafi]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Kaligrafi]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>306</wp:term_id>
+		<wp:tag_slug><![CDATA[robotik]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Robotik]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>307</wp:term_id>
+		<wp:tag_slug><![CDATA[bulutangkis]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Bulutangkis]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>308</wp:term_id>
+		<wp:tag_slug><![CDATA[tahfidz]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Tahfidz]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>309</wp:term_id>
+		<wp:tag_slug><![CDATA[pramuka-penggalang]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Pramuka Penggalang]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>310</wp:term_id>
+		<wp:tag_slug><![CDATA[karya-tulis-ilmiah]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Karya Tulis Ilmiah]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>311</wp:term_id>
+		<wp:tag_slug><![CDATA[storytelling]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Storytelling]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>312</wp:term_id>
+		<wp:tag_slug><![CDATA[hadrah-rebana]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Hadrah & Rebana]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>313</wp:term_id>
+		<wp:tag_slug><![CDATA[prestasi-siswa]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Prestasi Siswa]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>314</wp:term_id>
+		<wp:tag_slug><![CDATA[akademik]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Akademik]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>315</wp:term_id>
+		<wp:tag_slug><![CDATA[non-akademik]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Non-Akademik]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>316</wp:term_id>
+		<wp:tag_slug><![CDATA[riset]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Riset]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>317</wp:term_id>
+		<wp:tag_slug><![CDATA[digitalisasi]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Digitalisasi Madrasah]]></wp:tag_name>
+	</wp:tag>
+
+	<item>
+		<title><![CDATA[Piala dan Medali Emas OSN Matematika]]></title>
+		<link>http://localhost/mts/?attachment_id=2001</link>
+		<pubDate>2026-10-15 08:30:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[https://images.unsplash.com/photo-1578269174936-2709b6aeb913?auto=format&fit=crop&w=1200&q=80]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2001</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-15 08:30:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-15 01:30:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[foto-prestasi-juara-1-osn-matematika-tingkat-nasi]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>3001</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://images.unsplash.com/photo-1578269174936-2709b6aeb913?auto=format&fit=crop&w=1200&q=80]]></wp:attachment_url>
+	</item>
+
+	<item>
+		<title><![CDATA[Laboratorium Riset IPA Terintegrasi]]></title>
+		<link>http://localhost/mts/?attachment_id=2002</link>
+		<pubDate>2026-09-28 09:00:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=1200&q=80]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2002</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-28 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-28 02:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[foto-prestasi-medali-emas-ksm-ipa-terintegrasi-ja]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>3002</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=1200&q=80]]></wp:attachment_url>
+	</item>
+
+	<item>
+		<title><![CDATA[Tilawatil Quran Santri MTsN Semarang]]></title>
+		<link>http://localhost/mts/?attachment_id=2003</link>
+		<pubDate>2026-09-12 10:15:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[https://images.unsplash.com/photo-1609599006353-e629aaabfeae?auto=format&fit=crop&w=1200&q=80]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2003</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-12 10:15:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-12 03:15:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[foto-prestasi-juara-1-mtq-remaja-tingkat-provinsi]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>3003</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://images.unsplash.com/photo-1609599006353-e629aaabfeae?auto=format&fit=crop&w=1200&q=80]]></wp:attachment_url>
+	</item>
+
+	<item>
+		<title><![CDATA[Kegiatan Perkemahan dan Lomba Pramuka]]></title>
+		<link>http://localhost/mts/?attachment_id=2004</link>
+		<pubDate>2026-08-25 14:00:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=1200&q=80]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2004</wp:post_id>
+		<wp:post_date><![CDATA[2026-08-25 14:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-08-25 07:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[foto-prestasi-regu-rajawali-pramuka-mtsn-semarang]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>3004</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=1200&q=80]]></wp:attachment_url>
+	</item>
+
+	<item>
+		<title><![CDATA[Kejuaraan Pencak Silat Piala Kemenpora]]></title>
+		<link>http://localhost/mts/?attachment_id=2005</link>
+		<pubDate>2026-08-14 11:20:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[https://images.unsplash.com/photo-1555597673-b21d5c935865?auto=format&fit=crop&w=1200&q=80]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2005</wp:post_id>
+		<wp:post_date><![CDATA[2026-08-14 11:20:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-08-14 04:20:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[foto-prestasi-medali-emas-pencak-silat-kemenpora-]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>3005</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://images.unsplash.com/photo-1555597673-b21d5c935865?auto=format&fit=crop&w=1200&q=80]]></wp:attachment_url>
+	</item>
+
+	<item>
+		<title><![CDATA[Karya Lukis Kaligrafi Kontemporer]]></title>
+		<link>http://localhost/mts/?attachment_id=2006</link>
+		<pubDate>2026-07-22 13:45:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=1200&q=80]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2006</wp:post_id>
+		<wp:post_date><![CDATA[2026-07-22 13:45:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-07-22 06:45:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[foto-prestasi-juara-1-kaligrafi-kontemporer-festi]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>3006</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=1200&q=80]]></wp:attachment_url>
+	</item>
+
+	<item>
+		<title><![CDATA[Presentasi Tim Riset Siswa di Ajang LKIR]]></title>
+		<link>http://localhost/mts/?attachment_id=2007</link>
+		<pubDate>2026-06-30 09:30:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=1200&q=80]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2007</wp:post_id>
+		<wp:post_date><![CDATA[2026-06-30 09:30:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-06-30 02:30:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[foto-prestasi-tim-riset-mtsn-semarang-juara-2-lki]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>3007</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=1200&q=80]]></wp:attachment_url>
+	</item>
+
+	<item>
+		<title><![CDATA[Robotika dan Rekayasa Teknologi Robot MTsN]]></title>
+		<link>http://localhost/mts/?attachment_id=2008</link>
+		<pubDate>2026-05-18 11:00:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1200&q=80]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2008</wp:post_id>
+		<wp:post_date><![CDATA[2026-05-18 11:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-05-18 04:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[foto-prestasi-tim-robotika-mtsn-semarang-juara-1-]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>3008</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1200&q=80]]></wp:attachment_url>
+	</item>
+
+	<item>
+		<title><![CDATA[Pertandingan Bulutangkis Gelanggang Olahraga]]></title>
+		<link>http://localhost/mts/?attachment_id=2009</link>
+		<pubDate>2026-05-02 15:30:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?auto=format&fit=crop&w=1200&q=80]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2009</wp:post_id>
+		<wp:post_date><![CDATA[2026-05-02 15:30:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-05-02 08:30:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[foto-prestasi-medali-perak-bulutangkis-o2sn-jawa-]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>3009</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?auto=format&fit=crop&w=1200&q=80]]></wp:attachment_url>
+	</item>
+
+	<item>
+		<title><![CDATA[Penampilan Pidato dan Storytelling Bahasa Inggris]]></title>
+		<link>http://localhost/mts/?attachment_id=2010</link>
+		<pubDate>2026-04-16 10:00:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[https://images.unsplash.com/photo-1475721027785-f74eccf877e2?auto=format&fit=crop&w=1200&q=80]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2010</wp:post_id>
+		<wp:post_date><![CDATA[2026-04-16 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-04-16 03:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[foto-prestasi-juara-1-english-storytelling-madras]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>3010</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://images.unsplash.com/photo-1475721027785-f74eccf877e2?auto=format&fit=crop&w=1200&q=80]]></wp:attachment_url>
+	</item>
+
+	<item>
+		<title><![CDATA[Murojaah Tahfidz Al-Qur'an Santri]]></title>
+		<link>http://localhost/mts/?attachment_id=2011</link>
+		<pubDate>2026-03-24 08:45:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[https://images.unsplash.com/photo-1584286595398-a59f21d313f5?auto=format&fit=crop&w=1200&q=80]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2011</wp:post_id>
+		<wp:post_date><![CDATA[2026-03-24 08:45:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-03-24 01:45:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[foto-prestasi-juara-1-mhq-5-juz-tingkat-kabupaten]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>3011</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://images.unsplash.com/photo-1584286595398-a59f21d313f5?auto=format&fit=crop&w=1200&q=80]]></wp:attachment_url>
+	</item>
+
+	<item>
+		<title><![CDATA[Festival Hadrah dan Seni Musik Rebana Nusantara]]></title>
+		<link>http://localhost/mts/?attachment_id=2012</link>
+		<pubDate>2026-02-10 14:10:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=1200&q=80]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2012</wp:post_id>
+		<wp:post_date><![CDATA[2026-02-10 14:10:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-02-10 07:10:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[foto-prestasi-grup-rebana-mtsn-semarang-juara-2-f]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>3012</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=1200&q=80]]></wp:attachment_url>
+	</item>
+
+	<item>
+		<title><![CDATA[Juara 1 OSN Matematika Tingkat Nasional 2026 Diraih Santri MTsN Semarang]]></title>
+		<link>http://localhost/mts/?p=3001</link>
+		<pubDate>2026-10-15 08:30:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[http://localhost/mts/?post_type=prestasi&p=3001]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p><strong>Jakarta, MTsN Semarang</strong> — Prestasi gemilang di kancah nasional kembali ditorehkan oleh keluarga besar MTs Negeri Semarang. Muhammad Fathan Alfathir, santri kelas IX MTsN Semarang, berhasil mempersembahkan Medali Emas (Juara 1) pada ajang bergengsi Olimpiade Sains Nasional (OSN) Bidang Matematika Jenjang SMP/MTs Tingkat Nasional Tahun 2026 yang diselenggarakan oleh Balai Pengembangan Talenta Indonesia (BPTI) Kemendikbudristek.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h3 class="wp-block-heading">Kompetisi Ketat Menghadapi Ratusan Finalis Terbaik</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Babak final OSN Nasional berlangsung selama empat hari secara hibrid dengan pengawasan ketat. Fathan harus menyelesaikan rangkaian soal pemecahan masalah (problem solving) tingkat tinggi yang meliputi teori bilangan, aljabar modern, kombinatorika, dan geometri analitik.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Guru pembina olimpiade matematika MTsN Semarang, Nurul Hidayati, M.Pd., menyampaikan rasa syukur atas kerja keras dan disiplin belajar yang telah ditunjukkan Fathan selama masa karantina dan pembinaan intensif di madrasah.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:quote -->
+<blockquote class="wp-block-quote"><p>“Fathan memiliki daya nalar dan ketahanan berpikir yang luar biasa. Ketekunan berlatih soal-soal olimpiade internasional dan doa tulus dari orang tua serta bapak ibu guru menjadi kunci keberhasilan ini,” ungkap Nurul Hidayati.</p></blockquote>
+<!-- /wp:quote -->
+
+<!-- wp:heading -->
+<h3 class="wp-block-heading">Apresiasi Kepala Madrasah</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Kepala MTsN Semarang, Muh. Muslimin, S.Ag., M.Pd.I., memberikan apresiasi setinggi-tingginya atas capaian prestisius ini. Beliau menegaskan komitmen madrasah untuk terus mendukung pengembangan bakat dan potensi seluruh peserta didik di bidang akademik maupun non-akademik.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Prestasi ini semakin membuktikan bahwa santri madrasah mampu bersaing dan menjadi yang terbaik di tingkat nasional dalam bidang sains dan matematika.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Santri MTsN Semarang berhasil menorehkan prestasi membanggakan dengan meraih Medali Emas Juara 1 Olimpiade Sains Nasional (OSN) Bidang Matematika tingkat Nasional tahun 2026.]]></excerpt:encoded>
+		<wp:post_id>3001</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-15 08:30:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-15 01:30:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[juara-1-osn-matematika-tingkat-nasional-2026-mtsn-semarang]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[prestasi]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="kategori_prestasi" nicename="sains-matematika"><![CDATA[Sains & Matematika]]></category>
+		<category domain="category" nicename="prestasi"><![CDATA[Prestasi]]></category>
+		<category domain="post_tag" nicename="osn"><![CDATA[OSN]]></category>
+		<category domain="post_tag" nicename="akademik"><![CDATA[Akademik]]></category>
+		<category domain="post_tag" nicename="prestasi-siswa"><![CDATA[Prestasi Siswa]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2001]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title><![CDATA[Torehkan Medali Emas KSM IPA Terintegrasi Jawa Tengah, Bukti Keunggulan Riset Madrasah]]></title>
+		<link>http://localhost/mts/?p=3002</link>
+		<pubDate>2026-09-28 09:00:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[http://localhost/mts/?post_type=prestasi&p=3002]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p><strong>Semarang</strong> — Delegasi riset sains MTs Negeri Semarang kembali mengharumkan nama almamater pada ajang Kompetisi Sains Madrasah (KSM) Tingkat Provinsi Jawa Tengah Tahun 2026. Dalam kompetisi yang diselenggarakan oleh Kantor Wilayah Kementerian Agama Provinsi Jawa Tengah tersebut, ananda Aisyah Zahra Kirana sukses meraih Juara 1 (Medali Emas) pada cabang IPA Terintegrasi.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h3 class="wp-block-heading">Integrasi Sains Modern dan Nilai-Nilai Qur'ani</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>KSM memiliki karakteristik soal unik yang mengintegrasikan konsep sains modern fisika dan biologi dengan pemahaman ayat-ayat kauniyah dalam Al-Qur'an serta fiqih sains. Aisyah berhasil menunjukkan keunggulan pemahaman materi teori maupun analisis data eksperimen berbasis laboratorium madrasah.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul>
+  <li>Eksplorasi fenomena biosfer dan keseimbangan ekosistem dalam perspektif Islam.</li>
+  <li>Penyelesaian kasus konversi energi ramah lingkungan dengan akurasi perhitungan tinggi.</li>
+  <li>Analisis instrumen laboratorium biologi sel dan keanekaragaman hayati.</li>
+</ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>Dengan kemenangan di tingkat provinsi ini, Aisyah berhak melaju sebagai perwakilan Jawa Tengah pada putaran final KSM Nasional di Kendari. Seluruh keluarga besar madrasah mendoakan agar capaian terbaik dapat kembali diraih pada babak puncak mendatang.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Tim olimpiade IPA Terintegrasi MTsN Semarang sukses mengamankan medali emas pada ajang Kompetisi Sains Madrasah (KSM) tingkat Provinsi Jawa Tengah.]]></excerpt:encoded>
+		<wp:post_id>3002</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-28 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-28 02:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[medali-emas-ksm-ipa-terintegrasi-jawa-tengah-mtsn-semarang]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[prestasi]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="kategori_prestasi" nicename="sains-matematika"><![CDATA[Sains & Matematika]]></category>
+		<category domain="category" nicename="prestasi"><![CDATA[Prestasi]]></category>
+		<category domain="post_tag" nicename="ksm"><![CDATA[KSM Kemenag]]></category>
+		<category domain="post_tag" nicename="akademik"><![CDATA[Akademik]]></category>
+		<category domain="post_tag" nicename="riset"><![CDATA[Riset]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2002]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title><![CDATA[Gemilang Tilawah: Santri MTsN Semarang Sabet Juara 1 MTQ Remaja Tingkat Provinsi]]></title>
+		<link>http://localhost/mts/?p=3003</link>
+		<pubDate>2026-09-12 10:15:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[http://localhost/mts/?post_type=prestasi&p=3003]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p><strong>Kudus, Jawa Tengah</strong> — Suasana haru dan bangga menyelimuti panggung utama Musabaqah Tilawatil Qur’an (MTQ) Tingkat Remaja Se-Provinsi Jawa Tengah Tahun 2026. Ahmad Rayhan Al-Hafidz, siswa kelas VIII program kelas peminatan keagamaan MTsN Semarang, dinobatkan sebagai Juara 1 Cabang Tilawah Remaja Putra setelah memukau dewan hakim dengan keindahan maqam bayati, nahawand, dan rost.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h3 class="wp-block-heading">Buah Pembinaan Intensif Ekstrakurikuler Naghom Al-Qur'an</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Prestasi ini lahir dari kedisiplinan dan pembinaan rutin di ekstrakurikuler Naghom dan Qiro'ah MTsN Semarang di bawah bimbingan Ustadz M. Shodiq. Rayhan telah berlatih teknik pernapasan perut, kefasihan makharijul huruf, serta variasi lagu tilawah sejak duduk di bangku kelas VII.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:quote -->
+<blockquote class="wp-block-quote"><p>“Kami bangga anak-anak madrasah tidak hanya unggul dalam ilmu pengetahuan, tetapi juga berhati Qur'ani dan berakhlak mulia. Suara indah yang melantunkan firman Allah SWT ini menjadi syiar kebaikan bagi kita semua,” ujar Kepala MTsN Semarang.</p></blockquote>
+<!-- /wp:quote -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Lantunan merdu ayat suci Al-Qur'an mengantarkan santri MTsN Semarang meraih gelar Juara 1 MTQ Remaja Putra se-Jawa Tengah.]]></excerpt:encoded>
+		<wp:post_id>3003</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-12 10:15:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-12 03:15:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[juara-1-mtq-remaja-tingkat-provinsi-mtsn-semarang]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[prestasi]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="kategori_prestasi" nicename="keagamaan"><![CDATA[Keagamaan & Karakter]]></category>
+		<category domain="category" nicename="prestasi"><![CDATA[Prestasi]]></category>
+		<category domain="post_tag" nicename="mtq"><![CDATA[MTQ]]></category>
+		<category domain="post_tag" nicename="keagamaan"><![CDATA[Keagamaan & Karakter]]></category>
+		<category domain="post_tag" nicename="tahfidz"><![CDATA[Tahfidz]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2003]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title><![CDATA[Regu Rajawali Pramuka MTsN Semarang Raih Juara Umum LKPP Se-Karesidenan Semarang]]></title>
+		<link>http://localhost/mts/?p=3004</link>
+		<pubDate>2026-08-25 14:00:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[http://localhost/mts/?post_type=prestasi&p=3004]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p><strong>Salatiga</strong> — Gugus Depan MTs Negeri Semarang kembali mengukir sejarah prestasi di dunia kepramukaan. Regu Rajawali (Putra) dan Regu Melati (Putri) pangkalan MTsN Semarang sukses menyabet gelar bergengsi <strong>Juara Umum Lomba Keterampilan Pramuka Penggalang (LKPP)</strong> se-Karesidenan Semarang tahun 2026.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h3 class="wp-block-heading">Dominasi di Sejumlah Mata Lomba Krusial</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Dalam perkemahan lomba yang berlangsung selama 3 hari 2 malam tersebut, kontingen MTsN Semarang menyapu bersih deretan juara di pos-pos perlombaan:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul>
+  <li>Juara 1 Pionering Menara Pandang Kaki Tiga Tanpa Pasak.</li>
+  <li>Juara 1 Semboyan dan Isyarat (Morse, Semaphore, dan Sandi Rumput).</li>
+  <li>Juara 1 Penjelajahan Kompas dan Peta Pita Survival Rimba.</li>
+  <li>Juara 2 Pertolongan Pertama Gawat Darurat (PPGD) Tandu Darurat.</li>
+</ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>Kekompakan regu, ketangguhan fisik, kepemimpinan, dan nilai Dasa Darma yang tertanam kuat membuktikan bahwa Pramuka Penggalang MTsN Semarang adalah generasi berkarakter unggul.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Regu Penggalang MTsN Semarang sukses menyabet piala bergilir Juara Umum Lomba Keterampilan Pramuka Penggalang se-Karesidenan Semarang.]]></excerpt:encoded>
+		<wp:post_id>3004</wp:post_id>
+		<wp:post_date><![CDATA[2026-08-25 14:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-08-25 07:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[regu-rajawali-pramuka-mtsn-semarang-juara-umum-lkpp]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[prestasi]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="kategori_prestasi" nicename="kepramukaan"><![CDATA[Kepramukaan]]></category>
+		<category domain="category" nicename="prestasi"><![CDATA[Prestasi]]></category>
+		<category domain="post_tag" nicename="pramuka-penggalang"><![CDATA[Pramuka Penggalang]]></category>
+		<category domain="post_tag" nicename="kepramukaan"><![CDATA[Kepramukaan]]></category>
+		<category domain="post_tag" nicename="non-akademik"><![CDATA[Non-Akademik]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2004]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title><![CDATA[Medali Emas Pencak Silat Piala Kemenpora RI 2026: Pembuktian Pendekar Muda Madrasah]]></title>
+		<link>http://localhost/mts/?p=3005</link>
+		<pubDate>2026-08-14 11:20:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[http://localhost/mts/?post_type=prestasi&p=3005]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p><strong>Yogyakarta</strong> — Gelanggang Olahraga Amongrogo Yogyakarta menjadi saksi ketangguhan pendekar muda MTs Negeri Semarang. Dalam ajang Kejuaraan Nasional Pencak Silat Piala Kemenpora RI 2026 yang diikuti oleh lebih dari 1.200 pesilat dari seluruh Indonesia, Bintang Rizky Pratama (Kelas IX-B) sukses mempersembahkan Medali Emas Kategori Tanding Kelas E Remaja.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h3 class="wp-block-heading">Pertarungan Sengit di Babak Final</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Menghadapi pesilat unggulan dari Jawa Timur pada partai final, Bintang bermain sangat tenang dan disiplin. Kombinasi teknik tendangan sabit, guntingan kaki yang presisi, dan hindaran taktis membuatnya unggul telak dengan skor mutlak 28-11.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Pelatih silat ekstrakurikuler MTsN Semarang, Bapak Hendra Kusuma, menyampaikan bahwa keberhasilan ini buah dari latihan fisik yang spartan, olah batin spiritual, dan sikap rendah hati yang selalu ditekankan kepada para atlet madrasah.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Atlet pencak silat MTsN Semarang tampil perkasa dan berhasil merebut Medali Emas Kelas Tanding E pada Kejuaraan Nasional Piala Kemenpora 2026.]]></excerpt:encoded>
+		<wp:post_id>3005</wp:post_id>
+		<wp:post_date><![CDATA[2026-08-14 11:20:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-08-14 04:20:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[medali-emas-pencak-silat-kemenpora-2026-mtsn-semarang]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[prestasi]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="kategori_prestasi" nicename="olahraga"><![CDATA[Olahraga]]></category>
+		<category domain="category" nicename="prestasi"><![CDATA[Prestasi]]></category>
+		<category domain="post_tag" nicename="pencak-silat"><![CDATA[Pencak Silat]]></category>
+		<category domain="post_tag" nicename="olahraga"><![CDATA[Olahraga]]></category>
+		<category domain="post_tag" nicename="prestasi-siswa"><![CDATA[Prestasi Siswa]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2005]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title><![CDATA[Juara 1 Kaligrafi Kontemporer Festival Seni Islam Jawa Tengah, Sentuhan Indah Khat Qur'ani]]></title>
+		<link>http://localhost/mts/?p=3006</link>
+		<pubDate>2026-07-22 13:45:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[http://localhost/mts/?post_type=prestasi&p=3006]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p><strong>Surakarta</strong> — Kreativitas santri MTs Negeri Semarang di bidang seni rupa Islami kembali mendapat pengakuan tinggi. Nayla Syifa Azzahra (Kelas VIII-D) sukses meraih Juara 1 Lomba Kaligrafi Kontemporer pada Festival Seni dan Budaya Islam Tingkat Provinsi Jawa Tengah 2026 yang diselenggarakan di UIN Raden Mas Said Surakarta.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h3 class="wp-block-heading">Harmoni Warna Akrilik dan Keagungan Ayat Suci</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Karya kaligrafi Nayla mengusung tema <em>"Rahmatan Lil 'Alamin: Harmoni Semesta dan Kedamaian Insani"</em> dengan media kanvas berukuran 80x100 cm. Mengombinasikan goresan khat tsuluts dekoratif dengan gradasi palet warna fajar bernuansa biru ultramarine dan sentuhan gold leaf, lukisan ini memukau dewan juri penilai kaligrafi nasional.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:quote -->
+<blockquote class="wp-block-quote"><p>“Karya ananda Nayla memiliki kedalaman filosofis yang kuat, proporsi kaidah khat yang rapi, serta teknik pewarnaan gradasi modern yang sangat matang untuk anak seusia madrasah tsanawiyah,” tutur salah satu dewan juri.</p></blockquote>
+<!-- /wp:quote -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Mahakarya lukisan kaligrafi kontemporer siswa MTsN Semarang dinobatkan sebagai karya terbaik pertama pada Festival Seni Islam Jawa Tengah.]]></excerpt:encoded>
+		<wp:post_id>3006</wp:post_id>
+		<wp:post_date><![CDATA[2026-07-22 13:45:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-07-22 06:45:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[juara-1-kaligrafi-kontemporer-festival-seni-islam-jateng]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[prestasi]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="kategori_prestasi" nicename="seni-budaya"><![CDATA[Seni & Budaya]]></category>
+		<category domain="category" nicename="prestasi"><![CDATA[Prestasi]]></category>
+		<category domain="post_tag" nicename="kaligrafi"><![CDATA[Kaligrafi]]></category>
+		<category domain="post_tag" nicename="seni-budaya"><![CDATA[Seni & Budaya]]></category>
+		<category domain="post_tag" nicename="keagamaan"><![CDATA[Keagamaan & Karakter]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2006]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title><![CDATA[Inovasi Bioplastik Ramah Lingkungan Antarkan Tim Riset MTsN Semarang Raih Juara 2 LKIR Nasional]]></title>
+		<link>http://localhost/mts/?p=3007</link>
+		<pubDate>2026-06-30 09:30:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[http://localhost/mts/?post_type=prestasi&p=3007]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p><strong>Bandung</strong> — Tim Peneliti Muda MTs Negeri Semarang yang digawangi oleh Zaskia Amira dan Danendra Aditya mengukir prestasi membanggakan pada ajang Lomba Karya Tulis Ilmiah Remaja (LKIR) Tingkat Nasional Tahun 2026. Riset mereka yang berjudul <em>“Pemanfaatan Pati Kulit Singkong (Manihot esculenta) dengan Plasticizer Gliserol sebagai Bahan Kemasan Bioplastik Biodegradable Cepat Terurai”</em> sukses meraih Juara 2 Nasional Bidang Ilmu Pengetahuan Alam dan Lingkungan.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h3 class="wp-block-heading">Solusi Konkret Mengatasi Sampah Plastik Sekali Pakai</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Riset ini dilatarbelakangi oleh melimpahnya limbah industri olahan singkong di wilayah Kabupaten Semarang. Melalui uji laboratorium yang dilakukan di laboratorium terpadu madrasah, bioplastik temuan siswa ini terbukti dapat terurai secara alami dalam tanah hanya dalam waktu 18 hari, jauh lebih cepat dibandingkan plastik konvensional yang membutuhkan ratusan tahun.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Keberhasilan ini membuktikan bahwa kultur madrasah berbasis riset di MTsN Semarang berjalan aktif dan mampu menghasilkan karya inovatif yang berdaya guna bagi lingkungan dan masyarakat luas.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Memanfaatkan limbah kulit singkong menjadi bioplastik ramah lingkungan, tim riset MTsN Semarang sukses meraih Juara 2 Lomba Karya Tulis Ilmiah Remaja Nasional.]]></excerpt:encoded>
+		<wp:post_id>3007</wp:post_id>
+		<wp:post_date><![CDATA[2026-06-30 09:30:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-06-30 02:30:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[tim-riset-mtsn-semarang-juara-2-lkir-nasional-bioplastik]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[prestasi]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="kategori_prestasi" nicename="riset-robotik"><![CDATA[Riset & Robotika]]></category>
+		<category domain="category" nicename="prestasi"><![CDATA[Prestasi]]></category>
+		<category domain="post_tag" nicename="karya-tulis-ilmiah"><![CDATA[Karya Tulis Ilmiah]]></category>
+		<category domain="post_tag" nicename="riset"><![CDATA[Riset]]></category>
+		<category domain="post_tag" nicename="akademik"><![CDATA[Akademik]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2007]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title><![CDATA[Tim Robotika MTsN Semarang Sabet Juara 1 Islamic Robotic Competition Kategori Sumo Bot]]></title>
+		<link>http://localhost/mts/?p=3008</link>
+		<pubDate>2026-05-18 11:00:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[http://localhost/mts/?post_type=prestasi&p=3008]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p><strong>Malang, Jawa Timur</strong> — Tim Robotika MTs Negeri Semarang yang dikenal dengan nama <strong>"Semarang Robo-Madrasah (SRM)"</strong> kembali menorehkan prestasi gemilang dengan menyabet Juara 1 pada ajang National Islamic Robotic Competition 2026 di Hall Dome UMM Malang. Tim yang beranggotakan Farrel Raditya dan Ilham Maulana ini mendominasi Kategori Battle Sumo Robot 1 Kg Autonomous.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h3 class="wp-block-heading">Algoritma Sensor Proximity dan Kecepatan Motorik Unggul</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Robot bernama <em>"Kyai Petruk-Bot"</em> dirancang khusus menggunakan mikrokontroler Arduino Nano dengan modifikasi motor DC high torque dan sensor ultrasonic presisi tinggi. Dalam pertandingan semi-kontak yang menuntut robot mendorong lawan keluar dari lingkaran dohyo, robot MTsN Semarang tak terkalahkan dari fase grup hingga babak final.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:quote -->
+<blockquote class="wp-block-quote"><p>“Kami memprogram logika deteksi sudut dan respon manuver putaran cepat. Alhamdulillah strategi dan ketahanan mekanik robot kami berfungsi sempurna tanpa kendala teknis,” ujar Farrel dengan antusias.</p></blockquote>
+<!-- /wp:quote -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Robot Sumo buatan santri MTsN Semarang tak terkalahkan dalam arena tanding dan keluar sebagai Juara 1 tingkat nasional di Islamic Robotic Competition.]]></excerpt:encoded>
+		<wp:post_id>3008</wp:post_id>
+		<wp:post_date><![CDATA[2026-05-18 11:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-05-18 04:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[tim-robotika-mtsn-semarang-juara-1-islamic-robotic-competition]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[prestasi]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="kategori_prestasi" nicename="riset-robotik"><![CDATA[Riset & Robotika]]></category>
+		<category domain="category" nicename="prestasi"><![CDATA[Prestasi]]></category>
+		<category domain="post_tag" nicename="robotik"><![CDATA[Robotik]]></category>
+		<category domain="post_tag" nicename="digitalisasi"><![CDATA[Digitalisasi Madrasah]]></category>
+		<category domain="post_tag" nicename="prestasi-siswa"><![CDATA[Prestasi Siswa]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2008]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title><![CDATA[Raih Medali Perak Bulutangkis O2SN Jawa Tengah, Harumkan Nama Madrasah di Gelanggang]]></title>
+		<link>http://localhost/mts/?p=3009</link>
+		<pubDate>2026-05-02 15:30:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[http://localhost/mts/?post_type=prestasi&p=3009]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p><strong>Semarang</strong> — Gelaran Olimpiade Olahraga Siswa Nasional (O2SN) SMP/MTs Tingkat Provinsi Jawa Tengah 2026 cabang bulutangkis berlangsung sengit dan penuh drama. Pebulutangkis andalan MTs Negeri Semarang, Kevin Pratama Yudistira, sukses meraih Medali Perak (Juara 2) Tunggal Putra setelah melakoni laga rubber set berdurasi 68 menit di GOR Tri Lomba Juang.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h3 class="wp-block-heading">Semangat Pantang Menyerah dan Sportivitas Tinggi</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Sejak babak penyisihan pertama, Kevin tampil agresif dengan smash menyilang dan penempatan netting tipis. Perjuangan kerasnya diapresiasi oleh penonton dan official pertandingan karena menunjukkan stamina prima serta sportivitas tinggi khas atlet madrasah.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Capaian medali perak ini melengkapi catatan sejarah olahraga madrasah, membuktikan bahwa fasilitas pembinaan olahraga dan kedisiplinan ekstrakurikuler bulutangkis di MTsN Semarang terus melahirkan bibit-bibit atlet tangguh.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Melalui perjuangan sengit di babak final, pebulutangkis tunggal putra MTsN Semarang sukses membawa pulang medali perak O2SN tingkat Jawa Tengah.]]></excerpt:encoded>
+		<wp:post_id>3009</wp:post_id>
+		<wp:post_date><![CDATA[2026-05-02 15:30:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-05-02 08:30:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[medali-perak-bulutangkis-o2sn-jawa-tengah-mtsn-semarang]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[prestasi]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="kategori_prestasi" nicename="olahraga"><![CDATA[Olahraga]]></category>
+		<category domain="category" nicename="prestasi"><![CDATA[Prestasi]]></category>
+		<category domain="post_tag" nicename="bulutangkis"><![CDATA[Bulutangkis]]></category>
+		<category domain="post_tag" nicename="olahraga"><![CDATA[Olahraga]]></category>
+		<category domain="post_tag" nicename="prestasi-siswa"><![CDATA[Prestasi Siswa]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2009]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title><![CDATA[Juara 1 English Storytelling Madrasah Fest 2026: Buktikan Kecakapan Global Santri]]></title>
+		<link>http://localhost/mts/?p=3010</link>
+		<pubDate>2026-04-16 10:00:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[http://localhost/mts/?post_type=prestasi&p=3010]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p><strong>Salatiga</strong> — Bahasa Inggris sebagai bahasa pergaulan internasional menjadi salah satu fokus penguatan literasi bahasa di MTs Negeri Semarang. Terbukti, pada ajang Madrasah English Festival 2026 tingkat eks-Karesidenan Semarang dan Jawa Tengah, Keisha Aulia Putri (Kelas IX-A) berhasil meraih Juara 1 pada cabang lomba English Storytelling Competition.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h3 class="wp-block-heading">Kisah Inspiratif 'The Compassion of Sunan Kalijaga'</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Keisha memukau dewan juri penutur asli (native speaker) dan akademisi bahasa Inggris melalui penampilan teatrikal yang ekspresif, intonasi vokal yang jernih, dan pelafalan (pronunciation) yang fasih. Ia membawakan cerita berjudul <em>“The Wisdom of Sunan Kalijaga: Spreading Peace and Tolerance”</em> lengkap dengan properti wayang kulit edukatif.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:quote -->
+<blockquote class="wp-block-quote"><p>“Madrasah mencetak santri yang berakar pada tradisi keislaman Nusantara namun memiliki sayap kompetensi global. Keisha adalah contoh nyata generasi madrasah berwawasan dunia,” puji Waka Kesiswaan MTsN Semarang.</p></blockquote>
+<!-- /wp:quote -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Dengan membawakan kisah inspiratif tokoh Islam Nusantara dalam bahasa Inggris yang fasih, siswi MTsN Semarang menjuarai kompetisi English Storytelling.]]></excerpt:encoded>
+		<wp:post_id>3010</wp:post_id>
+		<wp:post_date><![CDATA[2026-04-16 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-04-16 03:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[juara-1-english-storytelling-madrasah-fest-2026]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[prestasi]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="kategori_prestasi" nicename="bahasa-literasi"><![CDATA[Bahasa & Literasi]]></category>
+		<category domain="category" nicename="prestasi"><![CDATA[Prestasi]]></category>
+		<category domain="post_tag" nicename="storytelling"><![CDATA[Storytelling]]></category>
+		<category domain="post_tag" nicename="bahasa-literasi"><![CDATA[Bahasa & Literasi]]></category>
+		<category domain="post_tag" nicename="akademik"><![CDATA[Akademik]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2010]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title><![CDATA[Santri Program Tahfidz MTsN Semarang Raih Juara 1 MHQ 5 Juz Tingkat Kabupaten Semarang]]></title>
+		<link>http://localhost/mts/?p=3011</link>
+		<pubDate>2026-03-24 08:45:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[http://localhost/mts/?post_type=prestasi&p=3011]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p><strong>Ungaran, Kabupaten Semarang</strong> — Lembaga Pengembangan Tilawatil Qur'an (LPTQ) Kabupaten Semarang kembali menyelenggarakan Musabaqah Hifdzil Qur’an (MHQ) Tingkat Pelajar se-Kabupaten Semarang Tahun 2026. Dalam kategori 5 Juz Putra, santri MTs Negeri Semarang atas nama Muhammad Hafizurrahman (Kelas VIII Program Boarding/Tahfidz) berhasil keluar sebagai Juara 1 setelah melewati babak sambung ayat dengan skor nyaris sempurna 98,5.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h3 class="wp-block-heading">Hafalan Mutqin dengan Tajwid dan Fashahah Terjaga</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Dewan juri menguji hafalan para peserta dengan membacakan potongan ayat dari juz 1 hingga juz 5 secara acak. Hafiz mampu menyambung ayat secara spontan tanpa keraguan sedikit pun, disertai kaidah hukum tajwid, makhraj huruf yang fasih, dan irama tartil yang tenang.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Program Unggulan Kelas Tahfidz MTsN Semarang yang memadukan kurikulum madrasah nasional dengan target setoran hafalan harian terbukti sukses mencetak penghafal Al-Qur'an yang mutqin dan berprestasi.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Berkat ketekunan murojaah setiap fajar, santri kelas VIII MTsN Semarang berhasil dinobatkan sebagai Juara 1 Musabaqah Hifdzil Qur'an 5 Juz.]]></excerpt:encoded>
+		<wp:post_id>3011</wp:post_id>
+		<wp:post_date><![CDATA[2026-03-24 08:45:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-03-24 01:45:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[juara-1-mhq-5-juz-tingkat-kabupaten-semarang-mtsn]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[prestasi]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="kategori_prestasi" nicename="keagamaan"><![CDATA[Keagamaan & Karakter]]></category>
+		<category domain="category" nicename="prestasi"><![CDATA[Prestasi]]></category>
+		<category domain="post_tag" nicename="tahfidz"><![CDATA[Tahfidz]]></category>
+		<category domain="post_tag" nicename="keagamaan"><![CDATA[Keagamaan & Karakter]]></category>
+		<category domain="post_tag" nicename="prestasi-siswa"><![CDATA[Prestasi Siswa]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2011]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title><![CDATA[Alunan Harmoni Rebana MTsN Semarang Rebut Juara 2 Festival Hadrah Klasik Nasional]]></title>
+		<link>http://localhost/mts/?p=3012</link>
+		<pubDate>2026-02-10 14:10:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[http://localhost/mts/?post_type=prestasi&p=3012]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p><strong>Demak</strong> — Grup Seni Rebana dan Hadrah MTs Negeri Semarang, <strong>"Syauqul Habib"</strong>, berhasil membawa pulang trofi Juara 2 pada ajang bergengsi Festival Hadrah Klasik dan Shalawat Nusantara 2026 yang berlangsung di pelataran Masjid Agung Demak. Ajang tahunan ini diikuti oleh 45 grup hadrah terbaik dari berbagai pondok pesantren dan madrasah se-Indonesia.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h3 class="wp-block-heading">Sinkronisasi Pukulan Terbang dan Vokal Merdu Menggetarkan Jiwa</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Membawakan qashidah wajib <em>"Ya Imamar Rusli"</em> dan qashidah pilihan <em>"Sholatuminallah"</em>, tim yang diawaki oleh 15 santri penabuh terbang, bass, tam, dan vokalis paduan suara ini tampil sangat kompak. Harmoni ketukan rebana klasik khas pesisir utara berpadu dengan aransemen vokal bernada tinggi menghasilkan penampilan panggung yang khusyuk dan memesona ribuan jamaah penonton.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Pencapaian ini menjadi bukti nyata pelestarian seni tradisi Islam oleh generasi muda MTsN Semarang dengan penuh rasa cinta kepada Baginda Nabi Muhammad SAW.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Grup Hadrah 'Syauqul Habib' MTsN Semarang memukau dewan juri dan menyabet trofi Juara 2 pada Festival Hadrah Klasik Nusantara 2026.]]></excerpt:encoded>
+		<wp:post_id>3012</wp:post_id>
+		<wp:post_date><![CDATA[2026-02-10 14:10:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-02-10 07:10:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[grup-rebana-mtsn-semarang-juara-2-festival-hadrah-nasional]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[prestasi]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="kategori_prestasi" nicename="seni-budaya"><![CDATA[Seni & Budaya]]></category>
+		<category domain="category" nicename="prestasi"><![CDATA[Prestasi]]></category>
+		<category domain="post_tag" nicename="hadrah-rebana"><![CDATA[Hadrah & Rebana]]></category>
+		<category domain="post_tag" nicename="seni-budaya"><![CDATA[Seni & Budaya]]></category>
+		<category domain="post_tag" nicename="keagamaan"><![CDATA[Keagamaan & Karakter]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2012]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+</channel>
+</rss>

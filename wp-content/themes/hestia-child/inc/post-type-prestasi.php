@@ -45,7 +45,7 @@ function hestia_child_register_cpt_prestasi() {
 
 	$args = array(
 		'label'                 => __( 'Prestasi', 'hestia-child' ),
-		'description'           => __( 'Post Type untuk data dan artikel prestasi siswa dan madrasah', 'hestia-child' ),
+		'description'           => __( '', 'hestia-child' ),
 		'labels'                => $labels,
 		'supports'              => array( 'title', 'editor', 'thumbnail', 'excerpt', 'author', 'revisions', 'custom-fields', 'comments' ),
 		'taxonomies'            => array( 'kategori_prestasi', 'category', 'post_tag' ),

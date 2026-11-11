@@ -57,3 +57,9 @@ require_once get_stylesheet_directory() . '/inc/elementor-clean-editor.php';
 
 # Hide Hestia Child Menu & Show Hooks via CSS
 require_once get_stylesheet_directory() . '/inc/admin-clean.php';
+
+# Rank Math Breadcrumbs Integration for Single Post & Single Page
+require_once get_stylesheet_directory() . '/inc/rankmath-breadcrumbs.php';
+
+# Custom Archive Page Template & ACF Post Type Selector
+require_once get_stylesheet_directory() . '/inc/archive-custom-template.php';

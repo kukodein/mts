@@ -50,4 +50,210 @@ body.blog .card .card-image,
 
 .section.related-posts h2 {margin-top:0px;}
 .related-posts .hestia-title {margin-bottom: 30px;}
-.section.related-posts .card.card-blog {margin-bottom:0px}
+.section.related-posts .card.card-blog {margin-bottom:0px;}
+
+/* Rank Math Breadcrumbs on Header */
+.hestia-rank-math-breadcrumb-wrap {
+    position: relative;
+    z-index: 3;
+    margin-bottom: 15px;
+    display: block;
+}
+.hestia-rank-math-breadcrumb-wrap .rank-math-breadcrumb,
+.hestia-rank-math-breadcrumb-wrap .rank-math-breadcrumb p {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.85);
+}
+.hestia-rank-math-breadcrumb-wrap .rank-math-breadcrumb a {
+    color: #ffffff !important;
+    text-decoration: none !important;
+    opacity: 0.9;
+    transition: opacity 0.2s ease, text-decoration 0.2s ease;
+}
+.hestia-rank-math-breadcrumb-wrap .rank-math-breadcrumb a:hover,
+.hestia-rank-math-breadcrumb-wrap .rank-math-breadcrumb a:focus {
+    opacity: 1;
+    text-decoration: underline !important;
+}
+.hestia-rank-math-breadcrumb-wrap .rank-math-breadcrumb .separator {
+    color: rgba(255, 255, 255, 0.6) !important;
+    margin: 0 8px;
+}
+.hestia-rank-math-breadcrumb-wrap .rank-math-breadcrumb .last {
+    color: #ffffff !important;
+    font-weight: 600;
+    opacity: 1;
+}
+
+/* ==========================================================================
+   Custom Archive Grid (3 Columns) & Cards Styling
+   ========================================================================== */
+.custom-archive-blogs {
+    padding: 40px 0 60px;
+}
+.custom-archive-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.custom-archive-col {
+    display: flex;
+    margin-bottom: 30px;
+}
+.custom-archive-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 14px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+.custom-archive-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 14px 28px -10px rgba(0, 0, 0, 0.12);
+    border-color: #cbd5e1;
+}
+.custom-card-thumb {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    overflow: hidden;
+    background-color: #f1f5f9;
+}
+.custom-card-thumb a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.custom-card-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.35s ease;
+}
+.custom-archive-card:hover .custom-card-thumb img {
+    transform: scale(1.05);
+}
+.custom-card-placeholder {
+    width: 100%;
+    height: 100%;
+    min-height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%);
+    color: #94a3b8;
+    font-size: 38px;
+}
+.custom-card-body {
+    padding: 20px 20px 22px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.custom-card-badge-wrap {
+    margin-bottom: 12px;
+}
+.custom-card-badge {
+    display: inline-block;
+    padding: 4px 12px;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    border-radius: 20px;
+    background-color: var(--hestia-primary-color, #1e4976);
+    color: #ffffff !important;
+    line-height: 1.4;
+}
+.custom-card-title {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin: 0 0 10px;
+    color: #1e293b;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.custom-card-title a {
+    color: #1e293b !important;
+    text-decoration: none !important;
+    transition: color 0.2s ease;
+}
+.custom-card-title a:hover {
+    color: var(--hestia-primary-color, #0284c7) !important;
+    text-decoration: none !important;
+}
+.custom-card-excerpt {
+    font-size: 13.5px;
+    color: #64748b;
+    line-height: 1.6;
+    margin-bottom: 16px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.custom-card-excerpt p {
+    margin: 0;
+    color: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+.custom-card-meta {
+    font-size: 12px;
+    color: #94a3b8;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: auto;
+    padding-top: 14px;
+    border-top: 1px solid #f1f5f9;
+}
+.custom-card-meta i {
+    margin-right: 3px;
+    color: #94a3b8;
+}
+.custom-card-sep {
+    color: #cbd5e1;
+}
+.custom-archive-empty {
+    padding: 70px 20px;
+    background: #f8fafc;
+    border-radius: 14px;
+    border: 2px dashed #e2e8f0;
+    margin: 30px 0;
+}
+.custom-archive-empty i {
+    font-size: 52px;
+    color: #94a3b8;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+.custom-archive-empty h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #334155;
+    margin-bottom: 8px;
+}
+.custom-archive-empty p {
+    font-size: 14px;
+    margin: 0;
+}
+.custom-archive-pagination-wrap {
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+

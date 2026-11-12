@@ -76,3 +76,6 @@ require_once get_stylesheet_directory() . '/inc/post-type-kegiatan.php';
 # Single Post Classic Layout & Featured Image
 require_once get_stylesheet_directory() . '/inc/single-post-classic-layout.php';
 
+# Secure Custom Fields (SCF) Archive Header Options & Customization
+require_once get_stylesheet_directory() . '/inc/scf-archive-options.php';
+

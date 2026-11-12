@@ -46,6 +46,37 @@ function hestia_child_register_archive_acf_fields() {
 					'return_format'     => 'value',
 					'placeholder'       => 'Pilih post type...',
 				),
+				array(
+					'key'          => 'field_archive_header_title',
+					'label'        => 'Custom Judul Header',
+					'name'         => 'archive_header_title',
+					'type'         => 'text',
+					'instructions' => 'Judul banner header halaman. Kosongkan untuk menggunakan judul halaman atau opsi default arsip post type terkait.',
+					'wrapper'      => array( 'width' => '50' ),
+					'placeholder'  => 'Contoh: Direktori Fasilitas Unggulan',
+				),
+				array(
+					'key'           => 'field_archive_header_bg_image',
+					'label'         => 'Custom Background Image Header',
+					'name'          => 'archive_header_bg_image',
+					'type'          => 'image',
+					'instructions'  => 'Gambar latar belakang untuk banner header halaman ini. Kosongkan untuk menggunakan featured image atau background dari opsi arsip.',
+					'wrapper'       => array( 'width' => '50' ),
+					'return_format' => 'array',
+					'preview_size'  => 'medium',
+					'library'       => 'all',
+					'mime_types'    => 'jpg, jpeg, png, webp',
+				),
+				array(
+					'key'          => 'field_archive_header_description',
+					'label'        => 'Custom Deskripsi Header',
+					'name'         => 'archive_header_description',
+					'type'         => 'textarea',
+					'instructions' => 'Teks deskripsi / sub-judul yang tampil di bawah judul pada header banner. Kosongkan untuk menggunakan deskripsi default dari opsi arsip.',
+					'wrapper'      => array( 'width' => '100' ),
+					'placeholder'  => 'Tuliskan deskripsi singkat untuk halaman arsip ini...',
+					'rows'         => 3,
+				),
 			),
 			'location'              => array(
 				array(
@@ -57,7 +88,7 @@ function hestia_child_register_archive_acf_fields() {
 				),
 			),
 			'menu_order'            => 0,
-			'position'              => 'side',
+			'position'              => 'normal',
 			'style'                 => 'default',
 			'label_placement'       => 'top',
 			'instruction_placement' => 'label',
@@ -136,10 +167,12 @@ add_action( 'add_meta_boxes', 'hestia_child_archive_fallback_meta_box' );
 function hestia_child_render_archive_fallback_meta_box( $post ) {
 	wp_nonce_field( 'hestia_child_archive_pt_action', 'hestia_child_archive_pt_nonce' );
 
-	$current_pt = get_post_meta( $post->ID, 'archive_post_type', true );
+	$current_pt    = get_post_meta( $post->ID, 'archive_post_type', true );
 	if ( empty( $current_pt ) ) {
 		$current_pt = 'post';
 	}
+	$current_title = get_post_meta( $post->ID, 'archive_header_title', true );
+	$current_desc  = get_post_meta( $post->ID, 'archive_header_description', true );
 
 	$post_types = get_post_types( array( 'public' => true ), 'objects' );
 	$excluded   = array( 'attachment', 'elementor_library', 'e-landing-page', 'revision', 'nav_menu_item' );
@@ -154,7 +187,13 @@ function hestia_child_render_archive_fallback_meta_box( $post ) {
 		echo '<option value="' . esc_attr( $pt_name ) . '" ' . selected( $current_pt, $pt_name, false ) . '>' . esc_html( $label . ' (' . $pt_name . ')' ) . '</option>';
 	}
 	echo '</select>';
-	echo '<p class="description" style="margin-top:6px; font-size:12px;">Pilih post type yang akan ditampilkan di grid arsip halaman ini.</p>';
+	echo '<p class="description" style="margin-top:4px; font-size:12px;">Pilih post type yang akan ditampilkan di grid arsip halaman ini.</p>';
+
+	echo '<p style="margin-top:15px;"><label for="archive_header_title"><strong>Custom Judul Header:</strong></label></p>';
+	echo '<input type="text" name="archive_header_title" id="archive_header_title" value="' . esc_attr( $current_title ) . '" style="width:100%; padding:6px;" placeholder="Kosongkan untuk judul bawaan" />';
+
+	echo '<p style="margin-top:15px;"><label for="archive_header_description"><strong>Custom Deskripsi Header:</strong></label></p>';
+	echo '<textarea name="archive_header_description" id="archive_header_description" rows="3" style="width:100%; padding:6px;" placeholder="Teks deskripsi di bawah judul header">' . esc_textarea( $current_desc ) . '</textarea>';
 }
 
 /**
@@ -174,6 +213,12 @@ function hestia_child_save_archive_fallback_meta_box( $post_id ) {
 	}
 	if ( isset( $_POST['archive_post_type'] ) ) {
 		update_post_meta( $post_id, 'archive_post_type', sanitize_text_field( $_POST['archive_post_type'] ) );
+	}
+	if ( isset( $_POST['archive_header_title'] ) ) {
+		update_post_meta( $post_id, 'archive_header_title', sanitize_text_field( $_POST['archive_header_title'] ) );
+	}
+	if ( isset( $_POST['archive_header_description'] ) ) {
+		update_post_meta( $post_id, 'archive_header_description', sanitize_textarea_field( $_POST['archive_header_description'] ) );
 	}
 }
 add_action( 'save_post_page', 'hestia_child_save_archive_fallback_meta_box' );

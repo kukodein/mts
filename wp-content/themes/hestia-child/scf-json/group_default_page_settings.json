@@ -1,0 +1,100 @@
+{
+    "key": "group_default_page_settings",
+    "title": "Pengaturan Header Halaman Default",
+    "fields": [
+        {
+            "key": "field_default_page_header_title",
+            "label": "Custom Judul Header",
+            "name": "archive_header_title",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Judul banner header halaman default. Kosongkan untuk menggunakan judul halaman bawaan.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Contoh: Selamat Datang di MTsN Semarang",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_default_page_header_bg_image",
+            "label": "Custom Background Image Header",
+            "name": "archive_header_bg_image",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "Gambar latar belakang untuk banner header halaman default. Kosongkan untuk menggunakan featured image atau background default.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "jpg, jpeg, png, webp"
+        },
+        {
+            "key": "field_default_page_header_description",
+            "label": "Custom Deskripsi Header",
+            "name": "archive_header_description",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "Teks deskripsi \/ sub-judul yang tampil di bawah judul pada header banner halaman default.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "100",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Tuliskan deskripsi singkat untuk halaman ini...",
+            "maxlength": "",
+            "rows": 3,
+            "new_lines": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "default"
+            }
+        ],
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-templates\/template-fullwidth.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "Pengaturan kustomisasi header (judul, background image, deskripsi) untuk halaman dengan Template Default",
+    "show_in_rest": 0,
+    "display_title": "",
+    "allow_ai_access": false,
+    "ai_description": "",
+    "modified": 1794505523
+}

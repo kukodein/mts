@@ -1,0 +1,337 @@
+{
+    "key": "group_archive_cpt_settings",
+    "title": "Pengaturan Header Arsip Post Type",
+    "fields": [
+        {
+            "key": "field_tab_default",
+            "label": "Default / Halaman Default",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_archive_default_title",
+            "label": "Custom Judul Archive Default",
+            "name": "archive_default_title",
+            "type": "text",
+            "instructions": "Judul utama yang tampil pada header halaman arsip default / pos berita / fallback halaman. Kosongkan untuk menggunakan judul bawaan.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Contoh: Berita & Informasi Madrasah",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_archive_default_bg_image",
+            "label": "Custom Background Image Default",
+            "name": "archive_default_bg_image",
+            "type": "image",
+            "instructions": "Gambar latar belakang untuk header banner arsip default / fallback halaman.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "jpg, jpeg, png, webp"
+        },
+        {
+            "key": "field_archive_default_description",
+            "label": "Custom Deskripsi Archive Default",
+            "name": "archive_default_description",
+            "type": "textarea",
+            "instructions": "Teks deskripsi / sub-judul yang tampil di bawah judul pada header banner default.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "100",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Informasi terkini, pengumuman, dan berita seputar MTsN Semarang.",
+            "maxlength": "",
+            "rows": 3,
+            "new_lines": ""
+        },
+        {
+            "key": "field_tab_prestasi",
+            "label": "Prestasi",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_archive_prestasi_title",
+            "label": "Custom Judul Archive Prestasi",
+            "name": "archive_prestasi_title",
+            "type": "text",
+            "instructions": "Judul utama yang tampil pada header halaman arsip Prestasi (/prestasi/). Kosongkan untuk menggunakan judul bawaan (Prestasi).",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Contoh: Prestasi Santri & Madrasah",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_archive_prestasi_bg_image",
+            "label": "Custom Background Image Prestasi",
+            "name": "archive_prestasi_bg_image",
+            "type": "image",
+            "instructions": "Gambar latar belakang untuk header banner arsip Prestasi.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "jpg, jpeg, png, webp"
+        },
+        {
+            "key": "field_archive_prestasi_description",
+            "label": "Custom Deskripsi Archive Prestasi",
+            "name": "archive_prestasi_description",
+            "type": "textarea",
+            "instructions": "Teks deskripsi / sub-judul yang tampil di bawah judul pada header banner arsip Prestasi.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "100",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Catatan torehan juara dan prestasi membanggakan santri serta civitas akademika MTsN Semarang.",
+            "maxlength": "",
+            "rows": 3,
+            "new_lines": ""
+        },
+        {
+            "key": "field_tab_fasilitas",
+            "label": "Fasilitas",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_archive_fasilitas_title",
+            "label": "Custom Judul Archive Fasilitas",
+            "name": "archive_fasilitas_title",
+            "type": "text",
+            "instructions": "Judul utama yang tampil pada header halaman arsip Fasilitas (/fasilitas/). Kosongkan untuk menggunakan judul bawaan (Fasilitas).",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Contoh: Fasilitas & Sarana Prasarana",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_archive_fasilitas_bg_image",
+            "label": "Custom Background Image Fasilitas",
+            "name": "archive_fasilitas_bg_image",
+            "type": "image",
+            "instructions": "Gambar latar belakang untuk header banner arsip Fasilitas.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "jpg, jpeg, png, webp"
+        },
+        {
+            "key": "field_archive_fasilitas_description",
+            "label": "Custom Deskripsi Archive Fasilitas",
+            "name": "archive_fasilitas_description",
+            "type": "textarea",
+            "instructions": "Teks deskripsi / sub-judul yang tampil di bawah judul pada header banner arsip Fasilitas.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "100",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Informasi sarana, prasarana, laboratorium modern, dan fasilitas penunjang pembelajaran madrasah.",
+            "maxlength": "",
+            "rows": 3,
+            "new_lines": ""
+        },
+        {
+            "key": "field_tab_kegiatan",
+            "label": "Kegiatan",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_archive_kegiatan_title",
+            "label": "Custom Judul Archive Kegiatan",
+            "name": "archive_kegiatan_title",
+            "type": "text",
+            "instructions": "Judul utama yang tampil pada header halaman arsip Kegiatan (/kegiatan/). Kosongkan untuk menggunakan judul bawaan (Kegiatan).",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Contoh: Kegiatan & Agenda Madrasah",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_archive_kegiatan_bg_image",
+            "label": "Custom Background Image Kegiatan",
+            "name": "archive_kegiatan_bg_image",
+            "type": "image",
+            "instructions": "Gambar latar belakang untuk header banner arsip Kegiatan.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "jpg, jpeg, png, webp"
+        },
+        {
+            "key": "field_archive_kegiatan_description",
+            "label": "Custom Deskripsi Archive Kegiatan",
+            "name": "archive_kegiatan_description",
+            "type": "textarea",
+            "instructions": "Teks deskripsi / sub-judul yang tampil di bawah judul pada header banner arsip Kegiatan.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "100",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Dokumentasi agenda, aktivitas kesiswaan, keagamaan, dan pembiasaan karakter santri MTsN Semarang.",
+            "maxlength": "",
+            "rows": 3,
+            "new_lines": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "archive-settings"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "Pengaturan judul, deskripsi, dan background image untuk halaman arsip Prestasi, Fasilitas, dan Kegiatan",
+    "show_in_rest": 0,
+    "modified": 1731454000
+}

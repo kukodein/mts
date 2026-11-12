@@ -1,0 +1,114 @@
+{
+    "key": "group_custom_archive_settings",
+    "title": "Pengaturan Template Arsip",
+    "fields": [
+        {
+            "key": "field_archive_post_type",
+            "label": "Pilih Post Type",
+            "name": "archive_post_type",
+            "type": "select",
+            "instructions": "Pilih jenis postingan (Post atau Custom Post Type) yang akan ditampilkan pada halaman arsip ini.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "100",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "post": "Pos Blog / Berita (post)",
+                "prestasi": "Prestasi (prestasi)",
+                "fasilitas": "Fasilitas (fasilitas)",
+                "kegiatan": "Kegiatan (kegiatan)"
+            },
+            "default_value": "post",
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 1,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": "Pilih post type..."
+        },
+        {
+            "key": "field_archive_header_title",
+            "label": "Custom Judul Header",
+            "name": "archive_header_title",
+            "type": "text",
+            "instructions": "Judul banner header halaman. Kosongkan untuk menggunakan judul halaman atau opsi default arsip post type terkait.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Contoh: Direktori Fasilitas Unggulan",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_archive_header_bg_image",
+            "label": "Custom Background Image Header",
+            "name": "archive_header_bg_image",
+            "type": "image",
+            "instructions": "Gambar latar belakang untuk banner header halaman ini. Kosongkan untuk menggunakan featured image atau background dari opsi arsip.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "jpg, jpeg, png, webp"
+        },
+        {
+            "key": "field_archive_header_description",
+            "label": "Custom Deskripsi Header",
+            "name": "archive_header_description",
+            "type": "textarea",
+            "instructions": "Teks deskripsi / sub-judul yang tampil di bawah judul pada header banner. Kosongkan untuk menggunakan deskripsi default dari opsi arsip.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "100",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Tuliskan deskripsi singkat untuk halaman arsip ini...",
+            "maxlength": "",
+            "rows": 3,
+            "new_lines": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-templates/template-archive-custom.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "Pengaturan post type dan kustomisasi header (judul, deskripsi, background) untuk template halaman arsip grid",
+    "show_in_rest": 0,
+    "modified": 1731454000
+}

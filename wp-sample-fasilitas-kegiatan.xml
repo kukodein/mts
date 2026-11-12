@@ -1,0 +1,1509 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- generator="WordPress/6.4" created="2026-11-12 10:10" -->
+<rss version="2.0"
+	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:wp="http://wordpress.org/export/1.2/"
+>
+
+<channel>
+	<title>MTs Negeri Semarang</title>
+	<link>http://localhost/mts</link>
+	<description>Madrasah Tsanawiyah Negeri Semarang - Berkarakter, Berprestasi, dan Berakhlak Mulia</description>
+	<pubDate>Thu, 12 Nov 2026 03:10:00 +0000</pubDate>
+	<language>id</language>
+	<wp:wxr_version>1.2</wp:wxr_version>
+	<wp:base_site_url>http://localhost/mts</wp:base_site_url>
+	<wp:base_blog_url>http://localhost/mts</wp:base_blog_url>
+
+	<wp:author>
+		<wp:author_id>1</wp:author_id>
+		<wp:author_login><![CDATA[admin]]></wp:author_login>
+		<wp:author_email><![CDATA[mtsnegerisusukan@gmail.com]]></wp:author_email>
+		<wp:author_display_name><![CDATA[Humas MTsN Semarang]]></wp:author_display_name>
+		<wp:author_first_name><![CDATA[Humas]]></wp:author_first_name>
+		<wp:author_last_name><![CDATA[MTsN Semarang]]></wp:author_last_name>
+	</wp:author>
+
+
+	<wp:category>
+		<wp:term_id>11</wp:term_id>
+		<wp:category_nicename><![CDATA[fasilitas]]></wp:category_nicename>
+		<wp:category_parent><![CDATA[]]></wp:category_parent>
+		<wp:cat_name><![CDATA[Fasilitas]]></wp:cat_name>
+	</wp:category>
+	<wp:category>
+		<wp:term_id>12</wp:term_id>
+		<wp:category_nicename><![CDATA[kegiatan]]></wp:category_nicename>
+		<wp:category_parent><![CDATA[]]></wp:category_parent>
+		<wp:cat_name><![CDATA[Kegiatan]]></wp:cat_name>
+	</wp:category>
+
+	<wp:term>
+		<wp:term_id>601</wp:term_id>
+		<wp:term_taxonomy><![CDATA[kategori_fasilitas]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[sarana-digital]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Sarana Digital]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id>602</wp:term_id>
+		<wp:term_taxonomy><![CDATA[kategori_fasilitas]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[sarana-pembelajaran]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Sarana Pembelajaran]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id>603</wp:term_id>
+		<wp:term_taxonomy><![CDATA[kategori_fasilitas]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[sarana-ibadah]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Sarana Ibadah]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id>604</wp:term_id>
+		<wp:term_taxonomy><![CDATA[kategori_fasilitas]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[sarana-olahraga]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Sarana Olahraga]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id>605</wp:term_id>
+		<wp:term_taxonomy><![CDATA[kategori_fasilitas]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[sarana-penunjang]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Sarana Penunjang]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id>606</wp:term_id>
+		<wp:term_taxonomy><![CDATA[kategori_kegiatan]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[kegiatan-akademik]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Kegiatan Akademik]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id>607</wp:term_id>
+		<wp:term_taxonomy><![CDATA[kategori_kegiatan]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[kegiatan-keagamaan]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Kegiatan Keagamaan]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id>608</wp:term_id>
+		<wp:term_taxonomy><![CDATA[kategori_kegiatan]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[ekstrakurikuler]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Ekstrakurikuler]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id>609</wp:term_id>
+		<wp:term_taxonomy><![CDATA[kategori_kegiatan]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[kemasyarakatan-sosial]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Kemasyarakatan & Sosial]]></wp:term_name>
+	</wp:term>
+	<wp:tag>
+		<wp:term_id>701</wp:term_id>
+		<wp:tag_slug><![CDATA[lab-komputer]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Laboratorium Komputer]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>702</wp:term_id>
+		<wp:tag_slug><![CDATA[anbk]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[ANBK]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>703</wp:term_id>
+		<wp:tag_slug><![CDATA[digitalisasi]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Digitalisasi Madrasah]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>704</wp:term_id>
+		<wp:tag_slug><![CDATA[perpustakaan]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Perpustakaan]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>705</wp:term_id>
+		<wp:tag_slug><![CDATA[literasi]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Literasi]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>706</wp:term_id>
+		<wp:tag_slug><![CDATA[akademik]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Akademik]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>707</wp:term_id>
+		<wp:tag_slug><![CDATA[lab-ipa]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Laboratorium IPA]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>708</wp:term_id>
+		<wp:tag_slug><![CDATA[sains]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Sains]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>709</wp:term_id>
+		<wp:tag_slug><![CDATA[riset]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Riset]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>710</wp:term_id>
+		<wp:tag_slug><![CDATA[masjid]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Masjid]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>711</wp:term_id>
+		<wp:tag_slug><![CDATA[keagamaan]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Keagamaan & Karakter]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>712</wp:term_id>
+		<wp:tag_slug><![CDATA[tahfidz]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Tahfidz]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>713</wp:term_id>
+		<wp:tag_slug><![CDATA[olahraga]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Olahraga]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>714</wp:term_id>
+		<wp:tag_slug><![CDATA[futsal]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Futsal]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>715</wp:term_id>
+		<wp:tag_slug><![CDATA[kebugaran]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Kebugaran]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>716</wp:term_id>
+		<wp:tag_slug><![CDATA[robotik]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Robotik]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>717</wp:term_id>
+		<wp:tag_slug><![CDATA[multimedia]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Multimedia]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>718</wp:term_id>
+		<wp:tag_slug><![CDATA[uks]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[UKS]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>719</wp:term_id>
+		<wp:tag_slug><![CDATA[kesehatan]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Kesehatan]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>720</wp:term_id>
+		<wp:tag_slug><![CDATA[pmr]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[PMR]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>721</wp:term_id>
+		<wp:tag_slug><![CDATA[asrama]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Asrama Santri]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>722</wp:term_id>
+		<wp:tag_slug><![CDATA[mahad]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Ma'had]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>723</wp:term_id>
+		<wp:tag_slug><![CDATA[matamuda]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[MATAMUDA]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>724</wp:term_id>
+		<wp:tag_slug><![CDATA[kesiswaan]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Kesiswaan]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>725</wp:term_id>
+		<wp:tag_slug><![CDATA[karakter]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Pendidikan Karakter]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>726</wp:term_id>
+		<wp:tag_slug><![CDATA[maulid-nabi]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Maulid Nabi]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>727</wp:term_id>
+		<wp:tag_slug><![CDATA[hadrah]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Shalawat]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>728</wp:term_id>
+		<wp:tag_slug><![CDATA[pramuka]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Pramuka]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>729</wp:term_id>
+		<wp:tag_slug><![CDATA[perkemahan]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Perkemahan]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>730</wp:term_id>
+		<wp:tag_slug><![CDATA[riset]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Riset Ilmiah]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>731</wp:term_id>
+		<wp:tag_slug><![CDATA[karya-tulis]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Karya Tulis Ilmiah]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>732</wp:term_id>
+		<wp:tag_slug><![CDATA[bulan-bahasa]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Bulan Bahasa]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>733</wp:term_id>
+		<wp:tag_slug><![CDATA[seni-budaya]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Seni & Budaya]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>734</wp:term_id>
+		<wp:tag_slug><![CDATA[dhuha]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Sholat Dhuha]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>735</wp:term_id>
+		<wp:tag_slug><![CDATA[pembiasaan]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Pembiasaan Pagi]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>736</wp:term_id>
+		<wp:tag_slug><![CDATA[adiwiyata]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Madrasah Adiwiyata]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>737</wp:term_id>
+		<wp:tag_slug><![CDATA[jumat-bersih]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Jumat Bersih]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>738</wp:term_id>
+		<wp:tag_slug><![CDATA[lingkungan]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Lingkungan Hidup]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>739</wp:term_id>
+		<wp:tag_slug><![CDATA[akmi]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[AKMI]]></wp:tag_name>
+	</wp:tag>
+
+	<item>
+		<title><![CDATA[Laboratorium Komputer Modern MTsN Semarang]]></title>
+		<link>http://localhost/mts/?attachment_id=2101</link>
+		<pubDate>2026-09-02 08:00:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=1200&q=80]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2101</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-02 08:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-02 01:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[foto-fasilitas-laboratorium-komputer-asesmen-digit]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>4001</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=1200&q=80]]></wp:attachment_url>
+	</item>
+
+	<item>
+		<title><![CDATA[Perpustakaan Digital Darul Hikmah MTsN Semarang]]></title>
+		<link>http://localhost/mts/?attachment_id=2102</link>
+		<pubDate>2026-08-20 09:30:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=1200&q=80]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2102</wp:post_id>
+		<wp:post_date><![CDATA[2026-08-20 09:30:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-08-20 02:30:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[foto-fasilitas-perpustakaan-digital-sentra-literas]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>4002</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=1200&q=80]]></wp:attachment_url>
+	</item>
+
+	<item>
+		<title><![CDATA[Laboratorium IPA dan Eksperimen Sains]]></title>
+		<link>http://localhost/mts/?attachment_id=2103</link>
+		<pubDate>2026-08-10 10:15:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2103</wp:post_id>
+		<wp:post_date><![CDATA[2026-08-10 10:15:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-08-10 03:15:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[foto-fasilitas-laboratorium-ipa-riset-sains-terpad]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>4003</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80]]></wp:attachment_url>
+	</item>
+
+	<item>
+		<title><![CDATA[Masjid Baitul Muttaqin MTsN Semarang]]></title>
+		<link>http://localhost/mts/?attachment_id=2104</link>
+		<pubDate>2026-07-25 11:00:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[https://images.unsplash.com/photo-1564769625905-50e93615e769?auto=format&fit=crop&w=1200&q=80]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2104</wp:post_id>
+		<wp:post_date><![CDATA[2026-07-25 11:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-07-25 04:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[foto-fasilitas-masjid-baitul-muttaqin-pusat-karakt]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>4004</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://images.unsplash.com/photo-1564769625905-50e93615e769?auto=format&fit=crop&w=1200&q=80]]></wp:attachment_url>
+	</item>
+
+	<item>
+		<title><![CDATA[Lapangan Olahraga Serbaguna MTsN Semarang]]></title>
+		<link>http://localhost/mts/?attachment_id=2105</link>
+		<pubDate>2026-07-15 14:20:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=1200&q=80]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2105</wp:post_id>
+		<wp:post_date><![CDATA[2026-07-15 14:20:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-07-15 07:20:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[foto-fasilitas-gelanggang-olahraga-serbaguna-lapan]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>4005</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=1200&q=80]]></wp:attachment_url>
+	</item>
+
+	<item>
+		<title><![CDATA[Studio Riset Robotika dan Mekatronika]]></title>
+		<link>http://localhost/mts/?attachment_id=2106</link>
+		<pubDate>2026-06-22 13:00:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=80]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2106</wp:post_id>
+		<wp:post_date><![CDATA[2026-06-22 13:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-06-22 06:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[foto-fasilitas-studio-robotika-multimedia-kreatif]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>4006</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=80]]></wp:attachment_url>
+	</item>
+
+	<item>
+		<title><![CDATA[Ruang UKS dan Klinik Kesehatan Santri]]></title>
+		<link>http://localhost/mts/?attachment_id=2107</link>
+		<pubDate>2026-06-05 10:45:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1200&q=80]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2107</wp:post_id>
+		<wp:post_date><![CDATA[2026-06-05 10:45:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-06-05 03:45:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[foto-fasilitas-klinik-kesehatan-madrasah-ruang-uks]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>4007</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1200&q=80]]></wp:attachment_url>
+	</item>
+
+	<item>
+		<title><![CDATA[Gedung Asrama Santri Ma'had MTsN Semarang]]></title>
+		<link>http://localhost/mts/?attachment_id=2108</link>
+		<pubDate>2026-05-15 08:30:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1200&q=80]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2108</wp:post_id>
+		<wp:post_date><![CDATA[2026-05-15 08:30:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-05-15 01:30:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[foto-fasilitas-gedung-asrama-santri-mahad-riset-qu]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>4008</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1200&q=80]]></wp:attachment_url>
+	</item>
+
+	<item>
+		<title><![CDATA[Kegiatan Pembukaan MATAMUDA Siswa Baru]]></title>
+		<link>http://localhost/mts/?attachment_id=2201</link>
+		<pubDate>2026-07-06 08:00:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2201</wp:post_id>
+		<wp:post_date><![CDATA[2026-07-06 08:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-07-06 01:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[foto-kegiatan-masa-taaruf-murid-baru-matamuda-202]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>5001</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80]]></wp:attachment_url>
+	</item>
+
+	<item>
+		<title><![CDATA[Peringatan Maulid Nabi dan Shalawat Akbar]]></title>
+		<link>http://localhost/mts/?attachment_id=2202</link>
+		<pubDate>2026-09-18 08:30:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[https://images.unsplash.com/photo-1542810634-71277d95dcbb?auto=format&fit=crop&w=1200&q=80]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2202</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-18 08:30:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-18 01:30:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[foto-kegiatan-peringatan-maulid-nabi-muhammad-saw]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>5002</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://images.unsplash.com/photo-1542810634-71277d95dcbb?auto=format&fit=crop&w=1200&q=80]]></wp:attachment_url>
+	</item>
+
+	<item>
+		<title><![CDATA[Api Unggun Perkemahan Pramuka Penggalang]]></title>
+		<link>http://localhost/mts/?attachment_id=2203</link>
+		<pubDate>2026-08-14 13:00:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[https://images.unsplash.com/photo-1517824806704-9040b037703b?auto=format&fit=crop&w=1200&q=80]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2203</wp:post_id>
+		<wp:post_date><![CDATA[2026-08-14 13:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-08-14 06:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[foto-kegiatan-perkemahan-akhir-tahun-pelantikan-p]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>5003</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://images.unsplash.com/photo-1517824806704-9040b037703b?auto=format&fit=crop&w=1200&q=80]]></wp:attachment_url>
+	</item>
+
+	<item>
+		<title><![CDATA[Workshop Riset Ilmiah Siswa Madrasah]]></title>
+		<link>http://localhost/mts/?attachment_id=2204</link>
+		<pubDate>2026-06-18 09:00:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[https://images.unsplash.com/photo-1515187029135-18ee286d815b?auto=format&fit=crop&w=1200&q=80]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2204</wp:post_id>
+		<wp:post_date><![CDATA[2026-06-18 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-06-18 02:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[foto-kegiatan-workshop-penulisan-karya-tulis-ilmi]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>5004</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://images.unsplash.com/photo-1515187029135-18ee286d815b?auto=format&fit=crop&w=1200&q=80]]></wp:attachment_url>
+	</item>
+
+	<item>
+		<title><![CDATA[Festival Bulan Bahasa dan Kreasi Literasi]]></title>
+		<link>http://localhost/mts/?attachment_id=2205</link>
+		<pubDate>2026-10-28 08:30:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=1200&q=80]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2205</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-28 08:30:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-28 01:30:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[foto-kegiatan-gebyar-semarak-bulan-bahasa-festiva]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>5005</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=1200&q=80]]></wp:attachment_url>
+	</item>
+
+	<item>
+		<title><![CDATA[Sholat Berjamaah dan Doa Pagi di Masjid Madrasah]]></title>
+		<link>http://localhost/mts/?attachment_id=2206</link>
+		<pubDate>2026-09-08 07:00:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[https://images.unsplash.com/photo-1591604129939-f1efa4d9f7fa?auto=format&fit=crop&w=1200&q=80]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2206</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-08 07:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-08 00:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[foto-kegiatan-pembiasaan-sholat-dhuha-berjamaah-m]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>5006</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://images.unsplash.com/photo-1591604129939-f1efa4d9f7fa?auto=format&fit=crop&w=1200&q=80]]></wp:attachment_url>
+	</item>
+
+	<item>
+		<title><![CDATA[Aksi Lingkungan dan Penanaman Pohon Rindang]]></title>
+		<link>http://localhost/mts/?attachment_id=2207</link>
+		<pubDate>2026-08-21 07:30:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=1200&q=80]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2207</wp:post_id>
+		<wp:post_date><![CDATA[2026-08-21 07:30:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-08-21 00:30:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[foto-kegiatan-gerakan-jumat-bersih-dan-hijau-madr]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>5007</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=1200&q=80]]></wp:attachment_url>
+	</item>
+
+	<item>
+		<title><![CDATA[Pelaksanaan Gladi Bersih Komputer ANBK]]></title>
+		<link>http://localhost/mts/?attachment_id=2208</link>
+		<pubDate>2026-09-01 08:00:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=1200&q=80]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2208</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-01 08:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-01 01:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[foto-kegiatan-gladi-bersih-anbk-dan-akmi-2026]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>5008</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=1200&q=80]]></wp:attachment_url>
+	</item>
+
+	<item>
+		<title><![CDATA[Laboratorium Komputer & Asesmen Digital Modern MTsN Semarang]]></title>
+		<link>http://localhost/mts/?p=4001</link>
+		<pubDate>2026-09-02 08:00:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[http://localhost/mts/?post_type=fasilitas&p=4001]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p><strong>Susukan, Kabupaten Semarang</strong> — Sejalan dengan visi madrasah digital dan modern terpadu, MTsN Semarang memiliki fasilitas Laboratorium Komputer representatif berstandar asesmen nasional. Ruangan ini dirancang khusus guna memberikan kenyamanan maksimal bagi para peserta didik dalam mengakses teknologi informasi dan komputasi terkini.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h3 class="wp-block-heading">Spesifikasi dan Fasilitas Unggulan</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul>
+  <li>40 unit komputer PC All-in-One berspesifikasi tinggi dengan prosesor modern dan layar IPS ramah mata.</li>
+  <li>Jaringan internet kabel gigabit LAN terstruktur dan Wi-Fi dedicated berkecepatan tinggi hingga 100 Mbps.</li>
+  <li>Sistem cadangan daya Uninterruptible Power Supply (UPS) sentral untuk mencegah kehilangan data saat terjadi pemadaman listrik tiba-tiba.</li>
+  <li>Pendingin ruangan (AC double unit) yang menjaga suhu ruang dan kenyamanan perangkat selama kegiatan berlangsung.</li>
+</ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>Laboratorium ini digunakan secara aktif untuk agenda asesmen strategis seperti Asesmen Nasional Berbasis Komputer (ANBK), Asesmen Kompetensi Madrasah Indonesia (AKMI), ujian Computer Based Test (CBT), serta pembinaan intensif tim riset komputer dan robotika madrasah.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Laboratorium komputer canggih berstandar nasional dengan puluhan unit PC high-spec, jaringan gigabit LAN, dan cadangan UPS untuk mendukung ANBK dan pembelajaran digital.]]></excerpt:encoded>
+		<wp:post_id>4001</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-02 08:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-02 01:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[laboratorium-komputer-asesmen-digital-modern]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[fasilitas]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="kategori_fasilitas" nicename="sarana-digital"><![CDATA[Sarana Digital]]></category>
+		<category domain="category" nicename="fasilitas"><![CDATA[Fasilitas]]></category>
+		<category domain="post_tag" nicename="lab-komputer"><![CDATA[Laboratorium Komputer]]></category>
+		<category domain="post_tag" nicename="anbk"><![CDATA[ANBK]]></category>
+		<category domain="post_tag" nicename="digitalisasi"><![CDATA[Digitalisasi Madrasah]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2101]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title><![CDATA[Perpustakaan Digital dan Sentra Literasi Santri 'Darul Hikmah']]></title>
+		<link>http://localhost/mts/?p=4002</link>
+		<pubDate>2026-08-20 09:30:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[http://localhost/mts/?post_type=fasilitas&p=4002]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p><strong>MTsN Semarang</strong> — Perpustakaan 'Darul Hikmah' merupakan jantung kegiatan literasi dan riset bagi seluruh santri dan dewan guru MTs Negeri Semarang. Berdiri di lantai dua gedung pembelajaran barat, perpustakaan ini mengusung konsep modern library yang tenang, ramah anak, dan estetik.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h3 class="wp-block-heading">Koleksi Pustaka Lengkap dan Sistem Otomasi</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Perpustakaan memiliki lebih dari 7.500 eksemplar buku, mencakup literatur sains, ensiklopedia umum, kitab kuning rujukan fiqih dan tafsir, novel sastra edukatif, serta buku penunjang kurikulum madrasah. Seluruh sirkulasi peminjaman telah menggunakan kartu santri digital berbasis barcode scanner dan Online Public Access Catalog (OPAC).</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:quote -->
+<blockquote class="wp-block-quote"><p>“Perpustakaan bukan sekadar tempat menyimpan buku, melainkan ruang bertumbuhnya ide, diskusi ilmiah, dan penjelajahan ilmu pengetahuan bagi santri madrasah,” tutur Kepala Perpustakaan.</p></blockquote>
+<!-- /wp:quote -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Perpustakaan 'Darul Hikmah' MTsN Semarang mengombinasikan koleksi ribuan pustaka cetak dengan katalog digital OPAC dan ruang baca santai ber-AC.]]></excerpt:encoded>
+		<wp:post_id>4002</wp:post_id>
+		<wp:post_date><![CDATA[2026-08-20 09:30:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-08-20 02:30:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[perpustakaan-digital-sentra-literasi-darul-hikmah]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[fasilitas]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="kategori_fasilitas" nicename="sarana-pembelajaran"><![CDATA[Sarana Pembelajaran]]></category>
+		<category domain="category" nicename="fasilitas"><![CDATA[Fasilitas]]></category>
+		<category domain="post_tag" nicename="perpustakaan"><![CDATA[Perpustakaan]]></category>
+		<category domain="post_tag" nicename="literasi"><![CDATA[Literasi]]></category>
+		<category domain="post_tag" nicename="akademik"><![CDATA[Akademik]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2102]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title><![CDATA[Laboratorium IPA & Riset Sains Terpadu MTsN Semarang]]></title>
+		<link>http://localhost/mts/?p=4003</link>
+		<pubDate>2026-08-10 10:15:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[http://localhost/mts/?post_type=fasilitas&p=4003]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p><strong>MTsN Semarang</strong> — Menjawab tuntutan kurikulum berbasis eksperimen dan pembinaan riset madrasah unggul, Laboratorium IPA MTsN Semarang hadir dengan sarana praktikum biologi, fisika, dan kimia terpadu yang higienis dan terstandar keselamatan kerja laboratorium.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h3 class="wp-block-heading">Fasilitas Praktikum Eksperimental</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul>
+  <li>Mikroskop cahaya binokuler dan mikroskop digital berkamera proyektor untuk observasi jaringan hidup.</li>
+  <li>Set instrumen uji optik, mekanika dinamika gerak, kalorimeter, dan kit magnetik kelistrikan.</li>
+  <li>Wastafel praktikum keramik tahan asam pada tiap meja lab kelompok santri.</li>
+  <li>Kotak P3K khusus lab kimia, lemari penyimpanan zat tertutup, dan tabung pemadam api kebakaran (APAR).</li>
+</ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>Melalui laboratorium ini, siswa kelas VII hingga IX tidak hanya mempelajari teori dari buku teks, namun langsung memverifikasi hukum-hukum alam melalui pengamatan empiris yang memicu rasa ingin tahu ilmiah.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Laboratorium IPA terpadu dilengkapi mikroskop stereo digital, preparat biologi, alat uji fisika modern, dan sarana riset ilmiah siswa madrasah.]]></excerpt:encoded>
+		<wp:post_id>4003</wp:post_id>
+		<wp:post_date><![CDATA[2026-08-10 10:15:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-08-10 03:15:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[laboratorium-ipa-riset-sains-terpadu]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[fasilitas]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="kategori_fasilitas" nicename="sarana-pembelajaran"><![CDATA[Sarana Pembelajaran]]></category>
+		<category domain="category" nicename="fasilitas"><![CDATA[Fasilitas]]></category>
+		<category domain="post_tag" nicename="lab-ipa"><![CDATA[Laboratorium IPA]]></category>
+		<category domain="post_tag" nicename="sains"><![CDATA[Sains]]></category>
+		<category domain="post_tag" nicename="riset"><![CDATA[Riset]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2103]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title><![CDATA[Masjid Baitul Muttaqin & Pusat Pembinaan Karakter Qur'ani]]></title>
+		<link>http://localhost/mts/?p=4004</link>
+		<pubDate>2026-07-25 11:00:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[http://localhost/mts/?post_type=fasilitas&p=4004]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p><strong>MTsN Semarang</strong> — Masjid Baitul Muttaqin berdiri anggun di tengah kampus MTs Negeri Semarang. Masjid dua lantai ini menjadi episentrum pembinaan spiritual, keteladanan ibadah, dan pembentukan karakter akhlakul karimah bagi seluruh warga madrasah.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h3 class="wp-block-heading">Pusat Aktivitas Spiritual Santri</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Dengan hamparan karpet nyaman, tata suara akustik yang jernih, dan area wudhu yang luas terpisah antara putra dan putri, Masjid Baitul Muttaqin menampung hingga 1.000 jamaah secara serentak.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Setiap pagi sebelum jam belajar dimulai, masjid ini dipenuhi lantunan murojaah juz 30 dan pelaksanaan sholat Dhuha berjamaah. Pada siang hari, seluruh santri dan ustadz/ustadzah berkumpul untuk menunaikan sholat Dzuhur dan kultum pembinaan kepribadian santri.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Masjid megah berkapasitas 1.000 jamaah di pusat madrasah yang menjadi sentra pembiasaan sholat Dhuha, Dzuhur berjamaah, dan halaqah tahfidz santri.]]></excerpt:encoded>
+		<wp:post_id>4004</wp:post_id>
+		<wp:post_date><![CDATA[2026-07-25 11:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-07-25 04:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[masjid-baitul-muttaqin-pusat-karakter-qurani]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[fasilitas]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="kategori_fasilitas" nicename="sarana-ibadah"><![CDATA[Sarana Ibadah]]></category>
+		<category domain="category" nicename="fasilitas"><![CDATA[Fasilitas]]></category>
+		<category domain="post_tag" nicename="masjid"><![CDATA[Masjid]]></category>
+		<category domain="post_tag" nicename="keagamaan"><![CDATA[Keagamaan & Karakter]]></category>
+		<category domain="post_tag" nicename="tahfidz"><![CDATA[Tahfidz]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2104]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title><![CDATA[Gelanggang Olahraga Serbaguna & Lapangan Futsal Outdoor]]></title>
+		<link>http://localhost/mts/?p=4005</link>
+		<pubDate>2026-07-15 14:20:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[http://localhost/mts/?post_type=fasilitas&p=4005]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p><strong>MTsN Semarang</strong> — Kebugaran jasmani santri adalah pilar penting dalam mewujudkan generasi madrasah yang tangguh dan berdaya saing. MTs Negeri Semarang menyediakan Gelanggang Olahraga Terpadu berukuran standar kompetisi di halaman utama madrasah.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h3 class="wp-block-heading">Multifungsi untuk Beragam Cabang Olahraga</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul>
+  <li>Lapangan futsal outdoor dengan gawang pengaman dan garis pembatas standar PSSI.</li>
+  <li>Lapangan bola voli terpadu dengan tiang net hidrolis portabel.</li>
+  <li>Lapangan bola basket dengan papan pantul akrilik kokoh dan ring pegas.</li>
+  <li>Area latihan fisik atletik, sprint lari, lompat jauh, dan bela diri pencak silat.</li>
+</ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>Fasilitas ini menjadi arena berlatih rutin bagi atlet-atlet ekstrakurikuler yang berhasil mengharumkan nama madrasah pada ajang O2SN dan kejuaraan olahraga antarpelajar se-Jawa Tengah.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Lapangan olahraga terbuka multifungsi untuk cabang futsal, bola voli, basket, bulutangkis, dan upacara bendera berlantai anti-slip ramah anak.]]></excerpt:encoded>
+		<wp:post_id>4005</wp:post_id>
+		<wp:post_date><![CDATA[2026-07-15 14:20:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-07-15 07:20:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[gelanggang-olahraga-serbaguna-lapangan-futsal]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[fasilitas]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="kategori_fasilitas" nicename="sarana-olahraga"><![CDATA[Sarana Olahraga]]></category>
+		<category domain="category" nicename="fasilitas"><![CDATA[Fasilitas]]></category>
+		<category domain="post_tag" nicename="olahraga"><![CDATA[Olahraga]]></category>
+		<category domain="post_tag" nicename="futsal"><![CDATA[Futsal]]></category>
+		<category domain="post_tag" nicename="kebugaran"><![CDATA[Kebugaran]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2105]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title><![CDATA[Studio Robotika & Multimedia Kreatif Madrasah]]></title>
+		<link>http://localhost/mts/?p=4006</link>
+		<pubDate>2026-06-22 13:00:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[http://localhost/mts/?post_type=fasilitas&p=4006]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p><strong>MTsN Semarang</strong> — Studio Robotika dan Multimedia Kreatif adalah laboratorium gagasan dan rekayasa teknologi bagi santri generasi Z di MTsN Semarang. Di sinilah karya robot tempur dan inovasi teknologi cerdas siswa dirancang, disolder, dan diuji.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h3 class="wp-block-heading">Fasilitas Perakitan dan Uji Coba Canggih</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Studio ini dilengkapi dengan arena uji tanding Battle Sumo Dohyo berdiameter resmi, printer 3D untuk prototyping bodi robot, stasiun solder temperatur presisi, kit mikrokontroler Arduino dan ESP32, serta rig kamera podcast dan pencahayaan softbox studio untuk siaran YouTube madrasah.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:quote -->
+<blockquote class="wp-block-quote"><p>“Kami memfasilitasi mimpi anak-anak untuk menjadi inovator teknologi masa depan tanpa kehilangan jatidiri muslim yang berbudi luhur,” jelas Pembina Robotika MTsN Semarang.</p></blockquote>
+<!-- /wp:quote -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Ruang bengkel inovasi teknologi yang mewadahi riset robot mikro, arena uji sumo bot, dan produksi siaran podcast edukasi madrasah.]]></excerpt:encoded>
+		<wp:post_id>4006</wp:post_id>
+		<wp:post_date><![CDATA[2026-06-22 13:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-06-22 06:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[studio-robotika-multimedia-kreatif]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[fasilitas]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="kategori_fasilitas" nicename="sarana-digital"><![CDATA[Sarana Digital]]></category>
+		<category domain="category" nicename="fasilitas"><![CDATA[Fasilitas]]></category>
+		<category domain="post_tag" nicename="robotik"><![CDATA[Robotik]]></category>
+		<category domain="post_tag" nicename="multimedia"><![CDATA[Multimedia]]></category>
+		<category domain="post_tag" nicename="riset"><![CDATA[Riset]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2106]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title><![CDATA[Klinik Kesehatan Madrasah & Ruang UKS/M Terpadu]]></title>
+		<link>http://localhost/mts/?p=4007</link>
+		<pubDate>2026-06-05 10:45:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[http://localhost/mts/?post_type=fasilitas&p=4007]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p><strong>MTsN Semarang</strong> — Kesehatan warga madrasah adalah prioritas utama. Ruang Usaha Kesehatan Sekolah/Madrasah (UKS/M) MTs Negeri Semarang didesain higienis, tenang, dan siap memberikan penanganan medis pertama bagi santri maupun staf yang mengalami keluhan kesehatan saat jam belajar.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h3 class="wp-block-heading">Layanan Medis Pertama dan Edukasi Hidup Bersih</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul>
+  <li>4 ranjang observasi pasien lengkap dengan tirai pembatas privasi.</li>
+  <li>Tabung oksigen medis murni dan nebulizer untuk keluhan gangguan pernapasan darurat.</li>
+  <li>Alat ukur parameter vital tubuh: tensimeter digital, termometer inframerah, dan timbangan massa indeks tubuh (BMI).</li>
+  <li>Bimbingan rutin relawan Palang Merah Remaja (PMR) madrasah di bawah supervisi tenaga medis Puskesmas Susukan.</li>
+</ul>
+<!-- /wp:list -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Pusat layanan kesehatan pertolongan pertama santri yang bersih, dilengkapi ranjang pasien, tabung oksigen, dan kolaborasi bersama Puskesmas Susukan.]]></excerpt:encoded>
+		<wp:post_id>4007</wp:post_id>
+		<wp:post_date><![CDATA[2026-06-05 10:45:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-06-05 03:45:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[klinik-kesehatan-madrasah-ruang-uks-terpadu]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[fasilitas]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="kategori_fasilitas" nicename="sarana-penunjang"><![CDATA[Sarana Penunjang]]></category>
+		<category domain="category" nicename="fasilitas"><![CDATA[Fasilitas]]></category>
+		<category domain="post_tag" nicename="uks"><![CDATA[UKS]]></category>
+		<category domain="post_tag" nicename="kesehatan"><![CDATA[Kesehatan]]></category>
+		<category domain="post_tag" nicename="pmr"><![CDATA[PMR]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2107]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title><![CDATA[Gedung Asrama Santri & Ma'had Riset Qur'an MTsN Semarang]]></title>
+		<link>http://localhost/mts/?p=4008</link>
+		<pubDate>2026-05-15 08:30:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[http://localhost/mts/?post_type=fasilitas&p=4008]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p><strong>Susukan, Kabupaten Semarang</strong> — Bagi santri yang menempuh pendidikan program unggulan Boarding School Tahfidz dan Riset, MTs Negeri Semarang menyediakan fasilitas Asrama Ma'had yang aman, asri, dan tertib di lingkungan dalam madrasah.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h3 class="wp-block-heading">Fasilitas Hunian Edukatif dan Bersahabat</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Gedung asrama terdiri dari kamar santri bertingkat yang bersih dan berventilasi udara sejuk pegunungan. Setiap kamar dilengkapi lemari pribadi, meja belajar mandiri, serta tempat tidur berstandar asrama pendidikan modern.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Didampingi oleh musyrif dan musyrifah yang mengawal pembiasaan ibadah 24 jam, santri asrama dibekali kemandirian hidup, etika bersosialisasi, dan percepatan setoran hafalan Al-Qur'an secara intensif.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Hunian asrama boarding school yang asri, nyaman, dan disiplin untuk santri program peminatan riset dan tahfidzul qur'an.]]></excerpt:encoded>
+		<wp:post_id>4008</wp:post_id>
+		<wp:post_date><![CDATA[2026-05-15 08:30:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-05-15 01:30:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[gedung-asrama-santri-mahad-riset-quran]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[fasilitas]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="kategori_fasilitas" nicename="sarana-penunjang"><![CDATA[Sarana Penunjang]]></category>
+		<category domain="category" nicename="fasilitas"><![CDATA[Fasilitas]]></category>
+		<category domain="post_tag" nicename="asrama"><![CDATA[Asrama Santri]]></category>
+		<category domain="post_tag" nicename="mahad"><![CDATA[Ma'had]]></category>
+		<category domain="post_tag" nicename="tahfidz"><![CDATA[Tahfidz]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2108]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title><![CDATA[Masa Ta'aruf Murid Baru (MATAMUDA) 2026: Sambut Generasi Emas Madrasah]]></title>
+		<link>http://localhost/mts/?p=5001</link>
+		<pubDate>2026-07-06 08:00:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[http://localhost/mts/?post_type=kegiatan&p=5001]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p><strong>Semarang, MTsN Semarang</strong> — Mengawali Tahun Ajaran 2026/2027, MTs Negeri Semarang menggelar Masa Ta'aruf Murid Baru (MATAMUDA) bagi 335 siswa kelas VII. Acara resmi dibuka oleh Kepala MTsN Semarang, Muh. Muslimin, S.Ag., M.Pd.I., ditandai dengan penyematan tanda peserta dan pelepasan balon harapan ke angkasa.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h3 class="wp-block-heading">Membangun Karakter dan Kedisiplinan Sejak Dini</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Selama tiga hari berturut-turut, para siswa baru mendapatkan materi pengenalan budaya belajar madrasah, etika pergaulan Islami, bahaya perundungan (anti-bullying) dari Polsek Susukan, serta latihan baris-berbaris (PBB) bersama Koramil.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Kegiatan ini menjadi gerbang awal menumbuhkan semangat belajar, kemandirian beribadah, dan rasa bangga menjadi bagian dari keluarga besar madrasah rujukan berprestasi.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Sebanyak 335 peserta didik baru MTsN Semarang mengikuti rangkaian pembukaan MATAMUDA dengan upacara khidmat, pelepasan balon cita-cita, dan materi wawasan kebangsaan.]]></excerpt:encoded>
+		<wp:post_id>5001</wp:post_id>
+		<wp:post_date><![CDATA[2026-07-06 08:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-07-06 01:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[masa-taaruf-murid-baru-matamuda-2026]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[kegiatan]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="kategori_kegiatan" nicename="kegiatan-akademik"><![CDATA[Kegiatan Akademik]]></category>
+		<category domain="category" nicename="kegiatan"><![CDATA[Kegiatan]]></category>
+		<category domain="post_tag" nicename="matamuda"><![CDATA[MATAMUDA]]></category>
+		<category domain="post_tag" nicename="kesiswaan"><![CDATA[Kesiswaan]]></category>
+		<category domain="post_tag" nicename="karakter"><![CDATA[Pendidikan Karakter]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2201]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title><![CDATA[Peringatan Maulid Nabi Muhammad SAW 1448 H: Meneladani Akhlak Mulia Rasulullah]]></title>
+		<link>http://localhost/mts/?p=5002</link>
+		<pubDate>2026-09-18 08:30:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[http://localhost/mts/?post_type=kegiatan&p=5002]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p><strong>Susukan, Kabupaten Semarang</strong> — Halaman madrasah berubah menjadi lautan busana muslim putih dalam peringatan Maulid Nabi Muhammad SAW 1448 H. Acara dihadiri oleh seluruh santri, dewan guru, karyawan, dan pengurus Komite Madrasah dalam suasana penuh mahabbah dan kekhusyukan.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h3 class="wp-block-heading">Gema Shalawat dan Bakti Sosial Santunan</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Acara dibuka dengan pembacaan Maulid Simthudduror oleh grup rebana 'Syauqul Habib' MTsN Semarang, dilanjutkan ceramah keagamaan mengenai pentingnya kejujuran, kasih sayang sesama, dan kegigihan menuntut ilmu meneladani jejak Rasulullah SAW.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:quote -->
+<blockquote class="wp-block-quote"><p>“Semoga peringatan maulid ini meneguhkan kecintaan kita kepada Baginda Nabi dan mewujudkannya dalam adab belajar serta bakti kepada orang tua dan guru,” pesan Kepala Madrasah.</p></blockquote>
+<!-- /wp:quote -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Keluarga besar MTsN Semarang memperingati Maulid Nabi Muhammad SAW dengan gema shalawat alunan hadrah Syauqul Habib dan pembagian santunan anak yatim.]]></excerpt:encoded>
+		<wp:post_id>5002</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-18 08:30:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-18 01:30:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[peringatan-maulid-nabi-muhammad-saw-1448-h]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[kegiatan]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="kategori_kegiatan" nicename="kegiatan-keagamaan"><![CDATA[Kegiatan Keagamaan]]></category>
+		<category domain="category" nicename="kegiatan"><![CDATA[Kegiatan]]></category>
+		<category domain="post_tag" nicename="maulid-nabi"><![CDATA[Maulid Nabi]]></category>
+		<category domain="post_tag" nicename="keagamaan"><![CDATA[Keagamaan & Karakter]]></category>
+		<category domain="post_tag" nicename="hadrah"><![CDATA[Shalawat]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2202]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title><![CDATA[Perkemahan Akhir Tahun & Pelantikan Pramuka Penggalang di Buper Candi Gedong Songo]]></title>
+		<link>http://localhost/mts/?p=5003</link>
+		<pubDate>2026-08-14 13:00:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[http://localhost/mts/?post_type=kegiatan&p=5003]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p><strong>Bandungan, Kabupaten Semarang</strong> — Memperingati Hari Pramuka ke-65, Gugus Depan MTsN Semarang menyelenggarakan Perkemahan Akbar dan Pelantikan Tingkat Penggalang Ramu dan Rakit selama 3 hari di Bumi Perkemahan Candi Gedong Songo.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h3 class="wp-block-heading">Menempa Fisik, Mental, dan Jiwa Kepemimpinan</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Di bawah sejuknya kabut pegunungan, peserta diajak mempraktikkan keterampilan tali-temali pionering, semboyan morse peluit, sandi semaphore, serta penjelajahan alam halang rintang. Malam puncak dimeriahkan dengan prosesi penyalaan api unggun dan pentas seni budaya antar-regu.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Kegiatan ini berhasil mempererat tali persaudaraan antar-santri serta menanamkan nilai satya dan darma pramuka sebagai benteng integritas kepribadian generasi muda.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Ratusan penggalang MTsN Semarang menyemarakkan Perkemahan Hari Pramuka di lereng Gunung Ungaran dengan lomba pionering, survival, dan api unggun keakraban.]]></excerpt:encoded>
+		<wp:post_id>5003</wp:post_id>
+		<wp:post_date><![CDATA[2026-08-14 13:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-08-14 06:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[perkemahan-akhir-tahun-pelantikan-penggalang]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[kegiatan]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="kategori_kegiatan" nicename="ekstrakurikuler"><![CDATA[Ekstrakurikuler]]></category>
+		<category domain="category" nicename="kegiatan"><![CDATA[Kegiatan]]></category>
+		<category domain="post_tag" nicename="pramuka"><![CDATA[Pramuka]]></category>
+		<category domain="post_tag" nicename="perkemahan"><![CDATA[Perkemahan]]></category>
+		<category domain="post_tag" nicename="karakter"><![CDATA[Pendidikan Karakter]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2203]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title><![CDATA[Workshop Penulisan Karya Tulis Ilmiah & Pelatihan Peneliti Belia Madrasah]]></title>
+		<link>http://localhost/mts/?p=5004</link>
+		<pubDate>2026-06-18 09:00:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[http://localhost/mts/?post_type=kegiatan&p=5004]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p><strong>MTsN Semarang</strong> — Meneguhkan diri sebagai madrasah unggulan riset di Jawa Tengah, MTs Negeri Semarang menyelenggarakan Workshop Penulisan Karya Tulis Ilmiah Remaja bagi anggota Ekstrakurikuler Kelompok Ilmiah Remaja (KIR) dan kelas peminatan sains.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h3 class="wp-block-heading">Bimbingan Praktis dari Peneliti Berpengalaman</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Workshop menghadirkan narasumber dari Badan Riset dan Inovasi Nasional (BRIN) dan dosen fakultas sains universitas negeri di Semarang. Para santri dibimbing langsung menyusun latar belakang masalah, perumusan hipotesis eksperimen, teknik pengambilan sampel, hingga etika sitasi ilmiah anti-plagiarisme.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Melalui workshop ini, lahir 12 proposal riset inovatif siswa yang siap diikutsertakan pada ajang bergengsi Myres Kemenag dan LKIR Nasional tahun mendatang.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Mempersiapkan tim olimpiade riset nasional, MTsN Semarang menghadirkan akademisi universitas dalam workshop intensif metodologi riset sains dan sosial.]]></excerpt:encoded>
+		<wp:post_id>5004</wp:post_id>
+		<wp:post_date><![CDATA[2026-06-18 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-06-18 02:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[workshop-penulisan-karya-tulis-ilmiah-peneliti-belia]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[kegiatan]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="kategori_kegiatan" nicename="kegiatan-akademik"><![CDATA[Kegiatan Akademik]]></category>
+		<category domain="category" nicename="kegiatan"><![CDATA[Kegiatan]]></category>
+		<category domain="post_tag" nicename="riset"><![CDATA[Riset Ilmiah]]></category>
+		<category domain="post_tag" nicename="karya-tulis"><![CDATA[Karya Tulis Ilmiah]]></category>
+		<category domain="post_tag" nicename="akademik"><![CDATA[Akademik]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2204]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title><![CDATA[Gebyar Semarak Bulan Bahasa & Festival Literasi Antar-Kelas MTsN Semarang]]></title>
+		<link>http://localhost/mts/?p=5005</link>
+		<pubDate>2026-10-28 08:30:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[http://localhost/mts/?post_type=kegiatan&p=5005]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p><strong>MTsN Semarang</strong> — Memperingati Hari Sumpah Pemuda dan Bulan Bahasa Nasional, suasana MTsN Semarang berlangsung meriah dengan digelarnya Festival Literasi Multibahasa. Acara ini melibatkan perwakilan seluruh kelas VII hingga IX dalam berbagai cabang perlombaan kebahasaan.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h3 class="wp-block-heading">Ajang Ekspresi Bahasa Indonesia, Arab, dan Inggris</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul>
+  <li>Lomba Musikalisasi Puisi Perjuangan Bahasa Indonesia.</li>
+  <li>Khitobah Pidato Bahasa Arab bertema Keagamaan dan Toleransi.</li>
+  <li>English Storytelling Competition dengan kostum dan media teatrikal.</li>
+  <li>Pameran Majalah Dinding (Mading) 3D dengan tema Lingkungan Hidup.</li>
+</ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>Kegiatan ini menjadi wadah unjuk kebolehan santri dalam berkomunikasi multibahasa, meningkatkan kepercayaan diri di atas panggung, dan memperkuat kecintaan pada bahasa persatuan Indonesia.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Semarak Hari Sumpah Pemuda dirayakan dengan Gebyar Bulan Bahasa: lomba storytelling, debat bahasa Arab dan Inggris, serta pameran mading 3D karya santri.]]></excerpt:encoded>
+		<wp:post_id>5005</wp:post_id>
+		<wp:post_date><![CDATA[2026-10-28 08:30:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-10-28 01:30:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[gebyar-semarak-bulan-bahasa-festival-literasi]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[kegiatan]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="kategori_kegiatan" nicename="kegiatan-akademik"><![CDATA[Kegiatan Akademik]]></category>
+		<category domain="category" nicename="kegiatan"><![CDATA[Kegiatan]]></category>
+		<category domain="post_tag" nicename="bulan-bahasa"><![CDATA[Bulan Bahasa]]></category>
+		<category domain="post_tag" nicename="literasi"><![CDATA[Literasi]]></category>
+		<category domain="post_tag" nicename="seni-budaya"><![CDATA[Seni & Budaya]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2205]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title><![CDATA[Pembiasaan Sholat Dhuha Berjamaah & Murojaah Al-Qur'an Pagi Hari]]></title>
+		<link>http://localhost/mts/?p=5006</link>
+		<pubDate>2026-09-08 07:00:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[http://localhost/mts/?post_type=kegiatan&p=5006]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p><strong>MTsN Semarang</strong> — Sebelum memulai aktivitas akademik di ruang kelas, seluruh peserta didik MTsN Semarang wajib mengikuti program pembiasaan religi di Masjid Baitul Muttaqin setiap hari Senin hingga Sabtu pada pukul 06.45 WIB.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h3 class="wp-block-heading">Menata Niat dan Menghidupkan Ruhani Sebelum Belajar</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Rangkaian kegiatan diawali dengan murojaah bersama surat-surat pilihan juz 30, pembacaan Asmaul Husna, sholat Dhuha berjamaah sebanyak 4 rakaat, dan diakhiri dengan doa memohon kelapangan ilmu dan keberkahan belajar.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Pembiasaan yang konsisten ini terbukti menumbuhkan ketenangan jiwa, ketertiban disiplin santri, dan ikatan ukhuwah yang hangat antar-peserta didik dan dewan guru.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Budaya positif setiap fajar: 800 santri MTsN Semarang melantunkan murojaah hafalan Al-Qur'an dan menunaikan sholat Dhuha berjamaah di Masjid Baitul Muttaqin.]]></excerpt:encoded>
+		<wp:post_id>5006</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-08 07:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-08 00:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[pembiasaan-sholat-dhuha-berjamaah-murojaah-pagi]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[kegiatan]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="kategori_kegiatan" nicename="kegiatan-keagamaan"><![CDATA[Kegiatan Keagamaan]]></category>
+		<category domain="category" nicename="kegiatan"><![CDATA[Kegiatan]]></category>
+		<category domain="post_tag" nicename="dhuha"><![CDATA[Sholat Dhuha]]></category>
+		<category domain="post_tag" nicename="pembiasaan"><![CDATA[Pembiasaan Pagi]]></category>
+		<category domain="post_tag" nicename="karakter"><![CDATA[Pendidikan Karakter]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2206]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title><![CDATA[Gerakan 'Jumat Bersih dan Hijau': Wujudkan Madrasah Adiwiyata Berkelanjutan]]></title>
+		<link>http://localhost/mts/?p=5007</link>
+		<pubDate>2026-08-21 07:30:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[http://localhost/mts/?post_type=kegiatan&p=5007]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p><strong>Susukan, Kabupaten Semarang</strong> — Udara pagi yang sejuk di kawasan kaki perbukitan Susukan disambut penuh antusias oleh siswa-siswi MTsN Semarang melalui agenda berkala <em>'Gerakan Jumat Bersih dan Hijau'</em>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h3 class="wp-block-heading">Aksi Nyata Cinta Lingkungan Hidup</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Masing-masing kelas bergotong royong merawat taman kelas, membersihkan saluran drainase air, menyiram tanaman obat keluarga (TOGA), serta memilah sampah plastik untuk disalurkan ke Bank Sampah Madrasah.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Kegiatan ini menjadi implementasi nyata nilai kebersihan sebagian dari iman serta upaya mempertahankan predikat MTsN Semarang sebagai Madrasah Sehat dan Adiwiyata Berkelanjutan.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Aksi gotong royong seluruh civitas akademika MTsN Semarang mempercantik taman toga, memilah sampah plastik, dan merawat kelestarian lingkungan sekolah.]]></excerpt:encoded>
+		<wp:post_id>5007</wp:post_id>
+		<wp:post_date><![CDATA[2026-08-21 07:30:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-08-21 00:30:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[gerakan-jumat-bersih-dan-hijau-madrasah-adiwiyata]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[kegiatan]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="kategori_kegiatan" nicename="kemasyarakatan-sosial"><![CDATA[Kemasyarakatan & Sosial]]></category>
+		<category domain="category" nicename="kegiatan"><![CDATA[Kegiatan]]></category>
+		<category domain="post_tag" nicename="adiwiyata"><![CDATA[Madrasah Adiwiyata]]></category>
+		<category domain="post_tag" nicename="jumat-bersih"><![CDATA[Jumat Bersih]]></category>
+		<category domain="post_tag" nicename="lingkungan"><![CDATA[Lingkungan Hidup]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2207]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title><![CDATA[Gladi Bersih Asesmen Nasional Berbasis Komputer (ANBK) & AKMI 2026]]></title>
+		<link>http://localhost/mts/?p=5008</link>
+		<pubDate>2026-09-01 08:00:00</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"><![CDATA[http://localhost/mts/?post_type=kegiatan&p=5008]]></guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p><strong>MTsN Semarang</strong> — Sebanyak 50 siswa kelas VIII terpilih sebagai sampel Asesmen Nasional Berbasis Komputer (ANBK) Kemendikbudristek dan Asesmen Kompetensi Madrasah Indonesia (AKMI) Kemenag RI mengikuti gladi bersih di Laboratorium Komputer MTs Negeri Semarang.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h3 class="wp-block-heading">Verifikasi Infrastruktur dan Ketahanan Jaringan</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Proktor dan teknisi madrasah memastikan sinkronisasi data vhd server pusat, stabilitas koneksi jaringan fiber optic, serta kesiapan unit PC peserta ujian berjalan optimal. Para siswa menyelesaikan sub-tes literasi membaca, numerasi matematika, dan survei karakter dengan lancar.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Gladi bersih ini memastikan MTsN Semarang 100% siap menggelar asesmen resmi nasional demi pemetaan mutu pendidikan yang transparan dan akuntabel.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Uji kesiapan teknis server dan simulasi literasi numerasi digital santri kelas VIII berjalan lancar tanpa kendala jaringan di laboratorium komputer madrasah.]]></excerpt:encoded>
+		<wp:post_id>5008</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-01 08:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-01 01:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[gladi-bersih-anbk-dan-akmi-2026]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[kegiatan]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="kategori_kegiatan" nicename="kegiatan-akademik"><![CDATA[Kegiatan Akademik]]></category>
+		<category domain="category" nicename="kegiatan"><![CDATA[Kegiatan]]></category>
+		<category domain="post_tag" nicename="anbk"><![CDATA[ANBK]]></category>
+		<category domain="post_tag" nicename="akmi"><![CDATA[AKMI]]></category>
+		<category domain="post_tag" nicename="digitalisasi"><![CDATA[Digitalisasi Madrasah]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2208]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+</channel>
+</rss>

@@ -67,6 +67,12 @@ require_once get_stylesheet_directory() . '/inc/archive-custom-template.php';
 # Register Custom Post Type Prestasi & Taxonomy
 require_once get_stylesheet_directory() . '/inc/post-type-prestasi.php';
 
+# Register Custom Post Type Fasilitas & Taxonomy
+require_once get_stylesheet_directory() . '/inc/post-type-fasilitas.php';
+
+# Register Custom Post Type Kegiatan & Taxonomy
+require_once get_stylesheet_directory() . '/inc/post-type-kegiatan.php';
+
 # Single Post Classic Layout & Featured Image
 require_once get_stylesheet_directory() . '/inc/single-post-classic-layout.php';
 

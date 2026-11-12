@@ -88,8 +88,18 @@ do_action( 'hestia_before_single_page_wrapper' );
 												<?php if ( has_post_thumbnail() ) : ?>
 													<?php the_post_thumbnail( 'medium_large', array( 'alt' => the_title_attribute( array( 'echo' => false ) ) ) ); ?>
 												<?php else : ?>
+													<?php
+													$placeholder_icon = 'fa-picture-o';
+													if ( 'prestasi' === $selected_post_type ) {
+														$placeholder_icon = 'fa-trophy';
+													} elseif ( 'fasilitas' === $selected_post_type ) {
+														$placeholder_icon = 'fa-building-o';
+													} elseif ( 'kegiatan' === $selected_post_type ) {
+														$placeholder_icon = 'fa-calendar';
+													}
+													?>
 													<div class="custom-card-placeholder">
-														<i class="fa <?php echo ( 'prestasi' === $selected_post_type ) ? 'fa-trophy' : 'fa-picture-o'; ?>" aria-hidden="true"></i>
+														<i class="fa <?php echo esc_attr( $placeholder_icon ); ?>" aria-hidden="true"></i>
 													</div>
 												<?php endif; ?>
 											</a>
@@ -159,10 +169,29 @@ do_action( 'hestia_before_single_page_wrapper' );
 						<?php wp_reset_postdata(); ?>
 
 					<?php else : ?>
+						<?php
+						$empty_icon  = 'fa-folder-open-o';
+						$empty_title = __( 'Belum Ada Konten', 'hestia-child' );
+						$empty_desc  = __( 'Belum ada postingan yang dipublikasikan untuk kategori/post type ini.', 'hestia-child' );
+
+						if ( 'prestasi' === $selected_post_type ) {
+							$empty_icon  = 'fa-trophy';
+							$empty_title = __( 'Belum Ada Prestasi', 'hestia-child' );
+							$empty_desc  = __( 'Belum ada data prestasi yang dipublikasikan.', 'hestia-child' );
+						} elseif ( 'fasilitas' === $selected_post_type ) {
+							$empty_icon  = 'fa-building-o';
+							$empty_title = __( 'Belum Ada Fasilitas', 'hestia-child' );
+							$empty_desc  = __( 'Belum ada data fasilitas yang dipublikasikan.', 'hestia-child' );
+						} elseif ( 'kegiatan' === $selected_post_type ) {
+							$empty_icon  = 'fa-calendar';
+							$empty_title = __( 'Belum Ada Kegiatan', 'hestia-child' );
+							$empty_desc  = __( 'Belum ada data kegiatan yang dipublikasikan.', 'hestia-child' );
+						}
+						?>
 						<div class="custom-archive-empty text-center">
-							<i class="fa <?php echo ( 'prestasi' === $selected_post_type ) ? 'fa-trophy' : 'fa-folder-open-o'; ?>" aria-hidden="true"></i>
-							<h4><?php echo ( 'prestasi' === $selected_post_type ) ? esc_html__( 'Belum Ada Prestasi', 'hestia-child' ) : esc_html__( 'Belum Ada Konten', 'hestia-child' ); ?></h4>
-							<p class="text-muted"><?php echo ( 'prestasi' === $selected_post_type ) ? esc_html__( 'Belum ada data prestasi yang dipublikasikan.', 'hestia-child' ) : esc_html__( 'Belum ada postingan yang dipublikasikan untuk kategori/post type ini.', 'hestia-child' ); ?></p>
+							<i class="fa <?php echo esc_attr( $empty_icon ); ?>" aria-hidden="true"></i>
+							<h4><?php echo esc_html( $empty_title ); ?></h4>
+							<p class="text-muted"><?php echo esc_html( $empty_desc ); ?></p>
 						</div>
 					<?php endif; ?>
 				</div>

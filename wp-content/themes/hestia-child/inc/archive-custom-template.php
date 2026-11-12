@@ -33,8 +33,10 @@ function hestia_child_register_archive_acf_fields() {
 					'instructions'      => 'Pilih jenis postingan (Post atau Custom Post Type) yang akan ditampilkan pada halaman arsip ini.',
 					'required'          => 0,
 					'choices'           => array(
-						'post'     => 'Pos Blog / Berita (post)',
-						'prestasi' => 'Prestasi (prestasi)',
+						'post'      => 'Pos Blog / Berita (post)',
+						'prestasi'  => 'Prestasi (prestasi)',
+						'fasilitas' => 'Fasilitas (fasilitas)',
+						'kegiatan'  => 'Kegiatan (kegiatan)',
 					),
 					'default_value'     => 'post',
 					'allow_null'        => 0,

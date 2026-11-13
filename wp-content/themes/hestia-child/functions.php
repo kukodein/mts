@@ -79,3 +79,7 @@ require_once get_stylesheet_directory() . '/inc/single-post-classic-layout.php';
 # Secure Custom Fields (SCF) Archive Header Options & Customization
 require_once get_stylesheet_directory() . '/inc/scf-archive-options.php';
 
+# Contact Form 7 Modern & Fluent Style
+require_once get_stylesheet_directory() . '/inc/cf7-custom-style.php';
+
+

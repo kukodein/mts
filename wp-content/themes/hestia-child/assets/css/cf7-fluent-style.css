@@ -1,0 +1,496 @@
+/**
+ * Contact Form 7 - Fluent Form Clean & Modern Style
+ * Overrides Material floating line styles with rounded bordered inputs.
+ */
+
+:root {
+    --cf7-primary: #1a7efb;
+    --cf7-primary-hover: #0066e0;
+    --cf7-text: #334155;
+    --cf7-label: #1e293b;
+    --cf7-placeholder: #94a3b8;
+    --cf7-border: #cbd5e1;
+    --cf7-border-hover: #94a3b8;
+    --cf7-border-focus: #1a7efb;
+    --cf7-focus-ring: rgba(26, 126, 251, 0.15);
+    --cf7-bg: #ffffff;
+    --cf7-radius: 7px;
+    --cf7-danger: #ef4444;
+    --cf7-success: #10b981;
+}
+
+/* Form Container & Spacing */
+.wpcf7 form {
+    font-family: inherit;
+    color: var(--cf7-text);
+}
+
+.wpcf7 form p {
+    margin-bottom: 10px;
+}
+
+/* Labels */
+.wpcf7 form label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--cf7-label);
+    margin-bottom: 6px;
+    text-transform: none;
+    letter-spacing: normal;
+}
+
+/* Base input wrapper */
+.wpcf7-form-control-wrap {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+/* ==========================================================================
+   1. Input Text, Email, Tel, Number, Date, URL, etc. & Textarea
+   ========================================================================== */
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 input[type="tel"],
+.wpcf7 input[type="url"],
+.wpcf7 input[type="number"],
+.wpcf7 input[type="date"],
+.wpcf7 textarea {
+    display: block;
+    width: 100% !important;
+    max-width: 100%;
+    padding: 10px 14px !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height: 1.5 !important;
+    color: var(--cf7-text) !important;
+    background-color: var(--cf7-bg) !important;
+    background-image: none !important; /* Reset Hestia underline material gradient */
+    border: 1px solid var(--cf7-border) !important;
+    border-radius: var(--cf7-radius) !important;
+    box-shadow: none !important;
+    box-sizing: border-box !important;
+    outline: none !important;
+    transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out !important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+/* Hover State */
+.wpcf7 input[type="text"]:hover,
+.wpcf7 input[type="email"]:hover,
+.wpcf7 input[type="tel"]:hover,
+.wpcf7 input[type="url"]:hover,
+.wpcf7 input[type="number"]:hover,
+.wpcf7 input[type="date"]:hover,
+.wpcf7 textarea:hover {
+    border-color: var(--cf7-border-hover) !important;
+}
+
+/* Focus State (Fluent Glow) */
+.wpcf7 input[type="text"]:focus,
+.wpcf7 input[type="email"]:focus,
+.wpcf7 input[type="tel"]:focus,
+.wpcf7 input[type="url"]:focus,
+.wpcf7 input[type="number"]:focus,
+.wpcf7 input[type="date"]:focus,
+.wpcf7 textarea:focus {
+    border-color: var(--cf7-border-focus) !important;
+    background-color: #ffffff !important;
+    box-shadow: 0 0 0 3px var(--cf7-focus-ring) !important;
+    outline: none !important;
+}
+
+/* Placeholder Styling */
+.wpcf7 input::placeholder,
+.wpcf7 textarea::placeholder {
+    color: var(--cf7-placeholder) !important;
+    opacity: 1 !important;
+    font-weight: 400;
+}
+
+/* Textarea Customization */
+.wpcf7 textarea {
+    min-height: 100px;
+    resize: vertical;
+    padding: 12px 14px !important;
+}
+
+/* ==========================================================================
+   2. Select Option / Dropdown Styling (dengan Icon Panah SVG Tajam)
+   ========================================================================== */
+.wpcf7 select {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-height: 42px !important;
+    height: 42px !important;
+    padding: 8px 38px 8px 14px !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height: 1.5 !important;
+    color: var(--cf7-text) !important;
+    background-color: #ffffff !important;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%2364748b' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E") !important;
+    background-repeat: no-repeat !important;
+    background-position: right 14px center !important;
+    background-size: 16px 16px !important;
+    border: 1px solid var(--cf7-border) !important;
+    border-radius: var(--cf7-radius) !important;
+    box-shadow: none !important;
+    box-sizing: border-box !important;
+    outline: none !important;
+    cursor: pointer !important;
+    transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out !important;
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    appearance: none !important;
+}
+
+.wpcf7 select::-ms-expand {
+    display: none;
+}
+
+.wpcf7 select:hover {
+    border-color: var(--cf7-border-hover) !important;
+}
+
+.wpcf7 select:focus {
+    border-color: var(--cf7-border-focus) !important;
+    background-color: #ffffff !important;
+    box-shadow: 0 0 0 3px var(--cf7-focus-ring) !important;
+    outline: none !important;
+}
+
+/* ==========================================================================
+   3. Input File Upload (Modernized Fluent Style)
+   ========================================================================== */
+.wpcf7 input[type="file"] {
+    display: block;
+    width: 100% !important;
+    padding: 8px 12px !important;
+    font-size: 13px !important;
+    color: var(--cf7-text) !important;
+    background-color: #f8fafc !important;
+    border: 1px dashed var(--cf7-border) !important;
+    border-radius: var(--cf7-radius) !important;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out !important;
+    outline: none !important;
+    box-sizing: border-box !important;
+}
+
+.wpcf7 input[type="file"]:hover {
+    border-color: var(--cf7-primary) !important;
+    background-color: #f1f5f9 !important;
+}
+
+.wpcf7 input[type="file"]:focus {
+    border-color: var(--cf7-primary) !important;
+    box-shadow: 0 0 0 3px var(--cf7-focus-ring) !important;
+}
+
+/* Modern File Button (WebKit / Blink) */
+.wpcf7 input[type="file"]::-webkit-file-upload-button {
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 500;
+    color: #ffffff;
+    background: var(--cf7-primary);
+    border: none;
+    border-radius: 5px;
+    padding: 6px 14px;
+    margin-right: 12px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.wpcf7 input[type="file"]::-webkit-file-upload-button:hover {
+    background: var(--cf7-primary-hover);
+}
+
+/* Modern File Button (Firefox) */
+.wpcf7 input[type="file"]::file-selector-button {
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 500;
+    color: #ffffff;
+    background: var(--cf7-primary);
+    border: none;
+    border-radius: 5px;
+    padding: 6px 14px;
+    margin-right: 12px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.wpcf7 input[type="file"]::file-selector-button:hover {
+    background: var(--cf7-primary-hover);
+}
+
+/* ==========================================================================
+   4. Submit Button (Matches Fluent Blue Primary Button)
+   ========================================================================== */
+.wpcf7 input[type="submit"],
+.wpcf7 .wpcf7-submit {
+    display: inline-block;
+    width: 100%;
+    padding: 12px 24px !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    color: #ffffff !important;
+    background-color: var(--cf7-primary) !important;
+    border: none !important;
+    border-radius: var(--cf7-radius) !important;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(26, 126, 251, 0.25) !important;
+    transition: background-color 0.2s ease, transform 0.1s ease, box-shadow 0.2s ease !important;
+}
+
+.wpcf7 input[type="submit"]:hover,
+.wpcf7 .wpcf7-submit:hover {
+    background-color: var(--cf7-primary-hover) !important;
+    box-shadow: 0 4px 10px rgba(26, 126, 251, 0.35) !important;
+    transform: translateY(-1px);
+}
+
+.wpcf7 input[type="submit"]:active,
+.wpcf7 .wpcf7-submit:active {
+    transform: translateY(0);
+}
+
+/* ==========================================================================
+   5. Validation & Alert Status Messages
+   ========================================================================== */
+.wpcf7-not-valid-tip {
+    font-size: 12px !important;
+    color: var(--cf7-danger) !important;
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+.wpcf7-not-valid {
+    border-color: var(--cf7-danger) !important;
+    background-color: #fff5f5 !important;
+}
+
+.wpcf7-not-valid:focus {
+    border-color: var(--cf7-danger) !important;
+    box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.15) !important;
+}
+
+.wpcf7 form .wpcf7-response-output {
+    margin: 18px 0 0 !important;
+    padding: 12px 16px !important;
+    border-radius: var(--cf7-radius) !important;
+    font-size: 14px !important;
+    border: 1px solid transparent !important;
+}
+
+.wpcf7 form.sent .wpcf7-response-output {
+    border-color: #bbf7d0 !important;
+    background-color: #f0fdf4 !important;
+    color: #166534 !important;
+}
+
+.wpcf7 form.failed .wpcf7-response-output,
+.wpcf7 form.invalid .wpcf7-response-output,
+.wpcf7 form.unaccepted .wpcf7-response-output {
+    border-color: #fecaca !important;
+    background-color: #fef2f2 !important;
+    color: #991b1b !important;
+}
+
+.form-control { height: auto; }
+.form-group,
+.form-group .form-control{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.wpcf7-spinner { top: -45px; }
+
+
+/* ==========================================================================
+   6. Grid & Section Styling for PPDB / Form Pendaftaran
+   ========================================================================== */
+.cf7-section-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #0f172a;
+    margin: 28px 0 16px 0;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #e2e8f0;
+}
+
+.cf7-section-title:first-of-type {
+    margin-top: 5px;
+}
+
+.cf7-grid-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -10px;
+    margin-left: -10px;
+    _margin-bottom: 14px;
+}
+
+.cf7-col-12,
+.cf7-col-6,
+.cf7-col-4,
+.cf7-col-3 {
+    position: relative;
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    margin-bottom: 8px;
+}
+
+@media (min-width: 768px) {
+    .cf7-col-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .cf7-col-4 {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+    .cf7-col-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .cf7-col-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+.cf7-field-group {
+    _margin-bottom: 8px;
+}
+
+.cf7-field-group label {
+    display: block;
+    font-size: 13.5px;
+    font-weight: 600;
+    color: #1e293b;
+    margin-bottom: 6px;
+}
+
+.cf7-field-group label .required,
+.cf7-required {
+    color: #ef4444;
+    font-weight: bold;
+    margin-left: 2px;
+}
+
+.cf7-note-required {
+    color: #ef4444;
+    font-size: 13px;
+    font-weight: 500;
+    margin: 15px 0 20px 0;
+}
+
+.cf7-submit-center {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.cf7-btn-green input[type="submit"],
+.cf7-btn-green .wpcf7-submit {
+    background-color: #059669 !important;
+    color: #ffffff !important;
+    border-radius: 7px !important;
+    padding: 12px 36px !important;
+    width: auto !important;
+    display: inline-block !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    box-shadow: 0 2px 6px rgba(5, 150, 105, 0.25) !important;
+    transition: all 0.2s ease !important;
+}
+
+.cf7-btn-green input[type="submit"]:hover,
+.cf7-btn-green .wpcf7-submit:hover {
+    background-color: #047857 !important;
+    box-shadow: 0 4px 12px rgba(5, 150, 105, 0.35) !important;
+}
+
+
+/* ==========================================================================
+   Kritik & Saran Card Styling & Full Green Button with Mail Icon
+   ========================================================================== */
+.cf7-card {
+    background: #ffffff;
+    border: 1px solid #f1f5f9;
+    border-radius: 12px;
+    padding: 28px 28px 24px;
+    box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.06);
+}
+
+.cf7-card-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #0f172a;
+    margin: 0 0 20px 0;
+    letter-spacing: -0.3px;
+}
+
+.cf7-hint-text {
+    font-size: 12.5px;
+    color: #64748b;
+    margin-top: 5px;
+    margin-bottom: 18px;
+    line-height: 1.4;
+}
+
+/* Full Width Green Submit Button */
+.cf7-btn-green-full {
+    position: relative;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.cf7-btn-green-full input[type="submit"],
+.cf7-btn-green-full .wpcf7-submit {
+    background-color: #059669 !important;
+    color: #ffffff !important;
+    border: none !important;
+    border-radius: 8px !important;
+    padding: 13px 20px 13px 36px !important;
+    width: 100% !important;
+    display: block !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.3px;
+    text-transform: none !important;
+    box-shadow: 0 2px 6px rgba(5, 150, 105, 0.25) !important;
+    transition: all 0.2s ease !important;
+    cursor: pointer !important;
+}
+
+.cf7-btn-green-full input[type="submit"]:hover,
+.cf7-btn-green-full .wpcf7-submit:hover {
+    background-color: #047857 !important;
+    box-shadow: 0 4px 12px rgba(5, 150, 105, 0.35) !important;
+}
+
+/* Mail Envelope Icon on Submit Button */
+.cf7-btn-green-full::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: calc(50% - 35px);
+    transform: translateY(-50%);
+    width: 17px;
+    height: 17px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23ffffff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z'%3E%3C/path%3E%3Cpolyline points='22,6 12,13 2,6'%3E%3C/polyline%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: contain;
+    pointer-events: none;
+    z-index: 2;
+}

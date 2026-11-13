@@ -4926,16 +4926,6 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 		return (true);
 	}
 
-	/**
-	 *
-	 * register widget (must be class)
-	 */
-	/*
-	public static function registerWidget($widgetName){
-
-		add_action('widgets_init', create_function('', 'return register_widget("' . $widgetName . '");'));
-	}
-	*/
 
 	public static function registerWidget($widgetName) {
 		add_action('widgets_init', function () use ($widgetName) {

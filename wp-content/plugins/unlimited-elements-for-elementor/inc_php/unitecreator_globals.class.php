@@ -93,7 +93,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 		const LAYOUT_TYPE_FOOTER = "footer";
 
 		const VALUE_EMPTY_ARRAY = "[[uc_empty_array]]";
-		const LINK_TWIG = "https://twig.symfony.com/doc/2.x/templates.html";
+		const LINK_TWIG = "https://twig.symfony.com/doc/3.x/templates.html";
 
 		const ENABLE_CATALOG_SHORTPIXEL = true;
 		const SHORTPIXEL_PREFIX = "https://cdn.shortpixel.ai/spai/q_glossy+w_323+to_auto+ret_img/";

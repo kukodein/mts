@@ -1,8 +1,23 @@
 
 
+version 2.0.28:
+
+* Fix: RSS feed items are cleaned before they reach the widget template, including fields nested inside an item
+* Fix: titles, authors, categories, and the other text fields are plain text. Encoded characters are decoded first, script and style blocks are removed, and any remaining tags are stripped. Extra spaces are collapsed
+* Fix: description, content, summary, and subtitle keep their formatting, but only the HTML WordPress allows in a post. Scripts, styles, and event handlers are removed
+* Fix: link, guid, enclosure, and image fields keep a normal web address. A javascript: or data: address is dropped, and tags inside the address are stripped
+* Fix: markup hidden inside HTML entities, such as an encoded script tag, is decoded before that cleanup, so it cannot slip through as text
+
+
+version 2.0.27:
+
+* Fix: an inline SVG icon is read only when the file is a real SVG inside the site directory. A query string or a backslash can no longer point that icon at wp-config.php or a file outside the site
+* Fix: RSS feed item titles are stripped of HTML tags and script blocks before they reach the widget template
+* Fix: a |raw print inside href, src, and the other URL attributes is escaped as a URL. The address stays readable, so translation plugins no longer prepend the language slug. javascript: and data: URLs are removed. An apostrophe in the template text no longer attribute-escapes the rest of the widget
+
+
 version 2.0.26:
 
-* Fix: a |raw print inside href, src, and the other URL attributes is escaped as a URL. The address stays readable, so translation plugins no longer prepend the language slug. javascript: and data: URLs are removed. An apostrophe in the template text no longer attribute-escapes the rest of the widget
 * Feature: added Connect with TikTok on the Integrations tab. The access token renews automatically. Clear Access Data disconnects the account
 * Feature: added the TikTok Feed widget under Media Widgets. It lists public videos from the connected account. The number of videos can be set from 1 to 20
 * Feature: added tiktok integration so a widget template can read that video list

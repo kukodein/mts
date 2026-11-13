@@ -1703,7 +1703,7 @@ class UniteCreatorSettings extends UniteCreatorSettingsWork{
 			$arrIncludeBy["up_sells"] = __("Up Sells Products (woo)", "unlimited-elements-for-elementor");
 			$arrIncludeBy["cross_sells"] = __("Cross Sells Products (woo)", "unlimited-elements-for-elementor");
 			$arrIncludeBy["out_of_stock"] = __("Out Of Stock Products Only (woo)", "unlimited-elements-for-elementor");
-			$arrIncludeBy["recent"] = __("Recently Viewed Produts (woo)", "unlimited-elements-for-elementor");
+			$arrIncludeBy["recent"] = __("Recently Viewed Products (woo)", "unlimited-elements-for-elementor");
 			$arrIncludeBy["products_from_post"] = __("Products From Post Content (woo)", "unlimited-elements-for-elementor");
 		}
 		
@@ -2174,7 +2174,7 @@ class UniteCreatorSettings extends UniteCreatorSettingsWork{
 
 		//---- manual selection search and replace -----
 		// translators: %s is a string
-		$textManualSelect = sprintf(__("Seach And Select %s", "unlimited-elements-for-elementor"), $textPosts);
+		$textManualSelect = sprintf(__("Search And Select %s", "unlimited-elements-for-elementor"), $textPosts);
 
 		$this->addPostIDSelect($name . "_manual_select_post_ids", $textManualSelect, $arrManualElementorCondition, $isForWooProducts);
 

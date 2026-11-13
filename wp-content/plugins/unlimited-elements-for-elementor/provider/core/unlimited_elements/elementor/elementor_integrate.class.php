@@ -887,7 +887,7 @@ class UniteCreatorElementorIntegrate{
 				'default' => 'back',
 				'options' => array(
 					'back'  => esc_html__( 'In Background', 'unlimited-elements-for-elementor' ),
-					'front' => esc_html__( 'In Foregroud', 'unlimited-elements-for-elementor' ),
+					'front' => esc_html__( 'In Foreground', 'unlimited-elements-for-elementor' ),
 					'body' => esc_html__( 'Site Body Background', 'unlimited-elements-for-elementor' ),
 					'body_front' => esc_html__( 'Site Body Foreground', 'unlimited-elements-for-elementor' ),
 					'layout' => esc_html__( 'Layout Background', 'unlimited-elements-for-elementor' ),

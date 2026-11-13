@@ -1710,7 +1710,7 @@ class UniteCreatorSettingsWork extends UniteSettingsAdvancedUC{
 
 		$arrItems = array(
 			'back'  => __( 'In Background', 'unlimited-elements-for-elementor' ),
-			'front' => __( 'In Foregroud', 'unlimited-elements-for-elementor' )
+			'front' => __( 'In Foreground', 'unlimited-elements-for-elementor' )
 			/*
 			'body' => __( 'Site Body Background', 'unlimited-elements-for-elementor' ),
 			'body_front' => __( 'Site Body Foreground', 'unlimited-elements-for-elementor' ),

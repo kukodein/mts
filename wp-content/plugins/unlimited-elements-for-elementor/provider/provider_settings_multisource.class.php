@@ -71,7 +71,7 @@ class UniteCreatorSettingsMultisource{
 		$isAcfExists = UniteCreatorAcfIntegrate::isAcfActive();
 		
 		if($isAcfExists == true)
-			$metaRepeaterTitle = __("ACF Cutom Field (pro)", "unlimited-elements-for-elementor");
+			$metaRepeaterTitle = __("ACF Custom Field (pro)", "unlimited-elements-for-elementor");
 		
 		$arrSource["repeater_free"] = $metaRepeaterTitle;
 		$arrSource["json_free"] = __("JSON or CSV (pro)", "unlimited-elements-for-elementor");

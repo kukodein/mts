@@ -220,11 +220,172 @@ class UniteCreatorRSS{
             if($dataItemsLimit > 0 && !empty($arrData))
                 $arrData = array_slice($arrData, 0, $dataItemsLimit, true);
 
+            $arrData = $this->sanitizeRssData($arrData);
+
             $data[$name] = $arrData;
         }
 		
         
 		return $data;
+	}
+
+	/**
+	 * feed values are printed by catalog templates, so clean every string first.
+	 * titles and other text become plain text. description and content keep safe HTML.
+	 * link and image fields keep only a normal URL.
+	 */
+	private function sanitizeRssData($arrRss){
+
+		if(is_array($arrRss) == false)
+			return($arrRss);
+
+		foreach($arrRss as $key => $value){
+
+			if(is_array($value)){
+				$arrRss[$key] = $this->sanitizeRssData($value);
+				continue;
+			}
+
+			if(is_string($value) == false)
+				continue;
+
+			$keyName = is_string($key) ? strtolower($key) : "";
+			$arrRss[$key] = $this->sanitizeRssScalar($keyName, $value);
+		}
+
+		return($arrRss);
+	}
+
+	/**
+	 * clean one feed field
+	 */
+	private function sanitizeRssScalar($keyName, $value){
+
+		if($this->isRssUrlKey($keyName) == true)
+			return($this->sanitizeRssUrl($value));
+
+		if($this->isRssHtmlKey($keyName) == true)
+			return($this->sanitizeRssHtml($value));
+
+		return($this->sanitizeRssPlainText($value));
+	}
+
+	/**
+	 * link, enclosure, and image fields
+	 */
+	private function isRssUrlKey($keyName){
+
+		if($keyName === "link" || $keyName === "url" || $keyName === "guid")
+			return(true);
+
+		$suffixes = array("_url", "_href", "_link", "_src");
+
+		foreach($suffixes as $suffix){
+
+			$suffixLength = strlen($suffix);
+
+			if(strlen($keyName) >= $suffixLength && substr($keyName, -$suffixLength) === $suffix)
+				return(true);
+		}
+
+		return(false);
+	}
+
+	/**
+	 * fields that catalog templates print as HTML
+	 */
+	private function isRssHtmlKey($keyName){
+
+		$names = array("description", "content", "summary", "subtitle", "content_encoded");
+
+		if(in_array($keyName, $names, true) == true)
+			return(true);
+
+		$suffixes = array("_description", "_content", "_summary", "_encoded");
+
+		foreach($suffixes as $suffix){
+
+			$suffixLength = strlen($suffix);
+
+			if(strlen($keyName) >= $suffixLength && substr($keyName, -$suffixLength) === $suffix)
+				return(true);
+		}
+
+		return(false);
+	}
+
+	/**
+	 * decode nested entities so encoded markup is visible to the tag filter
+	 */
+	private function decodeRssTextEntities($value){
+
+		$value = str_replace("\0", "", $value);
+		$previous = null;
+		$passes = 0;
+
+		while($value !== $previous && $passes < 5){
+
+			$previous = $value;
+			$decoded = html_entity_decode($value, ENT_QUOTES | ENT_HTML5, "UTF-8");
+
+			if(is_string($decoded) == false)
+				return("");
+
+			$value = $decoded;
+			$passes++;
+		}
+
+		return($value);
+	}
+
+	/**
+	 * plain text for titles, authors, and any other field a template may print
+	 */
+	private function sanitizeRssPlainText($value){
+
+		$value = $this->decodeRssTextEntities($value);
+		$value = preg_replace('/<(script|style)\b[^>]*>.*?(<\/\1>|$)/is', '', $value);
+
+		if(is_string($value) == false)
+			$value = "";
+
+		$value = wp_strip_all_tags($value);
+		$value = str_replace(array("<", ">"), "", $value);
+		$value = preg_replace('/\s+/', ' ', $value);
+
+		if(is_string($value) == false)
+			$value = "";
+
+		return(trim($value));
+	}
+
+	/**
+	 * description and content may contain formatting, but not scripts or event handlers
+	 */
+	private function sanitizeRssHtml($value){
+
+		$value = $this->decodeRssTextEntities($value);
+		$value = wp_kses_post($value);
+
+		if(is_string($value) == false)
+			$value = "";
+
+		return(trim($value));
+	}
+
+	/**
+	 * http(s) and other browser-safe schemes only
+	 */
+	private function sanitizeRssUrl($value){
+
+		$value = $this->decodeRssTextEntities($value);
+		$value = trim(wp_strip_all_tags($value));
+		$url = esc_url_raw($value);
+
+		if(is_string($url) == false)
+			return("");
+
+		return($url);
 	}
 	
 	/**

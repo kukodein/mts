@@ -1004,7 +1004,7 @@ private function addFieldsMappingSettings($objSettings, $name, $paramsItems, $is
 				  "musicplaylist", 
 				  "searchresultspage"));
 		
-		$arrParam["description"] = __('Use to describe the action, like how to tie a shoes',"unlimited-elements-for-elementor");
+		$arrParam["description"] = __('Describe the action, for example: how to tie shoes',"unlimited-elements-for-elementor");
 		$arrParam["label_block"] = true;
 		
 		$title = __('Schema Main Title',"unlimited-elements-for-elementor");

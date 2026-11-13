@@ -534,7 +534,7 @@ class UniteCreatorForm{
 		$isFormEntriesEnabled = HelperProviderUC::isFormEntriesEnabled();
 
 		if($isFormEntriesEnabled === false)
-			return;
+			return false;
 
 		try{
 			UniteFunctionsWPUC::processDBTransaction(function(){
@@ -576,6 +576,8 @@ class UniteCreatorForm{
 		}catch(Exception $e){
 			UniteFunctionsUC::throwError("Unable to create form entry: {$e->getMessage()}");
 		}
+
+		return true;
 	}
 	
 	
@@ -1285,9 +1287,10 @@ class UniteCreatorForm{
 
 					switch($action){
 						case self::ACTION_SAVE:
-							$this->createFormEntry();
+							$isFormEntryCreated = $this->createFormEntry();
 
-							$this->addDebugMessage(__("Form entry has been successfully created.","unlimited-elements-for-elementor"));
+							if($isFormEntryCreated === true)
+								$this->addDebugMessage(__("Form entry has been successfully created.","unlimited-elements-for-elementor"));
 						break;
 
 						case self::ACTION_EMAIL:

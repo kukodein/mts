@@ -5,7 +5,7 @@ Description: This is a custom child theme I have created.
 Author: ThemeIsle
 URI: https://www.themeisle.com/
 Template: hestia    
-Version: 0.1.1
+Version: 0.1.2
 */
 
 
@@ -374,10 +374,35 @@ body.single.single-post .main {
 }
 
 
-/* HeaderPage */
+:root {
+    --hestia-navbar-height: 70px;
+}
 
+/* HeaderPage Hero Spacing */
 .header-filter-gradient {
     background: linear-gradient(45deg, rgba(42, 67, 97, 1) 0, rgb(2 132 199) 100%) !important;
+}
+
+.page-header.header-small,
+.single .page-header.header-small,
+.single-post .page-header.header-small,
+.page .page-header.header-small,
+.blog .page-header.header-small,
+.archive .page-header.header-small,
+.category .page-header.header-small {
+    min-height: 0 !important;
+    height: auto !important;
+}
+
+.page-header.header-small .container,
+.single .page-header.header-small .container,
+.single-post .page-header.header-small .container,
+.page .page-header.header-small .container,
+.blog .page-header.header-small .container,
+.archive .page-header.header-small .container,
+.category .page-header.header-small .container {
+    padding-top: calc(var(--hestia-navbar-height, 70px) + 50px) !important;
+    padding-bottom: 50px !important;
 }
 
 .page-header.header-small .container .hestia-title {

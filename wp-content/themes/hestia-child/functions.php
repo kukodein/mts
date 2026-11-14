@@ -82,4 +82,8 @@ require_once get_stylesheet_directory() . '/inc/scf-archive-options.php';
 # Contact Form 7 Modern & Fluent Style
 require_once get_stylesheet_directory() . '/inc/cf7-custom-style.php';
 
+# Dynamic Asset Version Sync (Follow Child Theme Version)
+require_once get_stylesheet_directory() . '/inc/sync-asset-version.php';
+
+
 
